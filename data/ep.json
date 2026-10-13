@@ -1,0 +1,1178 @@
+{
+ "updated": "2026-10-13",
+ "comparison": [
+  {
+   "ID": "D01",
+   "Manufacturer": "Medtronic",
+   "Product (catheter)": "PulseSelect PFA loop catheter (PSCC100)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic; 1500 V displayed amplitude)",
+   "Catheter design / form factor": "Over-the-wire, anatomically designed circular loop array; slide control changes geometry circular \u2192 spiral \u2192 longitudinal; 20\u00b0 forward array tilt; bidirectional 170\u00b0 deflection",
+   "French size (shaft; sheath)": "9 Fr upshaft; 9.8 Fr at array/shaft bond; requires \u226510 Fr ID sheath (FlexCath Contour 10 Fr) and 0.032\" J-tip guidewire",
+   "Usable / working length": "99 cm effective length (145 cm overall)",
+   "Electrode count / configuration": "9 electrodes (all usable for mapping); 3.75 mm spacing",
+   "Tip / electrode / balloon size": "25 mm array diameter; electrode length 3 mm",
+   "Irrigation": "No irrigation described in SSED or spec sheet",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "No 3D-mapping location sensor described in FDA SSED or spec sheet; EGM cable to EP recording system. [GAP: 3D-mapping visualization support not confirmed]",
+   "Required generator / console": "PulseSelect PFA generator (+ catheter interface cable PSCIC101; optional remote/foot switch)",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping (stimulation/recording) and treatment of drug-refractory, recurrent, symptomatic paroxysmal AF or persistent AF (episode <1 yr) with the PulseSelect PFA system",
+   "FDA approval date (device/indication)": "12/13/2023 (original). S009 02/17/2026 made R-wave gating optional",
+   "PMA number (supplement)": "P230017 (S009 labeling; S011 alt. sterilization site 06/30/2026)",
+   "Notable recalls / safety notices": "None found in FDA recall database search by PMA no. (searched 10/13/2026)",
+   "Source IDs - specs": "S01, S02",
+   "Source IDs - regulatory": "S03, S04",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S01] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230017B.pdf\n[S02] https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-pulseselect-catheter-components-spec-sheet.pdf\n[S03] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230017\n[S04] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230017S009\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": "Searched recall DB by PMA P230017."
+  },
+  {
+   "ID": "D02",
+   "Manufacturer": "Medtronic (Affera)",
+   "Product (catheter)": "Sphere-9 catheter (AFR-00001) with Affera Mapping & Ablation System",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Dual: pulsed field + radiofrequency (single catheter)",
+   "Catheter design / form factor": "Wide-area focal; expandable nitinol lattice tip; bidirectional steering (curves F 5 cm, D 3.5 cm)",
+   "French size (shaft; sheath)": "8 Fr shaft; compressed tip passes 8 Fr introducer or 8.5 Fr steerable sheath",
+   "Usable / working length": "115 cm shaft length (without insertion tool) [labeled 'shaft length', not 'usable length']",
+   "Electrode count / configuration": "1 lattice ablation electrode; 9 mini surface electrodes (each with outward-facing thermocouple); 2 ring electrodes (2 mm spacing); 1 central reference electrode",
+   "Tip / electrode / balloon size": "9.3 mm tip diameter (spec sheet; SSED states expands to 9 mm)",
+   "Irrigation": "Yes - central irrigation nozzle; 4 mL/min idle, 15 mL/min PF, 30 mL/min RF (HexaFlow pump)",
+   "Contact force sensing": "No dedicated force sensor described; 9 thermocouples give tissue temperature and tissue-proximity feedback",
+   "Mapping system compatibility": "Affera mapping system (Prism-1) - required per indication; passive electromagnetic sensors",
+   "Required generator / console": "HexaGen RF generator + HexaPulse PF generator + HexaFlow irrigation pump; 4 return electrodes (\u2265124 cm\u00b2)",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping and treatment of drug-refractory, recurrent, symptomatic persistent AF (episode <1 yr), and RF ablation of CTI-dependent atrial flutter, with Affera mapping system. NOT approved for paroxysmal AF or VT in US",
+   "FDA approval date (device/indication)": "10/24/2024",
+   "PMA number (supplement)": "P240013",
+   "Notable recalls / safety notices": "Class 2 correction Z-1948-2026 (initiated 03/11/2026; notice 03/18/2026): ventricular fibrillation during RF therapy in patients with Biotronik ICD/CRT-D due to catheter current/ICD safety-feature interaction; caution + external defibrillation ready",
+   "Source IDs - specs": "S05, S06",
+   "Source IDs - regulatory": "S07, S09",
+   "Source IDs - recalls/safety": "S08",
+   "Source URLs (all for this row)": "[S05] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf\n[S06] https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-affera-sphere-9-spec-sheet.pdf\n[S07] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013\n[S09] https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues\n[S08] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=219345",
+   "Notes / gaps for this row": "Tip diameter: 9 mm (SSED) vs 9.3 mm (spec sheet). Breakthrough Device Designation for VT (S09); Conquer-AF (redo AF) trial ongoing."
+  },
+  {
+   "ID": "D03",
+   "Manufacturer": "Medtronic",
+   "Product (catheter)": "Arctic Front Advance Pro cryoballoon (AFAPRO23 / AFAPRO28)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Cryothermal (N2O cryoballoon)",
+   "Catheter design / form factor": "Over-the-wire double-layer cryoballoon (inner/outer balloon under vacuum); short 8 mm distal tip; bidirectional 45\u00b0 deflection",
+   "French size (shaft; sheath)": "10.5 Fr OD; 12 Fr ID Medtronic sheath (FlexCath Contour); 0.032-0.035\" guidewire",
+   "Usable / working length": "95 \u00b1 2 cm effective length (140 cm overall)",
+   "Electrode count / configuration": "No ablation/mapping electrodes on balloon catheter; uses Achieve-family circular mapping catheter through lumen; internal thermocouple",
+   "Tip / electrode / balloon size": "23 mm or 28 mm inflated balloon; 8 mm distal tip",
+   "Irrigation": "Not applicable (cryo)",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "[GAP] Not specified in sources reviewed (no 3D-mapping sensor described)",
+   "Required generator / console": "Medtronic CryoConsole (Nitron CryoConsole referenced on product page)",
+   "FDA-approved indications (catheter)": "Drug-refractory recurrent symptomatic paroxysmal and persistent AF (episode <6 months); also recurrent symptomatic PAF as alternative to AAD as initial rhythm-control strategy (first-line)",
+   "FDA approval date (device/indication)": "Arctic Front family 12/17/2010; AFA Pro models added 05/04/2018 (S070); persistent AF 06/23/2020 (S098); first-line PAF 06/18/2021 (S110)",
+   "PMA number (supplement)": "P100010 (S070, S098, S110)",
+   "Notable recalls / safety notices": "No AFA Pro-specific recall found. Family PMA P100010 shows one older Class 2 recall of original Arctic Front (posted 11/02/2011)",
+   "Source IDs - specs": "S12, S13",
+   "Source IDs - regulatory": "S16, S14, S13, S15",
+   "Source IDs - recalls/safety": "S75",
+   "Source URLs (all for this row)": "[S12] https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-energy/ablation/cryoablation/catheters/arctic-front-advance-pro-cardiac-cryoablation-catheter.html\n[S13] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098B.pdf\n[S16] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010\n[S14] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010S070\n[S15] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010S110\n[S75] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=104277",
+   "Notes / gaps for this row": "Only US-approved cryoballoon with first-line (drug-naive) PAF indication per Medtronic and FDA S110."
+  },
+  {
+   "ID": "D04",
+   "Manufacturer": "Medtronic",
+   "Product (catheter)": "Freezor MAX cardiac cryoablation catheter (239F3 / 239F5)",
+   "US status (as of 10/13/2026)": "FDA PMA approved (adjunctive device)",
+   "Energy type": "Cryothermal (focal)",
+   "Catheter design / form factor": "Focal deflectable cryo catheter; medium (55 mm, 239F3) or long (66 mm, 239F5) deflection reach",
+   "French size (shaft; sheath)": "[GAP] Not found in sources reviewed",
+   "Usable / working length": "[GAP] Not found",
+   "Electrode count / configuration": "[GAP] Not found",
+   "Tip / electrode / balloon size": "[GAP] Not found",
+   "Irrigation": "Not applicable (cryo)",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "[GAP] Not found",
+   "Required generator / console": "Medtronic CryoConsole",
+   "FDA-approved indications (catheter)": "Adjunct to Arctic Front cryoballoon in endocardial treatment of paroxysmal and persistent AF (<6 months) for gap cryoablation to complete PVI and cryoablation of focal trigger sites",
+   "FDA approval date (device/indication)": "Persistent-AF adjunct indication 06/23/2020 (S098); original Freezor MAX approval date not verified",
+   "PMA number (supplement)": "P100010 (S098)",
+   "Notable recalls / safety notices": "None found in FDA recall database search by PMA no. (searched 10/13/2026) (none Freezor-specific under P100010)",
+   "Source IDs - specs": "S13",
+   "Source IDs - regulatory": "S13",
+   "Source IDs - recalls/safety": "S75",
+   "Source URLs (all for this row)": "[S13] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098B.pdf\n[S75] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=104277",
+   "Notes / gaps for this row": "Included for completeness (focal cryo); dimensional specs not verified - fill from IFU."
+  },
+  {
+   "ID": "D05",
+   "Manufacturer": "Boston Scientific",
+   "Product (catheter)": "FARAWAVE PFA catheter (M004PF41M401 31 mm / M004PF41M402 35 mm)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic)",
+   "Catheter design / form factor": "Over-the-wire, 5-spline array deployable in basket/flower configurations",
+   "French size (shaft; sheath)": "12F shaft; FARADRIVE steerable sheath 13F ID; 0.035\" guidewire (\u2265180 cm)",
+   "Usable / working length": "115 cm usable",
+   "Electrode count / configuration": "20 electrodes (5 splines \u00d7 4)",
+   "Tip / electrode / balloon size": "31 mm or 35 mm distal diameter",
+   "Irrigation": "No irrigation described",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "No integrated navigation on non-NAV version per sources (NAV version provides OPAL HDx magnetic tracking). [Verify]",
+   "Required generator / console": "FARASTAR PFA generator + Recording System Module (+ FARASTAR connection cable)",
+   "FDA-approved indications (catheter)": "PVI for drug-refractory, recurrent, symptomatic paroxysmal AF; PVI + posterior wall isolation for drug-refractory symptomatic persistent AF (episode <1 yr)",
+   "FDA approval date (device/indication)": "01/30/2024 (PAF); 07/03/2025 persistent AF + posterior wall (S007)",
+   "PMA number (supplement)": "P230030 (S007)",
+   "Notable recalls / safety notices": "Class 2 removal Z-2278-2025 (initiated 06/25/2025): FARAWAVE 1.0 (M004PF41M401) units made on equipment that may have cracked electrode bands; 445 units. Class 2 Z-2751-2026 (06/11/2026) FARASTAR generator IFU lacked FARAPOINT info (labeling)",
+   "Source IDs - specs": "S17, S18",
+   "Source IDs - regulatory": "S26, S20",
+   "Source IDs - recalls/safety": "S24, S25",
+   "Source URLs (all for this row)": "[S17] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030B.pdf\n[S18] https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf\n[S26] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030\n[S20] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S007\n[S24] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=214843\n[S25] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221111",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D06",
+   "Manufacturer": "Boston Scientific",
+   "Product (catheter)": "FARAWAVE NAV PFA catheter (M004PF41M411 31 mm / M004PF41M412 35 mm)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic)",
+   "Catheter design / form factor": "Over-the-wire 5-spline array (as FARAWAVE) with magnetic navigation",
+   "French size (shaft; sheath)": "12F shaft; FARADRIVE 13F ID sheath; 0.035\" guidewire",
+   "Usable / working length": "115 cm usable",
+   "Electrode count / configuration": "20 electrodes (5 \u00d7 4)",
+   "Tip / electrode / balloon size": "31 mm or 35 mm distal diameter",
+   "Irrigation": "No irrigation described",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "OPAL HDx mapping system via FARAVIEW software module (magnetic tracking)",
+   "Required generator / console": "FARASTAR PFA generator (+ PFA Rx Gen 2 connection cable)",
+   "FDA-approved indications (catheter)": "Same as FARAWAVE: PAF PVI; persistent AF PVI + posterior wall (<1 yr)",
+   "FDA approval date (device/indication)": "10/18/2024 (S003, NAV added); persistent AF 07/03/2025 (S007)",
+   "PMA number (supplement)": "P230030 (S003, S007)",
+   "Notable recalls / safety notices": "No NAV-specific recall found; system-level FARASTAR labeling recall Z-2751-2026 applies to generator",
+   "Source IDs - specs": "S18, S21",
+   "Source IDs - regulatory": "S19, S20",
+   "Source IDs - recalls/safety": "S25",
+   "Source URLs (all for this row)": "[S18] https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf\n[S21] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030S012B.pdf\n[S19] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S003\n[S20] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S007\n[S25] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221111",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D07",
+   "Manufacturer": "Boston Scientific",
+   "Product (catheter)": "FARAPOINT PFA catheter (M004PF81M110 D-F / M004PF81M310 F-F)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic), focal",
+   "Catheter design / form factor": "Focal, bidirectional deflectable; point-by-point and linear lesions",
+   "French size (shaft; sheath)": "8F shaft (SSED: nominal 8F shaft, 7.5F distal); any 8.5F sheath",
+   "Usable / working length": "115 cm usable",
+   "Electrode count / configuration": "4 electrodes per BSC spec page (sizes 2.0-1.5-1.5-2.0 mm; spacing 1.5-6.0-1.5 mm). SSED text instead says '5 splines \u00d7 4 electrodes, 20 total' - DISCREPANCY",
+   "Tip / electrode / balloon size": "2.5 mm tip diameter",
+   "Irrigation": "No irrigation described",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "OPAL HDx via FARAVIEW (magnetic navigation, FIELDTAG)",
+   "Required generator / console": "FARASTAR PFA generator (PFA Gen 2 connection cable M004PF41M444)",
+   "FDA-approved indications (catheter)": "Adjunctive device for CTI line (IVC-tricuspid valve) when any FARAWAVE catheter is used for drug-refractory symptomatic persistent AF (\u226412 months)",
+   "FDA approval date (device/indication)": "01/12/2026",
+   "PMA number (supplement)": "P230030 (S012)",
+   "Notable recalls / safety notices": "FARASTAR generator labeling recall Z-2751-2026 (IFU did not include FARAPOINT information)",
+   "Source IDs - specs": "S23, S21",
+   "Source IDs - regulatory": "S22",
+   "Source IDs - recalls/safety": "S25",
+   "Source URLs (all for this row)": "[S23] https://www.bostonscientific.com/us/en/healthcare-professionals/products/pulsed-field-ablation/farapoint-pulsed-field-ablation-catheter/fp90000122.html\n[S21] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030S012B.pdf\n[S22] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S012\n[S25] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221111",
+   "Notes / gaps for this row": "Electrode count conflict between FDA SSED device description and manufacturer spec page; spec page (4 electrodes) is consistent with a 2.5 mm focal tip. Confirm with IFU."
+  },
+  {
+   "ID": "D08",
+   "Manufacturer": "Boston Scientific",
+   "Product (catheter)": "POLARx / POLARx FIT cryoablation balloon catheters",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Cryothermal (N2O cryoballoon)",
+   "Catheter design / form factor": "Over-the-wire double-layer cryoballoon; POLARx FIT has selectable 28/31 mm diameter; short-tip/long-tip variants",
+   "French size (shaft; sheath)": "11.8F (4.0 mm) shaft; POLARSHEATH steerable sheath 12.7F ID",
+   "Usable / working length": "99 cm working length",
+   "Electrode count / configuration": "No electrodes on balloon; POLARMAP cryo mapping catheter (20 mm, 8 electrodes) via guidewire lumen",
+   "Tip / electrode / balloon size": "Balloon 28 mm (POLARx) / 28 or 31 mm (POLARx FIT); nominal distal tip 5 mm or 12 mm",
+   "Irrigation": "Not applicable (cryo)",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "[GAP] No 3D-mapping integration described in SSED",
+   "Required generator / console": "SMARTFREEZE cryo-console (+ diaphragm movement sensor)",
+   "FDA-approved indications (catheter)": "Drug-refractory, recurrent, symptomatic paroxysmal AF",
+   "FDA approval date (device/indication)": "08/08/2023",
+   "PMA number (supplement)": "P220032",
+   "Notable recalls / safety notices": "Class 1 (posted 11/12/2024; firm letter 10/10/2024): IFU update for POLARx and POLARx FIT related to atrio-esophageal fistula risk (Z-0297-2025 to Z-0300-2025 etc.; console also listed)",
+   "Source IDs - specs": "S27",
+   "Source IDs - regulatory": "S28",
+   "Source IDs - recalls/safety": "S29",
+   "Source URLs (all for this row)": "[S27] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220032B.pdf\n[S28] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220032\n[S29] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=210465",
+   "Notes / gaps for this row": "Persistent AF indication not in FDA labeling reviewed."
+  },
+  {
+   "ID": "D09",
+   "Manufacturer": "Boston Scientific",
+   "Product (catheter)": "INTELLANAV STABLEPOINT ablation catheter (DIRECTSENSE)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, bidirectional, quadripolar, open-irrigated; standard and large (K2) curves",
+   "French size (shaft; sheath)": "7.5F shaft with 8F ring electrodes (SSED); 7F/4 mm tip (EU spec sheet); sheath \u22658.5F",
+   "Usable / working length": "110 cm shaft length (EU spec sheet) [US usable length not verified]",
+   "Electrode count / configuration": "4 (tip + 3 rings); spacing 4-2.5-2.5 mm (EU spec sheet)",
+   "Tip / electrode / balloon size": "4 mm tip electrode",
+   "Irrigation": "Yes - open irrigated, 6 irrigation holes (SSED)",
+   "Contact force sensing": "Yes - force sensing in distal tip + local impedance (DIRECTSENSE)",
+   "Mapping system compatibility": "RHYTHMIA HDx mapping system with Force Computation Software Module (SSED); OPAL HDx (EU spec sheet)",
+   "Required generator / console": "Maestro 4000 RF controller + MetriQ irrigation pump (SSED); INTELLAGEN RF generator/pump listed on EU spec sheet",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping, pacing, RF ablation of typical atrial flutter (\u226518 y), and drug-refractory recurrent symptomatic paroxysmal AF (\u226518 y) with compatible mapping system",
+   "FDA approval date (device/indication)": "02/26/2024",
+   "PMA number (supplement)": "P150005 (S074)",
+   "Notable recalls / safety notices": "None StablePoint-specific found; P150005 family has 2019 Class 3 recalls (Blazer OI, IntellaNav MiFi OI, IntellaTip MiFi OI)",
+   "Source IDs - specs": "S30, S31",
+   "Source IDs - regulatory": "S32",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S30] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S074B.pdf\n[S31] https://www.bostonscientific.com/content/dam/bostonscientific/ep/Electrophysiology%20Portfolio/Rhythmia/intellanav-stablepoint/EP-815001-AB_STABLEPOINT_SPECSHEET.pdf\n[S32] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S074\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": "Spec sheet used is EU-labeled; confirm US model length/generator list."
+  },
+  {
+   "ID": "D10",
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product (catheter)": "VARIPULSE catheter (D141201)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic)",
+   "Catheter design / form factor": "Bidirectional deflectable variable circular loop (contractible)",
+   "French size (shaft; sheath)": "8 Fr platform; 8.5 F ID sheath (CARTO VIZIGO or similar)",
+   "Usable / working length": "115 cm usable",
+   "Electrode count / configuration": "10 irrigated ring electrodes (map/pace/ablate); 3 single-axis location sensors",
+   "Tip / electrode / balloon size": "Loop 25-35 mm (uncontracted 34 \u00b1 1 mm at room temp)",
+   "Irrigation": "Yes - perforated electrodes, nGEN pump",
+   "Contact force sensing": "No (Tissue Proximity Indicator)",
+   "Mapping system compatibility": "CARTO 3 (VARIPULSE software module)",
+   "Required generator / console": "TRUPULSE generator + nGEN pump + sterile interface cable",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping and, with TRUPULSE, treatment of drug-refractory recurrent symptomatic paroxysmal AF",
+   "FDA approval date (device/indication)": "11/06/2024",
+   "PMA number (supplement)": "P240006",
+   "Notable recalls / safety notices": "Class 1 correction Z-1205-2025 (initiated 01/05/2025): US cases and external evaluation paused after neurovascular events (stroke/TIA) trend; FDA cause 'labeling design'; IFU updated; US cases resumed (J&J)",
+   "Source IDs - specs": "S33, S34",
+   "Source IDs - regulatory": "S38",
+   "Source IDs - recalls/safety": "S35, S36, S37",
+   "Source URLs (all for this row)": "[S33] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf\n[S34] https://www.jnjmedtech.com/en-US/product/VARIPULSE-Pulsed-Field-Ablation-PFA-Platform\n[S38] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240006\n[S35] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212216\n[S36] https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/ablation-catheter-correction-biosense-webster-updates-use-instructions-varipulse-due-high-rate\n[S37] https://www.jnjmedtech.com/en-US/news/press-releases/johnson-johnson-to-resume-us-varipulse-cases/",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D11",
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product (catheter)": "Dual Energy THERMOCOOL SMARTTOUCH SF catheter (DE STSF)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Dual: radiofrequency + pulsed field",
+   "Catheter design / form factor": "Focal, contact-force, porous-tip (SF) irrigated; uni-/bi-directional",
+   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes",
+   "Usable / working length": "[GAP] Not confirmed in IFU excerpt reviewed",
+   "Electrode count / configuration": "Multi-electrode (tip + rings); [GAP] ring count not extracted",
+   "Tip / electrode / balloon size": "3.5 mm tip dome",
+   "Irrigation": "Yes - open-irrigated; compatible irrigation pump (nGEN pump in system)",
+   "Contact force sensing": "Yes - real-time contact force",
+   "Mapping system compatibility": "CARTO 3 (IFU clinical study used CARTO 3 v7.9; PF Index guidance)",
+   "Required generator / console": "TRUPULSE generator for PF (per IFU clinical section); 'compatible generator' for RF; nGEN pump",
+   "FDA-approved indications (catheter)": "RF: typical (Type I) AFL; drug-refractory PAF; drug-refractory persistent AF (>7 d, <1 yr). PF: drug-refractory recurrent symptomatic PAF only",
+   "FDA approval date (device/indication)": "07/01/2026 (J&J announced 07/08/2026)",
+   "PMA number (supplement)": "P030031 (S141)",
+   "Notable recalls / safety notices": "None found specific to DE STSF (P030031 recall list checked)",
+   "Source IDs - specs": "S40",
+   "Source IDs - regulatory": "S39, S41",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S40] https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S141D.pdf\n[S39] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S141\n[S41] https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": "Persistent AF approved for RF only, not PF."
+  },
+  {
+   "ID": "D12",
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product (catheter)": "THERMOCOOL SMARTTOUCH SF catheter (D-1347 uni / D-1348 bi)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, contact-force, porous-tip (Surround Flow) irrigated",
+   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes",
+   "Usable / working length": "[GAP] Not confirmed in sources fetched",
+   "Electrode count / configuration": "Multi-electrode; [GAP] count not extracted",
+   "Tip / electrode / balloon size": "3.5 mm tip electrode",
+   "Irrigation": "Yes - porous tip, ~half flow of earlier irrigated catheters (J&J)",
+   "Contact force sensing": "Yes",
+   "Mapping system compatibility": "CARTO 3",
+   "Required generator / console": "Compatible RF generator [GAP: generator list not extracted]",
+   "FDA-approved indications (catheter)": "Typical AFL (\u226518 y); drug-refractory recurrent symptomatic PAF; drug-refractory recurrent symptomatic persistent AF (>7 d, <1 yr) refractory/intolerant to \u22651 Class I/III AAD, with 3D EAM",
+   "FDA approval date (device/indication)": "08/11/2016 (S072, STSF PAF); 09/30/2020 persistent AF (S100)",
+   "PMA number (supplement)": "P030031 (S072, S100)",
+   "Notable recalls / safety notices": "Class 2 Z-0169-2023 (initiated 09/07/2022): possible cellulose-fiber contamination of irrigation path (Bi-Dir). Class 2 Z-0055-2018 (2017, terminated 2019): CARTO 'Alert 402' magnetic distortion",
+   "Source IDs - specs": "S42",
+   "Source IDs - regulatory": "S43, S44",
+   "Source IDs - recalls/safety": "S45, S46",
+   "Source URLs (all for this row)": "[S42] https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/\n[S43] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S072\n[S44] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S100\n[S45] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=196121\n[S46] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=158827",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D13",
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product (catheter)": "QDOT MICRO catheter",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency (temperature-controlled; incl. high-power short-duration mode)",
+   "Catheter design / form factor": "Focal, contact-force, irrigated; uni-/bi-directional curves",
+   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes; do not use sheath < 8.5 F",
+   "Usable / working length": "[GAP] Not found in SSED",
+   "Electrode count / configuration": "Tip + ring electrodes; 3 micro-electrodes embedded in tip",
+   "Tip / electrode / balloon size": "3.5 mm tip dome",
+   "Irrigation": "Yes - generator-adjusted 4/15 mL/min (temp-controlled modes) or 8 mL/min",
+   "Contact force sensing": "Yes",
+   "Mapping system compatibility": "CARTO 3",
+   "Required generator / console": "nGEN RF generator (+ nGEN pump)",
+   "FDA-approved indications (catheter)": "Typical (Type I) AFL (\u226518 y); drug-refractory recurrent symptomatic PAF with 3D EAM",
+   "FDA approval date (device/indication)": "11/23/2022",
+   "PMA number (supplement)": "P210027",
+   "Notable recalls / safety notices": "None found in FDA recall database search by PMA no. (searched 10/13/2026)",
+   "Source IDs - specs": "S47",
+   "Source IDs - regulatory": "S48",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S47] https://www.accessdata.fda.gov/cdrh_docs/pdf21/P210027B.pdf\n[S48] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210027\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D14",
+   "Manufacturer": "Abbott",
+   "Product (catheter)": "Volt PFA catheter, Sensor Enabled (A-VOLT-01)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic)",
+   "Catheter design / form factor": "Over-the-wire balloon-in-basket; 8 equally spaced insulated nitinol splines; 3 handling/curve options",
+   "French size (shaft; sheath)": "12.5 F catheter; 13 F sheath (Agilis NxT) - per CE feasibility study (investigational device)",
+   "Usable / working length": "[GAP] Not found in sources reviewed",
+   "Electrode count / configuration": "8 spline electrodes (17.7 mm exposed active portion each) + shaft electrodes; distal & proximal magnetic sensors",
+   "Tip / electrode / balloon size": "[GAP] Basket/balloon diameter not found",
+   "Irrigation": "No (no additional fluid; balloon inflated with saline/contrast)",
+   "Contact force sensing": "No force sensor; impedance-based tissue-contact display",
+   "Mapping system compatibility": "EnSite X EP System (per FDA indication)",
+   "Required generator / console": "Current PFA generator",
+   "FDA-approved indications (catheter)": "Symptomatic, recurrent, drug-refractory paroxysmal or persistent AF (episode <1 yr)",
+   "FDA approval date (device/indication)": "12/19/2025 (Abbott announced 12/22/2025)",
+   "PMA number (supplement)": "P250022 (S003 firmware 04/16/2026; S008 08/11/2026)",
+   "Notable recalls / safety notices": "None found in FDA recall database search by PMA no. (searched 10/13/2026)",
+   "Source IDs - specs": "S51, S52",
+   "Source IDs - regulatory": "S49, S50, S53, S76",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S51] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/volt-pfa.html\n[S52] https://pmc.ncbi.nlm.nih.gov/articles/PMC11098042/\n[S49] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022\n[S50] https://www.accessdata.fda.gov/cdrh_docs/pdf25/P250022A.pdf\n[S53] https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation\n[S76] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022S008\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": "Dimensional specs come from the 2024 CE feasibility paper (investigational system, generator then named 'Volt PFA Generator'); confirm against US IFU."
+  },
+  {
+   "ID": "D15",
+   "Manufacturer": "Abbott",
+   "Product (catheter)": "TactiFlex Duo ablation catheter, Sensor Enabled (A-TFDM-*)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Dual: radiofrequency + pulsed field (focal)",
+   "Catheter design / form factor": "Focal, flexible-tip, contact-force, irrigated; uni-/bi-directional models (D, F, J, DD, DF, FF...)",
+   "French size (shaft; sheath)": "[GAP] Not confirmed in sources reviewed",
+   "Usable / working length": "[GAP] Not confirmed",
+   "Electrode count / configuration": "[GAP] Not confirmed",
+   "Tip / electrode / balloon size": "4 mm flexible tip (per Abbott-cited study titles/labeling)",
+   "Irrigation": "Yes (labeling refers to saline irrigation flow)",
+   "Contact force sensing": "Yes (labeling: CF accuracy >50 g not established)",
+   "Mapping system compatibility": "Three-dimensional mapping system required; Sensor Enabled for EnSite X",
+   "Required generator / console": "'Compatible RF or PF generator' (specific generator names not stated on US page)",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping and ablation of drug-refractory recurrent symptomatic paroxysmal AF and concomitant atrial flutter with compatible RF or PF generator and 3D mapping system. PF should not be applied to CTI",
+   "FDA approval date (device/indication)": "09/04/2026 (Abbott announced 09/08/2026)",
+   "PMA number (supplement)": "P220013 (S028, panel-track)",
+   "Notable recalls / safety notices": "None found (approved ~5 weeks before search)",
+   "Source IDs - specs": "S55",
+   "Source IDs - regulatory": "S54, S56",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S55] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/tactiflex-duo-system.html\n[S54] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013S028\n[S56] https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": "Newest US approval in set; IFU dimensional specs should be added when US IFU is accessible."
+  },
+  {
+   "ID": "D16",
+   "Manufacturer": "Abbott",
+   "Product (catheter)": "TactiFlex ablation catheter, Sensor Enabled (A-TFSE-*)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, flexible laser-cut irrigated tip; contact force; uni-/bi-directional curves (D, F, DF, FJ)",
+   "French size (shaft; sheath)": "8 Fr",
+   "Usable / working length": "115 cm",
+   "Electrode count / configuration": "4 (tip + 3 rings); 2-2-2 mm spacing",
+   "Tip / electrode / balloon size": "4 mm tip electrode",
+   "Irrigation": "Yes - irrigated",
+   "Contact force sensing": "Yes - via TactiSys Quartz equipment",
+   "Mapping system compatibility": "EnSite X (Unified Connector RF SE cable to EnSite X amplifier)",
+   "Required generator / console": "Ampere RF generator + TactiSys Quartz equipment",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping and treatment of drug-refractory recurrent symptomatic paroxysmal AF and concomitant atrial flutter with compatible RF generator and 3D mapping system",
+   "FDA approval date (device/indication)": "05/18/2023",
+   "PMA number (supplement)": "P220013",
+   "Notable recalls / safety notices": "Class 1 advisory Z-0109-2026 (initiated 09/10/2025): limited tip-detachment events during removal from packaging; packaging tray redesigned, 407 units. Class 2 Z-0814-2024 (12/18/2023, A-TFSE-FJ): EnSite X misrecognized model/inverted image (listed under P130026)",
+   "Source IDs - specs": "S57",
+   "Source IDs - regulatory": "S58",
+   "Source IDs - recalls/safety": "S59, S60",
+   "Source URLs (all for this row)": "[S57] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/tactiflex-se-ablation-catheter/ordering-information.html\n[S58] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013\n[S59] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=216034\n[S60] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=205276",
+   "Notes / gaps for this row": "Prior Class 2 recall appears under PMA P130026 in FDA database."
+  },
+  {
+   "ID": "D17",
+   "Manufacturer": "Abbott",
+   "Product (catheter)": "TactiCath Contact Force Ablation Catheter, Sensor Enabled (A-TCSE-*)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, open-irrigated, fiber-optic contact force; bidirectional curves",
+   "French size (shaft; sheath)": "8 F (catalog)",
+   "Usable / working length": "115 cm",
+   "Electrode count / configuration": "4 (tip + 3 rings); 2-2-2 mm spacing",
+   "Tip / electrode / balloon size": "3.5 mm tip electrode",
+   "Irrigation": "Yes - open irrigated",
+   "Contact force sensing": "Yes - fiber-optic (TactiSys Quartz + EnSite Contact Force Module)",
+   "Mapping system compatibility": "EnSite (catalog lists EnSite Precision)",
+   "Required generator / console": "Compatible RF generator + TactiSys Quartz equipment",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping and treatment of drug-refractory recurrent symptomatic paroxysmal and persistent AF with compatible RF generator and 3D mapping system",
+   "FDA approval date (device/indication)": "11/04/2021 (S070, TactiCath SE with PAF + persistent AF); TactiCath Quartz original 10/24/2014",
+   "PMA number (supplement)": "P130026 (S070)",
+   "Notable recalls / safety notices": "Class 2 Z-1344-2022 ('invalid/expired catheter' error on EnSite Precision) and Z-0956-2022 (pre-programmed first-use date in EEPROM) - both terminated Aug 2026",
+   "Source IDs - specs": "S61, S63",
+   "Source IDs - regulatory": "S62, S63",
+   "Source IDs - recalls/safety": "S64, S65",
+   "Source URLs (all for this row)": "[S61] https://www.cardiovascular.abbott/content/dam/cv/cardiovascular/hcp/products/electrophysiology/tacticath-se/documents/ep-tacticath-se-full-catalog-page.pdf\n[S63] https://www.accessdata.fda.gov/cdrh_docs/pdf13/P130026B.pdf\n[S62] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S070\n[S64] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=194347\n[S65] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=192750",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D18",
+   "Manufacturer": "Kardium",
+   "Product (catheter)": "Globe catheter / Globe Pulsed Field System (601-01000)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Pulsed field (bipolar, biphasic)",
+   "Catheter design / form factor": "Spherical array of 8 pre-shaped ribs (semi-compliant sphere); single-shot or selective-electrode ablation",
+   "French size (shaft; sheath)": "16F (5.3 mm) shaft; Globe Introducer 16F ID",
+   "Usable / working length": "116 cm shaft length",
+   "Electrode count / configuration": "122 gold-plated electrodes; select 2-64 simultaneously for ablation; each maps, paces, senses temperature/impedance/contact",
+   "Tip / electrode / balloon size": "30 mm array; electrodes 3 \u00d7 4 mm, 1-2 mm spacing; heparin coating",
+   "Irrigation": "No irrigation described (flushing chamber for air removal during prep)",
+   "Contact force sensing": "No force sensor; per-electrode tissue contact (thermal/impedance) assessment",
+   "Mapping system compatibility": "Globe Controller + Globe Workstation (proprietary mapping/GPS localization; class II, K250747)",
+   "Required generator / console": "Globe PF Generator",
+   "FDA-approved indications (catheter)": "Anatomical/EP mapping and stimulation, and PF ablation for drug-refractory, recurrent, symptomatic paroxysmal AF with the Globe PF System",
+   "FDA approval date (device/indication)": "08/27/2025",
+   "PMA number (supplement)": "P240044",
+   "Notable recalls / safety notices": "None found in FDA recall database search by PMA no. (searched 10/13/2026)",
+   "Source IDs - specs": "S66, S67",
+   "Source IDs - regulatory": "S68",
+   "Source IDs - recalls/safety": "S73",
+   "Source URLs (all for this row)": "[S66] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240044B.pdf\n[S67] https://kardium.com/wp-content/uploads/2026/04/410-00004-EN-USA-Product-Spec-Sheet-1.pdf\n[S68] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240044\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "D19",
+   "Manufacturer": "CardioFocus",
+   "Product (catheter)": "HeartLight X3 Endoscopic Ablation System (Excalibur balloon)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Laser (980 nm diode; thermal)",
+   "Catheter design / form factor": "Compliant balloon with endoscope (direct visualization); motor-driven RAPID circumferential lesion mode",
+   "French size (shaft; sheath)": "[GAP] Not confirmed (uses dedicated deflectable sheath)",
+   "Usable / working length": "[GAP] Not found (endoscope 2F, 145 cm per original SSED)",
+   "Electrode count / configuration": "Not applicable (light-based lesion generator)",
+   "Tip / electrode / balloon size": "[GAP] Balloon diameter not found",
+   "Irrigation": "Not applicable (balloon filled with D2O admixture fill media)",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "Not applicable (endoscopic visualization)",
+   "Required generator / console": "HeartLight X3 Console (V2)",
+   "FDA-approved indications (catheter)": "Drug-refractory recurrent symptomatic paroxysmal AF",
+   "FDA approval date (device/indication)": "HeartLight original 04/01/2016; X3 announced FDA-approved 05/12/2020",
+   "PMA number (supplement)": "P150026 (X3 supplement no. not verified)",
+   "Notable recalls / safety notices": "Class 2 Z-1307-2025 (initiated 02/07/2025): sterile barrier pouch damage potentially compromising sterility; 833 units",
+   "Source IDs - specs": "S71, S69",
+   "Source IDs - regulatory": "S69, S70",
+   "Source IDs - recalls/safety": "S72",
+   "Source URLs (all for this row)": "[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf\n[S69] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf\n[S70] https://www.prnewswire.com/news-releases/cardiofocus-announces-us-fda-approval-of-heartlight-x3-system-for-the-treatment-of-atrial-fibrillation-301057007.html\n[S72] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212400",
+   "Notes / gaps for this row": "Manual reviewed lists EU model numbers. Current US commercial availability not verified."
+  }
+ ],
+ "non_us": [
+  {
+   "Manufacturer": "Medtronic (Affera)",
+   "Product": "Sphere-360 catheter",
+   "Energy": "Pulsed field (single-shot, all-in-one map/ablate)",
+   "Status (as of 10/13/2026)": "CE Mark (Jan 2026); investigational in US - Horizon 360 IDE (NCT07308847) enrolling, est. completion Nov 2027",
+   "Notes": "For paroxysmal AF in CE geographies",
+   "Source URLs": "[S10] https://news.medtronic.com/2026-01-23-Affera-TM-momentum-continues-as-Medtronic-announces-CE-Mark-in-Europe-and-U-S-IDE-first-cases-for-Sphere-360-TM-PFA-catheter-to-treat-paroxysmal-atrial-fibrillation\n[S09] https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues\n[S11] https://clinicaltrials.gov/study/NCT07308847"
+  },
+  {
+   "Manufacturer": "Medtronic (Affera)",
+   "Product": "Sphere-9 for ventricular tachycardia",
+   "Energy": "Pulsed field / RF",
+   "Status (as of 10/13/2026)": "Not approved for VT in any geography; FDA Breakthrough Device Designation for VT; US pivotal trial approved",
+   "Notes": null,
+   "Source URLs": "[S09] https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues"
+  },
+  {
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product": "OMNYPULSE catheter (with TRUPULSE generator)",
+   "Energy": "Pulsed field",
+   "Status (as of 10/13/2026)": "Investigational (Omny-IRE, OMNY-AF studies); not FDA approved",
+   "Notes": "Regulatory status outside the US not verified",
+   "Source URLs": "[S74] https://www.jnjmedtech.com/en-US/service/pulsed-field-ablation-evidence"
+  },
+  {
+   "Manufacturer": "Abbott",
+   "Product": "TactiFlex Duo; Volt",
+   "Energy": "Dual RF/PF; PFA",
+   "Status (as of 10/13/2026)": "Both had CE Mark before FDA approval (Volt CE 2025; TactiFlex Duo CE 2026) - now FDA approved, see main sheet",
+   "Notes": null,
+   "Source URLs": "[S56] https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms\n[S53] https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation"
+  }
+ ],
+ "sources": [
+  {
+   "Source ID": "S01",
+   "Title / description": "FDA SSED P230017 PulseSelect PFA System",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230017B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D01",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S02",
+   "Title / description": "Medtronic PulseSelect PFA catheter components spec sheet (US, UC202402766)",
+   "URL": "https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-pulseselect-catheter-components-spec-sheet.pdf",
+   "Source type": "Manufacturer spec sheet",
+   "Used for device rows": "D01",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S03",
+   "Title / description": "FDA PMA database P230017 (original)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230017",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D01",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S04",
+   "Title / description": "FDA PMA P230017/S009 (R-wave gating made optional, 02/17/2026)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230017S009",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D01",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S05",
+   "Title / description": "FDA SSED P240013 Sphere-9 / Affera Ablation System",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D02",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S06",
+   "Title / description": "Medtronic Sphere-9 catheter spec sheet (US, UC202308853)",
+   "URL": "https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-affera-sphere-9-spec-sheet.pdf",
+   "Source type": "Manufacturer spec sheet",
+   "Used for device rows": "D02",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S07",
+   "Title / description": "FDA PMA database P240013",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D02",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S08",
+   "Title / description": "FDA recall Z-1948-2026 Sphere-9 (Biotronik ICD/CRT-D VF interaction)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=219345",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D02",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S09",
+   "Title / description": "Medtronic press release 04/25/2026 (Sphere-9 VT breakthrough designation; Sphere-360 status)",
+   "URL": "https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues",
+   "Source type": "Press release",
+   "Used for device rows": "D02, Non-US sheet",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S10",
+   "Title / description": "Medtronic press release 01/23/2026 (Sphere-360 CE Mark; Horizon 360 IDE)",
+   "URL": "https://news.medtronic.com/2026-01-23-Affera-TM-momentum-continues-as-Medtronic-announces-CE-Mark-in-Europe-and-U-S-IDE-first-cases-for-Sphere-360-TM-PFA-catheter-to-treat-paroxysmal-atrial-fibrillation",
+   "Source type": "Press release",
+   "Used for device rows": "Non-US sheet",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S11",
+   "Title / description": "ClinicalTrials.gov NCT07308847 Horizon 360 IDE",
+   "URL": "https://clinicaltrials.gov/study/NCT07308847",
+   "Source type": "Trial registry",
+   "Used for device rows": "Non-US sheet",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S12",
+   "Title / description": "Medtronic Arctic Front Advance Pro product page (US) - specs & indications",
+   "URL": "https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-energy/ablation/cryoablation/catheters/arctic-front-advance-pro-cardiac-cryoablation-catheter.html",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D03",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S13",
+   "Title / description": "FDA SSED P100010/S098 (persistent AF <6 mo expansion; Freezor MAX)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D03, D04",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S14",
+   "Title / description": "FDA PMA P100010/S070 (AFAPRO23/AFAPRO28 added, 05/04/2018)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010S070",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D03",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S15",
+   "Title / description": "FDA PMA P100010/S110 (first-line PAF, 06/18/2021)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010S110",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D03",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S16",
+   "Title / description": "FDA PMA database P100010 (original Arctic Front, 12/17/2010)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D03",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S17",
+   "Title / description": "FDA SSED P230030 FARAPULSE PFA System (original)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D05",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S18",
+   "Title / description": "Boston Scientific FARAWAVE/FARAWAVE NAV/FARADRIVE/FARASTAR spec sheet",
+   "URL": "https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf",
+   "Source type": "Manufacturer spec sheet",
+   "Used for device rows": "D05, D06",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S19",
+   "Title / description": "FDA PMA P230030/S003 (FARAWAVE NAV etc., 10/18/2024)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S003",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D06",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S20",
+   "Title / description": "FDA PMA P230030/S007 (persistent AF PVI + posterior wall, 07/03/2025)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S007",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D05, D06",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S21",
+   "Title / description": "FDA SSED P230030/S012 (FARAPOINT)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030S012B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D06, D07",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S22",
+   "Title / description": "FDA PMA P230030/S012 (FARAPOINT, 01/12/2026)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S012",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D07",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S23",
+   "Title / description": "Boston Scientific FARAPOINT product page (US) - technical specifications",
+   "URL": "https://www.bostonscientific.com/us/en/healthcare-professionals/products/pulsed-field-ablation/farapoint-pulsed-field-ablation-catheter/fp90000122.html",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D07",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S24",
+   "Title / description": "FDA recall Z-2278-2025 FARAWAVE 1.0 (electrode band cracks)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=214843",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D05",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S25",
+   "Title / description": "FDA recall Z-2751-2026 FARASTAR generator (IFU lacked FARAPOINT info)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221111",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D05, D06, D07",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S26",
+   "Title / description": "FDA PMA database P230030 (original FARAPULSE, 01/30/2024)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D05",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S27",
+   "Title / description": "FDA SSED P220032 Boston Scientific Cardiac Cryoablation System (POLARx/POLARx FIT)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220032B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D08",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S28",
+   "Title / description": "FDA PMA database P220032",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220032",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D08",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S29",
+   "Title / description": "FDA recall Z-0300-2025 POLARx FIT (Class 1; IFU update re atrio-esophageal fistula)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=210465",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D08",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S30",
+   "Title / description": "FDA SSED P150005/S074 INTELLANAV STABLEPOINT",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S074B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D09",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S31",
+   "Title / description": "Boston Scientific INTELLANAV STABLEPOINT spec sheet (EU, EP-815001-AC)",
+   "URL": "https://www.bostonscientific.com/content/dam/bostonscientific/ep/Electrophysiology%20Portfolio/Rhythmia/intellanav-stablepoint/EP-815001-AB_STABLEPOINT_SPECSHEET.pdf",
+   "Source type": "Manufacturer spec sheet (EU)",
+   "Used for device rows": "D09",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S32",
+   "Title / description": "FDA PMA P150005/S074 (02/26/2024)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S074",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D09",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S33",
+   "Title / description": "FDA SSED P240006 VARIPULSE Platform",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D10",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S34",
+   "Title / description": "J&J MedTech VARIPULSE Platform product page (US)",
+   "URL": "https://www.jnjmedtech.com/en-US/product/VARIPULSE-Pulsed-Field-Ablation-PFA-Platform",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D10",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S35",
+   "Title / description": "FDA recall Z-1205-2025 VARIPULSE (Class 1; neurovascular events)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212216",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D10",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S36",
+   "Title / description": "FDA early alert: Biosense Webster updates VARIPULSE IFU due to high rate of stroke/TIA",
+   "URL": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/ablation-catheter-correction-biosense-webster-updates-use-instructions-varipulse-due-high-rate",
+   "Source type": "FDA safety communication",
+   "Used for device rows": "D10",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S37",
+   "Title / description": "J&J press release: resume U.S. VARIPULSE cases",
+   "URL": "https://www.jnjmedtech.com/en-US/news/press-releases/johnson-johnson-to-resume-us-varipulse-cases/",
+   "Source type": "Press release",
+   "Used for device rows": "D10",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S38",
+   "Title / description": "FDA PMA database P240006 (11/06/2024)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240006",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D10",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S39",
+   "Title / description": "FDA PMA P030031/S141 Dual Energy THERMOCOOL SMARTTOUCH SF System (07/01/2026)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S141",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D11",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S40",
+   "Title / description": "FDA-posted IFU, Dual Energy STSF Bi-Directional (P030031/S141 labeling)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S141D.pdf",
+   "Source type": "IFU (FDA-posted)",
+   "Used for device rows": "D11",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S41",
+   "Title / description": "J&J press release 07/08/2026 DE STSF FDA approval",
+   "URL": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-FDA-approval-for-the-Dual-Energy-Thermocool-Smarttouch-SF-platform",
+   "Source type": "Press release",
+   "Used for device rows": "D11",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S42",
+   "Title / description": "J&J MedTech THERMOCOOL SMARTTOUCH SF product page (US)",
+   "URL": "https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D12",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S43",
+   "Title / description": "FDA PMA P030031/S072 (STSF, PAF, 08/11/2016)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S072",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D12",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S44",
+   "Title / description": "FDA PMA P030031/S100 (STSF persistent AF, 09/30/2020)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S100",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D12",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S45",
+   "Title / description": "FDA recall Z-0169-2023 STSF Bi-Directional (cellulose fiber contamination)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=196121",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D12",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S46",
+   "Title / description": "FDA recall Z-0055-2018 STSF (CARTO Alert 402 magnetic distortion)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=158827",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D12",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S47",
+   "Title / description": "FDA SSED P210027 QDOT MICRO System",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/P210027B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D13",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S48",
+   "Title / description": "FDA PMA database P210027 (11/23/2022)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210027",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D13",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S49",
+   "Title / description": "FDA PMA database P250022 Volt PFA System (12/19/2025)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D14",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S50",
+   "Title / description": "FDA approval order P250022",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/P250022A.pdf",
+   "Source type": "FDA approval order",
+   "Used for device rows": "D14",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S51",
+   "Title / description": "Abbott Volt PFA System product page (US) incl. US safety information",
+   "URL": "https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/volt-pfa.html",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D14",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S52",
+   "Title / description": "VOLT CE Mark feasibility study (Europace 2024; PMC11098042) - device description",
+   "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11098042/",
+   "Source type": "Peer-reviewed publication",
+   "Used for device rows": "D14",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S53",
+   "Title / description": "Abbott press release 12/22/2025 Volt FDA approval",
+   "URL": "https://abbott.mediaroom.com/2025-12-22-Abbotts-Volt-TM-Pulsed-Field-Ablation-System-Receives-FDA-Approval-to-Treat-Patients-with-Atrial-Fibrillation",
+   "Source type": "Press release",
+   "Used for device rows": "D14, Non-US sheet",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S54",
+   "Title / description": "FDA PMA P220013/S028 TactiFlex Duo (09/04/2026)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013S028",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D15",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S55",
+   "Title / description": "Abbott TactiFlex Duo product page (US) incl. US safety information",
+   "URL": "https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/tactiflex-duo-system.html",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D15",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S56",
+   "Title / description": "Abbott press release 09/08/2026 TactiFlex Duo FDA approval",
+   "URL": "https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms",
+   "Source type": "Press release",
+   "Used for device rows": "D15, Non-US sheet",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S57",
+   "Title / description": "Abbott TactiFlex SE ordering information (US)",
+   "URL": "https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/tactiflex-se-ablation-catheter/ordering-information.html",
+   "Source type": "Manufacturer ordering page",
+   "Used for device rows": "D16",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S58",
+   "Title / description": "FDA PMA database P220013 (TactiFlex SE, 05/18/2023)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D16",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S59",
+   "Title / description": "FDA recall Z-0109-2026 TactiFlex SE (Class 1; tip detachment on removal from packaging)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=216034",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D16",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S60",
+   "Title / description": "FDA recall Z-0814-2024 TactiFlex SE A-TFSE-FJ (EnSite X model misrecognition)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=205276",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D16",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S61",
+   "Title / description": "Abbott TactiCath SE catalog page (ordering information)",
+   "URL": "https://www.cardiovascular.abbott/content/dam/cv/cardiovascular/hcp/products/electrophysiology/tacticath-se/documents/ep-tacticath-se-full-catalog-page.pdf",
+   "Source type": "Manufacturer catalog",
+   "Used for device rows": "D17",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S62",
+   "Title / description": "FDA PMA P130026/S070 TactiCath SE (PAF + persistent AF, 11/04/2021)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S070",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D17",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S63",
+   "Title / description": "FDA SSED P130026 TactiCath Quartz (original, 10/24/2014)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/P130026B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D17",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S64",
+   "Title / description": "FDA recall Z-1344-2022 TactiCath SE ('invalid/expired catheter' error)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=194347",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D17",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S65",
+   "Title / description": "FDA recall Z-0956-2022 TactiCath SE (EEPROM pre-programmed first-use date)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=192750",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D17",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S66",
+   "Title / description": "FDA SSED P240044 Kardium Globe PF System",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240044B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D18",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S67",
+   "Title / description": "Kardium Globe PF System product spec sheet (USA, 410-00004)",
+   "URL": "https://kardium.com/wp-content/uploads/2026/04/410-00004-EN-USA-Product-Spec-Sheet-1.pdf",
+   "Source type": "Manufacturer spec sheet",
+   "Used for device rows": "D18",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S68",
+   "Title / description": "FDA PMA database P240044 (08/27/2025)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240044",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D18",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S69",
+   "Title / description": "FDA SSED P150026 HeartLight Endoscopic Ablation System (04/01/2016)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D19",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S70",
+   "Title / description": "CardioFocus press release 05/12/2020 HeartLight X3 FDA approval",
+   "URL": "https://www.prnewswire.com/news-releases/cardiofocus-announces-us-fda-approval-of-heartlight-x3-system-for-the-treatment-of-atrial-fibrillation-301057007.html",
+   "Source type": "Press release",
+   "Used for device rows": "D19",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S71",
+   "Title / description": "HeartLight X3 Console (V2) Operation & Maintenance Manual (EU model numbers, Rev D 2023)",
+   "URL": "https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf",
+   "Source type": "IFU/manual",
+   "Used for device rows": "D19",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S72",
+   "Title / description": "FDA recall Z-1307-2025 HeartLight X3 catheter (sterile barrier pouch damage)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212400",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D19",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S73",
+   "Title / description": "FDA recall database search by PMA (used for 'no recalls found' checks; append PMA no.)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D01, D09, D11, D13, D14, D15, D18",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S74",
+   "Title / description": "J&J MedTech PFA evidence page (OMNYPULSE investigational)",
+   "URL": "https://www.jnjmedtech.com/en-US/service/pulsed-field-ablation-evidence",
+   "Source type": "Manufacturer page",
+   "Used for device rows": "Non-US sheet",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S75",
+   "Title / description": "FDA recall record id 104277: original Arctic Front catheter, Class 2, posted 11/02/2011 (listed under P100010)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=104277",
+   "Source type": "FDA recall database",
+   "Used for device rows": "D03, D04",
+   "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S76",
+   "Title / description": "FDA PMA P250022/S008 Volt catheter 30-day notice (08/11/2026)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022S008",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D14",
+   "Accessed": "10/13/2026"
+  }
+ ],
+ "notes": [
+  {
+   "Category": "Scope & method",
+   "Note": "v1 built 10/13/2026. Included: cardiac ablation catheters with a US FDA PMA (or PMA supplement) found in the FDA PMA database, cross-checked against FDA SSEDs/approval orders, FDA-posted IFUs, manufacturer spec sheets/product pages and press releases. Each device row lists source IDs (Sources sheet) for specs, regulatory status and recalls."
+  },
+  {
+   "Category": "Scope & method",
+   "Note": "Recalls: FDA recall database (cfRES) queried by PMA number for every row on 10/13/2026. 'None found' means no record returned for that PMA; it does not rule out field actions filed under another PMA or not yet posted. Some catheters' recalls are filed under a sibling PMA (e.g., TactiFlex SE recall under P130026)."
+  },
+  {
+   "Category": "Scope & method",
+   "Note": "Approval date = FDA decision date for the original PMA or the supplement that added that catheter/indication; later indication expansions listed separately. Dates as shown in FDA database (no time zone)."
+  },
+  {
+   "Category": "Convention",
+   "Note": "Blank or '[GAP]' (yellow) = not found in an authoritative source reviewed; no value was inferred. '[Verify]' = value derived from source wording that should be confirmed against the IFU."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "FARAPOINT electrode count: BSC US spec page = 4 electrodes (2.5 mm tip); FDA SSED P230030/S012 device description says 'five splines with four electrodes, twenty electrodes total' (appears to be carried over from FARAWAVE text). Spec page value used; confirm with IFU."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Sphere-9 tip: SSED 'expands to 9 mm'; spec sheet 9.3 mm. Both shown."
+  },
+  {
+   "Category": "Gap",
+   "Note": "Usable length not verified for: DE STSF, STSF, QDOT MICRO, Volt, TactiFlex Duo, Freezor MAX, HeartLight X3; StablePoint length only from EU spec sheet (110 cm). Fill from US IFUs (manuals.eifu.abbott, jnjmedtech IFU portal, ifu-bsci.com, Medtronic manuals)."
+  },
+  {
+   "Category": "Gap",
+   "Note": "TactiFlex Duo (approved 09/04/2026): French size, electrode count/spacing and named generators not on Abbott US page; FDA SSED for P220013/S028 not yet retrievable at the expected URL. Volt dimensions taken from the 2024 CE feasibility paper (investigational device)."
+  },
+  {
+   "Category": "Gap",
+   "Note": "Not yet added (candidates for v2): ThermoCool SmartTouch (non-SF), ThermoCool SF/NaviStar ThermoCool (P030031 family), IntellaNav MiFi OI / IntellaNav OI (P150005 family), FlexAbility/other Abbott irrigated non-CF catheters, Medtronic Freezor/Freezor Xtra (AVNRT), non-AF ablation catheters (VT/SVT-only 4/8 mm tips), and any other PFA systems from smaller vendors (none others found in FDA product code QZI as of 10/13/2026 besides those listed)."
+  },
+  {
+   "Category": "Gap",
+   "Note": "Mapping system compatibility for PulseSelect, FARAWAVE (non-NAV), Arctic Front Advance Pro and POLARx is not stated in the reviewed labeling; cells flagged rather than assumed."
+  },
+  {
+   "Category": "Observation",
+   "Note": "FDA product code QZI (PFA for AF) list at time of search: PulseSelect (P230017), FARAPULSE (P230030), Sphere-9 (P240013), VARIPULSE (P240006), Globe (P240044), Volt (P250022); dual-energy focal catheters DE STSF (P030031/S141) and TactiFlex Duo (P220013/S028) added 2026."
+  },
+  {
+   "Category": "Observation",
+   "Note": "Indication spread: persistent AF is approved for PulseSelect, FARAWAVE/NAV (+ posterior wall), Volt, Sphere-9 (persistent only), Arctic Front Advance/Pro (<6 mo), STSF (RF), TactiCath SE; PAF-only for VARIPULSE, Globe, POLARx, QDOT MICRO, StablePoint, TactiFlex SE/Duo, HeartLight X3, and DE STSF in PF mode."
+  },
+  {
+   "Category": "Teammate parity",
+   "Note": "Mirrors coronary guide structure: one row per catheter, attribute columns, per-row source IDs + URLs, separate Sources and Notes sheets. Suggest teammate review of column naming for consistency."
+  }
+ ]
+}
