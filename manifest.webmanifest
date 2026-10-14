@@ -1,0 +1,16 @@
+{
+ "name": "EP Ablation Catheter Comparison Guide",
+ "short_name": "EP Guide",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#111827",
+ "theme_color": "#111827",
+ "icons": [
+  {
+   "src": "favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

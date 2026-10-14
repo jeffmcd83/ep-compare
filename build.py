@@ -79,7 +79,7 @@ opt = lambda xs: ''.join(f'<option>{e(x)}</option>' for x in xs)
 
 crm = open(os.path.join(OUT, 'base.css')).read()
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{TITLE}</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#111827"><meta name="color-scheme" content="light">
+<title>{TITLE}</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#111827"><meta name="color-scheme" content="light">
 <style>{crm}</style></head><body>
 <header><h1>{TITLE}</h1>{guides_menu()}<span class="pass">{len(comp)} US-approved catheters · updated {updated}</span>
 <nav class="tabs"><button data-t="cmp" class="on">Comparison</button><button data-t="nus">Non-US &amp; pipeline</button><button data-t="nts">Notes &amp; gaps</button><button data-t="src">Sources</button></nav></header>
@@ -99,8 +99,12 @@ document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{{document
 function f(){{const q=$('#q').value.toLowerCase(),en=$('#fe').value,m=$('#fm').value,g=$('#fg').checked,c=$('#fc').checked;let n=0;rs.forEach(r=>{{const v=(!q||r.textContent.toLowerCase().includes(q))&&(!en||r.dataset.e==en)&&(!m||r.dataset.m==m)&&(!g||r.dataset.g=='1')&&(!c||r.dataset.cf=='1');r.hidden=!v;n+=v}});$('#n').textContent=n+' of '+rs.length+' shown'}}
 ['#q','#fe','#fm','#fg','#fc'].forEach(s=>$(s).addEventListener('input',f));f();
 let sc=-1,sd=1;document.querySelectorAll('#rt th[data-c]').forEach(h=>h.onclick=()=>{{const i=+h.dataset.c;sd=sc==i?-sd:1;sc=i;document.querySelectorAll('#rt .ar').forEach(a=>a.textContent='');h.querySelector('.ar').textContent=sd>0?' ▲':' ▼';const tb=$('#rt tbody');rs.sort((a,b)=>sd*a.cells[i].textContent.localeCompare(b.cells[i].textContent,undefined,{{numeric:true}})).forEach(r=>tb.appendChild(r))}});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
 </script></body></html>'''
 open(os.path.join(OUT, 'index.html'), 'w').write(page)
+# Offline support: cache name changes every build so browsers pick up new data
+open(os.path.join(OUT, 'sw.js'), 'w').write("const P='ep-',C=P+'%s';self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./favicon.svg','./data/ep.json','./manifest.webmanifest'])))});self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith(P)&&x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(caches.open(C).then(c=>fetch(e.request,{cache:'no-cache'}).then(r=>{if(r.ok)c.put(e.request,r.clone());return r}).catch(()=>c.match(e.request,{ignoreSearch:true}))))});" % datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
+json.dump({'name': TITLE, 'short_name': 'EP Guide', 'start_url': './', 'scope': './', 'display': 'standalone', 'background_color': '#111827', 'theme_color': '#111827', 'icons': [{'src': 'favicon.svg', 'sizes': 'any', 'type': 'image/svg+xml'}]}, open(os.path.join(OUT, 'manifest.webmanifest'), 'w'), indent=1)
 os.makedirs(os.path.join(OUT, 'data'), exist_ok=True)
 json.dump({'updated': updated, 'comparison': comp, 'non_us': nonus, 'sources': srcs, 'notes': notes}, open(os.path.join(OUT, 'data/ep.json'), 'w'), default=str, indent=1)
 print(f'built: {len(comp)} catheters, {ngap} gap cells, {nconf} conflict rows, {len(nonus)} non-US, {len(srcs)} sources')
