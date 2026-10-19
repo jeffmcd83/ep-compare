@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-19",
  "comparison": [
   {
    "ID": "D01",
@@ -365,16 +365,16 @@
    "Irrigation": "Yes (labeling refers to saline irrigation flow)",
    "Contact force sensing": "Yes (labeling: CF accuracy >50 g not established)",
    "Mapping system compatibility": "Three-dimensional mapping system required; Sensor Enabled for EnSite X",
-   "Required generator / console": "'Compatible RF or PF generator' (specific generator names not stated on US page)",
+   "Required generator / console": "RF mode: Ampere RF generator (firmware v1.2.0) with TactiSys Quartz equipment (v1.8.0), per FDA P130026/S102. PF mode: [GAP] PF generator not named in FDA approval order (order covers catheter + Current PFA Unified Cable).",
    "FDA-approved indications (catheter)": "Cardiac EP mapping and ablation of drug-refractory recurrent symptomatic paroxysmal AF and concomitant atrial flutter with compatible RF or PF generator and 3D mapping system. PF should not be applied to CTI",
    "FDA approval date (device/indication)": "09/04/2026 (Abbott announced 09/08/2026)",
    "PMA number (supplement)": "P220013 (S028, panel-track)",
    "Notable recalls / safety notices": "None found (approved ~5 weeks before search)",
    "Source IDs - specs": "S55",
-   "Source IDs - regulatory": "S54, S56",
+   "Source IDs - regulatory": "S54, S56, S77, S78",
    "Source IDs - recalls/safety": "S73",
-   "Source URLs (all for this row)": "[S55] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/tactiflex-duo-system.html\n[S54] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013S028\n[S56] https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017",
-   "Notes / gaps for this row": "Newest US approval in set; IFU dimensional specs should be added when US IFU is accessible."
+   "Source URLs (all for this row)": "[S55] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/tactiflex-duo-system.html\n[S54] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013S028\n[S56] https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017\n[S77] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S102\n[S78] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220013S028A.pdf",
+   "Notes / gaps for this row": "Newest US approval in set; IFU dimensional specs should be added when US IFU is accessible. FDA SSED (P220013S028B) still not posted as of 10/19/2026; approval order (S78) has no dimensional specs."
   },
   {
    "ID": "D16",
@@ -1119,6 +1119,22 @@
    "Source type": "FDA PMA database",
    "Used for device rows": "D14",
    "Accessed": "10/13/2026"
+  },
+  {
+   "Source ID": "S77",
+   "Title / description": "FDA PMA P130026/S102 (08/07/2026): firmware changes to TactiSys Quartz Equipment v1.8.0 and Ampere Generator v1.2.0 to maintain compatibility with TactiFlex Duo Ablation Catheter, SE",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S102",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D15",
+   "Accessed": "10/19/2026"
+  },
+  {
+   "Source ID": "S78",
+   "Title / description": "FDA approval order P220013/S028 (09/04/2026): TactiFlex Duo Ablation Catheter, SE and Current PFA Unified Cable; indication text",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220013S028A.pdf",
+   "Source type": "FDA approval order",
+   "Used for device rows": "D15",
+   "Accessed": "10/19/2026"
   }
  ],
  "notes": [
@@ -1173,6 +1189,10 @@
   {
    "Category": "Teammate parity",
    "Note": "Mirrors coronary guide structure: one row per catheter, attribute columns, per-row source IDs + URLs, separate Sources and Notes sheets. Suggest teammate review of column naming for consistency."
+  },
+  {
+   "Category": "Weekly update 10/19/2026",
+   "Note": "Checked openFDA PMA data (latest ablation decisions posted: 10/02/2026). No new ablation catheter approvals or indication changes since v1. Minor supplements not changing table values: Sphere-9 P240013/S031 IFU changes (10/02), FARAPULSE P230030/S025 added supplier (10/02), TactiFlex SE P220013/S034 change-control plan (09/22). Filled TactiFlex Duo RF generator from FDA P130026/S102; PF generator still a gap."
   }
  ]
 }
