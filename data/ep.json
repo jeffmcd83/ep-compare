@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-21",
  "comparison": [
   {
    "ID": "D01",
@@ -108,10 +108,10 @@
    "US status (as of 10/13/2026)": "FDA PMA approved",
    "Energy type": "Pulsed field (bipolar, biphasic)",
    "Catheter design / form factor": "Over-the-wire, 5-spline array deployable in basket/flower configurations",
-   "French size (shaft; sheath)": "12F shaft; FARADRIVE steerable sheath 13F ID; 0.035\" guidewire (\u2265180 cm)",
-   "Usable / working length": "115 cm usable",
-   "Electrode count / configuration": "20 electrodes (5 splines \u00d7 4)",
-   "Tip / electrode / balloon size": "31 mm or 35 mm distal diameter",
+   "French size (shaft; sheath)": "9 Fr (3 mm) shaft; 10 Fr (3.3 mm) minimum introducer sheath (FDA-posted technical manual, S79)",
+   "Usable / working length": "90 cm shaft length [labeled 'shaft length', not 'usable length'] (S79)",
+   "Electrode count / configuration": "4 electrodes on tip section; spacing 3 mm, 5 mm, 2 mm; 1 thermocouple (S79)",
+   "Tip / electrode / balloon size": "8 mm tip length (S79)",
    "Irrigation": "No irrigation described",
    "Contact force sensing": "No",
    "Mapping system compatibility": "No integrated navigation on non-NAV version per sources (NAV version provides OPAL HDx magnetic tracking). [Verify]",
@@ -120,11 +120,11 @@
    "FDA approval date (device/indication)": "01/30/2024 (PAF); 07/03/2025 persistent AF + posterior wall (S007)",
    "PMA number (supplement)": "P230030 (S007)",
    "Notable recalls / safety notices": "Class 2 removal Z-2278-2025 (initiated 06/25/2025): FARAWAVE 1.0 (M004PF41M401) units made on equipment that may have cracked electrode bands; 445 units. Class 2 Z-2751-2026 (06/11/2026) FARASTAR generator IFU lacked FARAPOINT info (labeling)",
-   "Source IDs - specs": "S17, S18",
+   "Source IDs - specs": "S13, S79",
    "Source IDs - regulatory": "S26, S20",
    "Source IDs - recalls/safety": "S24, S25",
    "Source URLs (all for this row)": "[S17] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030B.pdf\n[S18] https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf\n[S26] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030\n[S20] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S007\n[S24] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=214843\n[S25] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221111",
-   "Notes / gaps for this row": null
+   "Notes / gaps for this row": "Included for completeness (focal cryo). Dimensions from FDA-posted Freezor MAX 239F3/239F5 technical manual (S79, filled 10/21/2026). Conflict: Medtronic US product page lists Freezor MAX as models 209F3/209F5 with spacing 3.5-5-2.5 mm; FDA manual for 239F3/239F5 says 3-5-2 mm. FDA value used. Mapping compatibility still a gap."
   },
   {
    "ID": "D06",
@@ -285,7 +285,7 @@
    "Catheter design / form factor": "Focal, contact-force, porous-tip (Surround Flow) irrigated",
    "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes",
    "Usable / working length": "[GAP] Not confirmed in sources fetched",
-   "Electrode count / configuration": "Multi-electrode; [GAP] count not extracted",
+   "Electrode count / configuration": "Tip electrode + 4 ring electrodes (IFU: \"tip electrode and all four ring electrodes\"); contact force sensor between 1st and 2nd ring; [GAP] electrode spacing not stated in IFU text (S40)",
    "Tip / electrode / balloon size": "3.5 mm tip electrode",
    "Irrigation": "Yes - porous tip, ~half flow of earlier irrigated catheters (J&J)",
    "Contact force sensing": "Yes",
@@ -1135,6 +1135,14 @@
    "Source type": "FDA approval order",
    "Used for device rows": "D15",
    "Accessed": "10/19/2026"
+  },
+  {
+   "Source ID": "S79",
+   "Title / description": "FDA-posted technical manual, Freezor MAX 239F3/239F5 Cardiac Cryoablation Catheter (P100010/S098 labeling)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098C.pdf",
+   "Source type": "IFU (FDA-posted)",
+   "Used for device rows": "D04",
+   "Accessed": "10/21/2026"
   }
  ],
  "notes": [
@@ -1164,7 +1172,7 @@
   },
   {
    "Category": "Gap",
-   "Note": "Usable length not verified for: DE STSF, STSF, QDOT MICRO, Volt, TactiFlex Duo, Freezor MAX, HeartLight X3; StablePoint length only from EU spec sheet (110 cm). Fill from US IFUs (manuals.eifu.abbott, jnjmedtech IFU portal, ifu-bsci.com, Medtronic manuals)."
+   "Note": "Usable length not verified for: DE STSF, STSF, QDOT MICRO, Volt, TactiFlex Duo, HeartLight X3 (Freezor MAX: 90 cm shaft length per S79); StablePoint length only from EU spec sheet (110 cm). Fill from US IFUs (manuals.eifu.abbott, jnjmedtech IFU portal, ifu-bsci.com, Medtronic manuals)."
   },
   {
    "Category": "Gap",
@@ -1193,6 +1201,10 @@
   {
    "Category": "Weekly update 10/19/2026",
    "Note": "Checked openFDA PMA data (latest ablation decisions posted: 10/02/2026). No new ablation catheter approvals or indication changes since v1. Minor supplements not changing table values: Sphere-9 P240013/S031 IFU changes (10/02), FARAPULSE P230030/S025 added supplier (10/02), TactiFlex SE P220013/S034 change-control plan (09/22). Filled TactiFlex Duo RF generator from FDA P130026/S102; PF generator still a gap."
+  },
+  {
+   "Category": "Gap fill 10/21/2026",
+   "Note": "Filled Freezor MAX (D04) French size, shaft length, electrodes/spacing and tip length from FDA-posted technical manual (S79); spacing conflict with Medtronic product page (209F models, 3.5-5-2.5 mm) logged in row note. Filled DE STSF (D11) electrode count (tip + 4 rings) from FDA-posted IFU (S40); usable length and spacing still not stated there. TactiFlex Duo SSED (P220013S028B) still not posted."
   }
  ]
 }
