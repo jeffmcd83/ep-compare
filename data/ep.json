@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-26",
  "comparison": [
   {
    "ID": "D01",
@@ -46,10 +46,10 @@
    "PMA number (supplement)": "P240013",
    "Notable recalls / safety notices": "Class 2 correction Z-1948-2026 (initiated 03/11/2026; notice 03/18/2026): ventricular fibrillation during RF therapy in patients with Biotronik ICD/CRT-D due to catheter current/ICD safety-feature interaction; caution + external defibrillation ready",
    "Source IDs - specs": "S05, S06",
-   "Source IDs - regulatory": "S07, S09",
+   "Source IDs - regulatory": "S07, S09, S80",
    "Source IDs - recalls/safety": "S08",
-   "Source URLs (all for this row)": "[S05] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf\n[S06] https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-affera-sphere-9-spec-sheet.pdf\n[S07] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013\n[S09] https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues\n[S08] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=219345",
-   "Notes / gaps for this row": "Tip diameter: 9 mm (SSED) vs 9.3 mm (spec sheet). Breakthrough Device Designation for VT (S09); Conquer-AF (redo AF) trial ongoing."
+   "Source URLs (all for this row)": "[S05] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf\n[S06] https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-affera-sphere-9-spec-sheet.pdf\n[S07] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013\n[S09] https://news.medtronic.com/2026-04-25-Medtronic-announces-key-Affera-TM-clinical-study-milestones-for-Sphere-9-TM-and-Sphere-360-TM-catheters-as-global-adoption-continues\n[S08] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=219345\n[S80] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013S028",
+   "Notes / gaps for this row": "Tip diameter: 9 mm (SSED) vs 9.3 mm (spec sheet). Breakthrough Device Designation for VT (S09); Conquer-AF (redo AF) trial ongoing. Shelf life extended from 13 to 25 months via P240013/S028 (10/06/2026; S80)."
   },
   {
    "ID": "D03",
@@ -374,7 +374,7 @@
    "Source IDs - regulatory": "S54, S56, S77, S78",
    "Source IDs - recalls/safety": "S73",
    "Source URLs (all for this row)": "[S55] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/pulse-field-ablation/tactiflex-duo-system.html\n[S54] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013S028\n[S56] https://abbott.mediaroom.com/2026-09-08-Abbott-receives-FDA-approval-for-its-TactiFlex-TM-Duo-Ablation-Catheter-to-treat-people-with-abnormal-heart-rhythms\n[S73] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?start_search=1&pnumber=P230017\n[S77] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S102\n[S78] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220013S028A.pdf",
-   "Notes / gaps for this row": "Newest US approval in set; IFU dimensional specs should be added when US IFU is accessible. FDA SSED (P220013S028B) still not posted as of 10/19/2026; approval order (S78) has no dimensional specs."
+   "Notes / gaps for this row": "Newest US approval in set; IFU dimensional specs should be added when US IFU is accessible. FDA SSED (P220013S028B) still not posted as of 10/26/2026; approval order (S78) has no dimensional specs."
   },
   {
    "ID": "D16",
@@ -1143,6 +1143,14 @@
    "Source type": "IFU (FDA-posted)",
    "Used for device rows": "D04",
    "Accessed": "10/21/2026"
+  },
+  {
+   "Source ID": "S80",
+   "Title / description": "FDA PMA database entry, P240013/S028: Sphere-9 packaging/labeling change and PCCP to extend shelf life 13 to 25 months (decision 10/06/2026)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013S028",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D02",
+   "Accessed": "10/26/2026"
   }
  ],
  "notes": [
@@ -1205,6 +1213,10 @@
   {
    "Category": "Gap fill 10/21/2026",
    "Note": "Filled Freezor MAX (D04) French size, shaft length, electrodes/spacing and tip length from FDA-posted technical manual (S79); spacing conflict with Medtronic product page (209F models, 3.5-5-2.5 mm) logged in row note. Filled DE STSF (D11) electrode count (tip + 4 rings) from FDA-posted IFU (S40); usable length and spacing still not stated there. TactiFlex Duo SSED (P220013S028B) still not posted."
+  },
+  {
+   "Category": "Weekly update 10/26/2026",
+   "Note": "Checked openFDA PMA data (database last updated 10/12/2026) for product codes QZI, OAD, OAE, LPB, DQX, OCM. No new ablation catheter approvals or indication changes. New since last week: Sphere-9 P240013/S028 (10/06) packaging/labeling change + PCCP extending shelf life 13 to 25 months (noted in D02 row, S80) and S032 (10/09) endotoxin test change; Volt P250022/S009 and S012 (10/08) minor dimensional tolerance and delivery-tool supplier changes; no table spec values changed. Gap check: TactiFlex Duo SSED (P220013S028B) and a Volt SSED (P250022B) are still not posted (404), so D14/D15 gaps remain."
   }
  ]
 }
