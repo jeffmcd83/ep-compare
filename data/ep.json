@@ -83,10 +83,10 @@
    "US status (as of 10/13/2026)": "FDA PMA approved (adjunctive device)",
    "Energy type": "Cryothermal (focal)",
    "Catheter design / form factor": "Focal deflectable cryo catheter; medium (55 mm, 239F3) or long (66 mm, 239F5) deflection reach",
-   "French size (shaft; sheath)": "[GAP] Not found in sources reviewed",
-   "Usable / working length": "[GAP] Not found",
-   "Electrode count / configuration": "[GAP] Not found",
-   "Tip / electrode / balloon size": "[GAP] Not found",
+   "French size (shaft; sheath)": "9 Fr (3 mm) shaft; 10 Fr (3.3 mm) minimum introducer sheath (FDA-posted technical manual, S79)",
+   "Usable / working length": "90 cm shaft length [labeled 'shaft length', not 'usable length'] (S79)",
+   "Electrode count / configuration": "4 electrodes on tip section; spacing 3 mm, 5 mm, 2 mm; 1 thermocouple (S79)",
+   "Tip / electrode / balloon size": "8 mm tip length (S79)",
    "Irrigation": "Not applicable (cryo)",
    "Contact force sensing": "No",
    "Mapping system compatibility": "[GAP] Not found",
@@ -95,11 +95,11 @@
    "FDA approval date (device/indication)": "Persistent-AF adjunct indication 06/23/2020 (S098); original Freezor MAX approval date not verified",
    "PMA number (supplement)": "P100010 (S098)",
    "Notable recalls / safety notices": "None found in FDA recall database search by PMA no. (searched 10/13/2026) (none Freezor-specific under P100010)",
-   "Source IDs - specs": "S13",
+   "Source IDs - specs": "S13, S79",
    "Source IDs - regulatory": "S13",
    "Source IDs - recalls/safety": "S75",
-   "Source URLs (all for this row)": "[S13] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098B.pdf\n[S75] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=104277",
-   "Notes / gaps for this row": "Included for completeness (focal cryo); dimensional specs not verified - fill from IFU."
+   "Source URLs (all for this row)": "[S13] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098B.pdf\n[S75] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=104277\n[S79] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098C.pdf",
+   "Notes / gaps for this row": "Included for completeness (focal cryo). Dimensions from FDA-posted Freezor MAX 239F3/239F5 technical manual (S79, filled 10/21/2026). Conflict: Medtronic US product page lists Freezor MAX as models 209F3/209F5 with spacing 3.5-5-2.5 mm; FDA manual for 239F3/239F5 says 3-5-2 mm. FDA value used. Mapping compatibility still a gap."
   },
   {
    "ID": "D05",
@@ -108,10 +108,10 @@
    "US status (as of 10/13/2026)": "FDA PMA approved",
    "Energy type": "Pulsed field (bipolar, biphasic)",
    "Catheter design / form factor": "Over-the-wire, 5-spline array deployable in basket/flower configurations",
-   "French size (shaft; sheath)": "9 Fr (3 mm) shaft; 10 Fr (3.3 mm) minimum introducer sheath (FDA-posted technical manual, S79)",
-   "Usable / working length": "90 cm shaft length [labeled 'shaft length', not 'usable length'] (S79)",
-   "Electrode count / configuration": "4 electrodes on tip section; spacing 3 mm, 5 mm, 2 mm; 1 thermocouple (S79)",
-   "Tip / electrode / balloon size": "8 mm tip length (S79)",
+   "French size (shaft; sheath)": "12F shaft; FARADRIVE steerable sheath 13F ID; 0.035\" guidewire (\u2265180 cm)",
+   "Usable / working length": "115 cm usable",
+   "Electrode count / configuration": "20 electrodes (5 splines \u00d7 4)",
+   "Tip / electrode / balloon size": "31 mm or 35 mm distal diameter",
    "Irrigation": "No irrigation described",
    "Contact force sensing": "No",
    "Mapping system compatibility": "No integrated navigation on non-NAV version per sources (NAV version provides OPAL HDx magnetic tracking). [Verify]",
@@ -120,11 +120,11 @@
    "FDA approval date (device/indication)": "01/30/2024 (PAF); 07/03/2025 persistent AF + posterior wall (S007)",
    "PMA number (supplement)": "P230030 (S007)",
    "Notable recalls / safety notices": "Class 2 removal Z-2278-2025 (initiated 06/25/2025): FARAWAVE 1.0 (M004PF41M401) units made on equipment that may have cracked electrode bands; 445 units. Class 2 Z-2751-2026 (06/11/2026) FARASTAR generator IFU lacked FARAPOINT info (labeling)",
-   "Source IDs - specs": "S13, S79",
+   "Source IDs - specs": "S17, S18",
    "Source IDs - regulatory": "S26, S20",
    "Source IDs - recalls/safety": "S24, S25",
    "Source URLs (all for this row)": "[S17] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030B.pdf\n[S18] https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf\n[S26] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030\n[S20] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S007\n[S24] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=214843\n[S25] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=221111",
-   "Notes / gaps for this row": "Included for completeness (focal cryo). Dimensions from FDA-posted Freezor MAX 239F3/239F5 technical manual (S79, filled 10/21/2026). Conflict: Medtronic US product page lists Freezor MAX as models 209F3/209F5 with spacing 3.5-5-2.5 mm; FDA manual for 239F3/239F5 says 3-5-2 mm. FDA value used. Mapping compatibility still a gap."
+   "Notes / gaps for this row": null
   },
   {
    "ID": "D06",
@@ -475,6 +475,106 @@
    "Source IDs - recalls/safety": "S72",
    "Source URLs (all for this row)": "[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf\n[S69] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf\n[S70] https://www.prnewswire.com/news-releases/cardiofocus-announces-us-fda-approval-of-heartlight-x3-system-for-the-treatment-of-atrial-fibrillation-301057007.html\n[S72] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212400",
    "Notes / gaps for this row": "Manual reviewed lists EU model numbers. Current US commercial availability not verified."
+  },
+  {
+   "ID": "D20",
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product (catheter)": "THERMOCOOL SMARTTOUCH catheter, non-SF (D1336xx uni / D1327xx bi)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, contact-force sensing, irrigated tip; uni- and bi-directional navigation catheters (FDA S053); curves D/F/J (uni), D-D/F-F/J-J/F-J/D-F (bi) (J&J AU page)",
+   "French size (shaft; sheath)": "8F (J&J AU page) [GAP: shaft vs. ring diameter and sheath size not in US source]",
+   "Usable / working length": "115 cm insertion length (J&J AU page)",
+   "Electrode count / configuration": "6 electrodes; spacing 1-6-2 mm (J&J AU page)",
+   "Tip / electrode / balloon size": "3.5 mm tip electrode (J&J AU page)",
+   "Irrigation": "Yes - irrigated tip (THERMOCOOL); SmartAblate and nGEN pumps compatible (FDA S095) [GAP: hole count/flow not in sources reviewed]",
+   "Contact force sensing": "Yes - real-time contact force (FDA S053)",
+   "Mapping system compatibility": "CARTO 3 (location + contact force) (FDA S053)",
+   "Required generator / console": "Compatible RF generator; nGEN Generator (FDA S122); SmartAblate or nGEN irrigation pump (FDA S095)",
+   "FDA-approved indications (catheter)": "Cardiac EP mapping and, with compatible RF generator: Type I atrial flutter (\u226518 y); recurrent drug/device-refractory sustained monomorphic VT due to prior MI in adults; drug-refractory recurrent symptomatic PAF with compatible 3D EAM system (S053). [GAP: wording of 07/18/2023 indication expansion (S126) not retrieved]",
+   "FDA approval date (device/indication)": "02/11/2014 (S053); indication expansion 07/18/2023 (S126)",
+   "PMA number (supplement)": "P030031 (S053, S126)",
+   "Notable recalls / safety notices": "Not checked (recall checks paused per Jeff, 10/2026)",
+   "Source IDs - specs": "S85, S81",
+   "Source IDs - regulatory": "S81, S82, S83, S84",
+   "Source IDs - recalls/safety": null,
+   "Source URLs (all for this row)": "[S85] https://www.jnjmedtech.com/en-AU/product/thermocool-smarttouch-catheter\n[S81] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053\n[S82] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S095\n[S83] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S122\n[S84] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S126",
+   "Notes / gaps for this row": "Added 10/26/2026 (RF batch). Dimensions from J&J Australia product page (AU ordering numbers; no US spec table found; J&J US page 403/redirects to SF). FDA SSED/IFU for S053 and S126 not posted (404). Confirm US model numbers, sheath size and S126 indication with US IFU."
+  },
+  {
+   "ID": "D21",
+   "Manufacturer": "Boston Scientific",
+   "Product (catheter)": "INTELLANAV MIFI Open-Irrigated (OI) ablation catheter (M004 PMR9620 0 / K2 / N4)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, quadripolar, open-irrigated (Total Tip Cooling) with mini electrodes in tip and magnetic (IntellaNav) tracking; Standard, Large and Asymmetric curves (BSC US page)",
+   "French size (shaft; sheath)": "7.5F shaft; tip 7.5F (BSC US page) [GAP: sheath size not on US page]",
+   "Usable / working length": "110 cm shaft length (BSC US page) [labeled shaft length]",
+   "Electrode count / configuration": "Quadripolar; 2.5 mm electrode spacing; mini electrodes in tip (BSC US page) [GAP: mini-electrode count not stated on US page]",
+   "Tip / electrode / balloon size": "4.5 mm tip (BSC US page)",
+   "Irrigation": "Yes - open irrigated (Total Tip Cooling); MetriQ pump + MetriQ irrigation tubing (BSC US page)",
+   "Contact force sensing": "No CF sensor described; DirectSense local impedance via Rhythmia HDx v4.0 (FDA S049)",
+   "Mapping system compatibility": "RHYTHMIA HDx / OPAL HDx (renamed, FDA S088); magnetic tracking (BSC US page); DirectSense (S049)",
+   "Required generator / console": "Compatible RF controller + irrigation pump (S035); Maestro connection box and MetriQ pump (BSC US page); INTELLAGEN RF generator/pump (FDA S079)",
+   "FDA-approved indications (catheter)": "With compatible RF controller and irrigation pump: cardiac EP mapping, diagnostic pacing, RF ablation of sustained or recurrent Type 1 atrial flutter (\u226518 y), and drug-refractory recurrent symptomatic PAF (\u226518 y) (S035)",
+   "FDA approval date (device/indication)": "08/22/2017 (S017, device); PAF 08/01/2018 (S035)",
+   "PMA number (supplement)": "P150005 (S017, S035)",
+   "Notable recalls / safety notices": "Not checked (recall checks paused per Jeff, 10/2026)",
+   "Source IDs - specs": "S86",
+   "Source IDs - regulatory": "S87, S88, S89, S90, S91",
+   "Source IDs - recalls/safety": null,
+   "Source URLs (all for this row)": "[S86] https://www.bostonscientific.com/en-US/products/catheters--ablation/intellanav-mifi-oi.html\n[S87] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S017\n[S88] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S035\n[S89] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S049\n[S90] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S079\n[S91] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S088",
+   "Notes / gaps for this row": "Added 10/26/2026 (RF batch). Conflict: BSC US page lists tip size 7.5F/4.5 mm (model M004 PMR9620 0); BSC EU page lists 7 F (2.34 mm)/4.5 mm tip and 110 cm effective length (model M004 EPMR9620 0). US page value used. FDA SSED for S017/S035 not posted (404)."
+  },
+  {
+   "ID": "D22",
+   "Manufacturer": "Abbott",
+   "Product (catheter)": "FlexAbility Ablation Catheter, Sensor Enabled (A-FASE-D/F/J uni; -DD/FF/JJ/DF/FJ bi)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Radiofrequency",
+   "Catheter design / form factor": "Focal, flexible open-irrigated tip electrode with magnetic sensor; no contact force; uni- or bi-directional; 8 curve configurations (FDA IFU)",
+   "French size (shaft; sheath)": "7.5 F shaft; 8 F distal section (FDA IFU/SSED) [GAP: sheath size]",
+   "Usable / working length": "115 cm length (Abbott international ordering page)",
+   "Electrode count / configuration": "Flexible tip electrode + ring electrodes (FDA SSED); spacing 1-4-1 mm (Abbott international ordering page) [GAP: ring count not stated]",
+   "Tip / electrode / balloon size": "4 mm tip electrode (Abbott international ordering page)",
+   "Irrigation": "Yes - open irrigation through laser-cut holes in flexible tip; Cool Point irrigation pump + tubing set (FDA IFU)",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "EnSite Velocity (v5.0+), EnSite Precision (v2.0+), EnSite X (v1.0+, FDA S072), MediGuide v17.x (FDA IFU/SSED)",
+   "Required generator / console": "Ampere RF Ablation Generator (H700489) via cable A-FASE-CBL4; Cool Point Irrigation Pump (FDA IFU/SSED)",
+   "FDA-approved indications (catheter)": "With compatible irrigation pump and RF generator: endocardial mapping, stimulation and ablation of typical atrial flutter; endocardial or epicardial mapping, stimulation and ablation of recurrent, drug-refractory, sustained monomorphic VT in non-ischemic structural heart disease, with compatible mapping system",
+   "FDA approval date (device/indication)": "02/17/2017 (S025, SE device, typical AFL); VT 12/14/2022 (S080)",
+   "PMA number (supplement)": "P110016 (S025, S080)",
+   "Notable recalls / safety notices": "Not checked (recall checks paused per Jeff, 10/2026)",
+   "Source IDs - specs": "S93, S92, S96",
+   "Source IDs - regulatory": "S94, S95, S92",
+   "Source IDs - recalls/safety": null,
+   "Source URLs (all for this row)": "[S93] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf\n[S92] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080B.pdf\n[S96] https://www.cardiovascular.abbott/int/en/hcp/products/electrophysiology/ablation-technology/flexability-se-ablation-catheter/about/ordering-information.html\n[S94] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P110016S025\n[S95] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P110016S080",
+   "Notes / gaps for this row": "Added 10/26/2026 (RF batch). Spacing, tip length and 115 cm length from Abbott international ordering page (same model numbers; page says commercially available in select international markets); Abbott US site has no FlexAbility page (redirects). Abbott lists French size as 8 (distal); FDA IFU 7.5 F shaft / 8 F distal."
+  },
+  {
+   "ID": "D23",
+   "Manufacturer": "Medtronic",
+   "Product (catheter)": "Freezor Xtra cardiac cryoablation catheter (217F1 / 217F3 / 217F5)",
+   "US status (as of 10/13/2026)": "FDA PMA approved",
+   "Energy type": "Cryothermal (focal)",
+   "Catheter design / form factor": "Focal, steerable deflectable catheter; 3 deflection lengths (\"reaches\") (FDA SSED)",
+   "French size (shaft; sheath)": "7F (FDA SSED) [GAP: sheath size]",
+   "Usable / working length": "[GAP] Not stated in FDA SSED; technical manual not retrieved",
+   "Electrode count / configuration": "Tip electrode + 3 closely spaced electrode bands (all record ECG); tip temperature sensing (FDA SSED) [GAP: spacing]",
+   "Tip / electrode / balloon size": "6 mm cooling segment (tip) (FDA SSED)",
+   "Irrigation": "Not applicable (cryo)",
+   "Contact force sensing": "No",
+   "Mapping system compatibility": "[GAP] Not specified in sources reviewed",
+   "Required generator / console": "Medtronic CryoConsole (FDA SSED); CryoMapping mode via CryoConsole software (FDA S099, 08/22/2021)",
+   "FDA-approved indications (catheter)": "With CryoConsole: cryoablation of conducting tissues of the heart for AVNRT; also minimally invasive cardiac surgery incl. surgical treatment of arrhythmias (S073). Pediatric use added 02/18/2022 (S098) [GAP: exact pediatric wording]",
+   "FDA approval date (device/indication)": "P020045 original 04/17/2003 (Freezor); Freezor Xtra AVNRT 08/31/2016 (S073); pediatric 02/18/2022 (S098)",
+   "PMA number (supplement)": "P020045 (S073, S098)",
+   "Notable recalls / safety notices": "Not checked (recall checks paused per Jeff, 10/2026)",
+   "Source IDs - specs": "S97, S100",
+   "Source IDs - regulatory": "S98, S99, S100, S97",
+   "Source IDs - recalls/safety": null,
+   "Source URLs (all for this row)": "[S97] https://www.accessdata.fda.gov/cdrh_docs/pdf2/P020045S073B.pdf\n[S100] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020045S113\n[S98] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020045S073\n[S99] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020045S098",
+   "Notes / gaps for this row": "Added 10/26/2026 (focal cryo, AVNRT). SSED says marketed in US since 2004 for minimally invasive cardiac surgery. Model numbers from FDA S113 (04/23/2026). Medtronic US product page blocked to scripted fetch; length, spacing and sheath still gaps."
   }
  ],
  "non_us": [
@@ -1151,6 +1251,166 @@
    "Source type": "FDA PMA database",
    "Used for device rows": "D02",
    "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S81",
+   "Title / description": "FDA PMA database, P030031/S053 (02/11/2014): THERMOCOOL SMARTTOUCH uni-/bi-directional navigation catheters approved (force sensing added to tip); indication text",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D20",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S82",
+   "Title / description": "FDA PMA database, P030031/S095 (04/29/2019): SmartAblate Irrigation Pump and nGEN Pump manuals claim compatibility with THERMOCOOL SMARTTOUCH family",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S095",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D20",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S83",
+   "Title / description": "FDA PMA database, P030031/S122 (03/08/2022): nGEN Generator approved (compatible with THERMOCOOL, NAVISTAR and CELSIUS catheters; THERMOCOOL SMARTTOUCH listed)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S122",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D20",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S84",
+   "Title / description": "FDA PMA database, P030031/S126 (07/18/2023): indication expansion for THERMOCOOL SMARTTOUCH Catheter (expanded wording not in database summary)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S126",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D20",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S85",
+   "Title / description": "J&J MedTech (Australia) product page, THERMOCOOL SMARTTOUCH uni (D133601-03) and bi-directional (D132701-05) ordering table: 8F, 3.5 mm tip, 6 electrodes, 1-6-2 mm, 115 cm insertion length",
+   "URL": "https://www.jnjmedtech.com/en-AU/product/thermocool-smarttouch-catheter",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D20",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S86",
+   "Title / description": "Boston Scientific US product page, INTELLANAV MIFI Open-Irrigated ablation catheter: ordering info (M004 PMR9620 0 / K2 / N4), MetriQ pump, OPAL HDx/RHYTHMIA HDx accessories",
+   "URL": "https://www.bostonscientific.com/en-US/products/catheters--ablation/intellanav-mifi-oi.html",
+   "Source type": "Manufacturer product page",
+   "Used for device rows": "D21",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S87",
+   "Title / description": "FDA PMA database, P150005/S017 (08/22/2017): approval of IntellaNav MiFi Open-Irrigated Ablation Catheter",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S017",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D21",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S88",
+   "Title / description": "FDA PMA database, P150005/S035 (08/01/2018): PAF indication added; marketed as IntellaTip MiFi OI and IntellaNav MiFi OI; indication text",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S035",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D21",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S89",
+   "Title / description": "FDA PMA database, P150005/S049 (04/17/2020): DirectSense RF feature in Rhythmia HDx software v4.0 for use with IntellaNav MiFi OI",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S049",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D21",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S90",
+   "Title / description": "FDA PMA database, P150005/S079 (07/17/2024): INTELLAGEN Cardiac Ablation System (alternate RF generator, irrigation pump, tubing, remote, foot pedal)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S079",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D21",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S91",
+   "Title / description": "FDA PMA database, P150005/S088 (09/02/2025): ablation connection boxes renamed from RHYTHMIA HDx to OPAL HDx Mapping System",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S088",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D21",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S92",
+   "Title / description": "FDA SSED, P110016/S080 FlexAbility Ablation Catheter, Sensor Enabled (VT indication); device description and associated devices",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D22",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S93",
+   "Title / description": "FDA-posted IFU, FlexAbility Ablation Catheter, Sensor Enabled (P110016/S080 labeling): description, models, compatible systems, indications",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf",
+   "Source type": "IFU (FDA-posted)",
+   "Used for device rows": "D22",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S94",
+   "Title / description": "FDA PMA database, P110016/S025 (02/17/2017): approval of FlexAbility Ablation Catheter, Sensor Enabled (typical atrial flutter)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P110016S025",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D22",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S95",
+   "Title / description": "FDA PMA database, P110016/S080 (12/14/2022): indication expanded to ventricular tachycardia",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P110016S080",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D22",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S96",
+   "Title / description": "Abbott (international) ordering information, FlexAbility Ablation Catheter, SE (A-FASE-D/F/J/DD/FF/JJ/DF/FJ): 8 F, 1-4-1 mm, 4 mm tip, 115 cm",
+   "URL": "https://www.cardiovascular.abbott/int/en/hcp/products/electrophysiology/ablation-technology/flexability-se-ablation-catheter/about/ordering-information.html",
+   "Source type": "Manufacturer spec sheet",
+   "Used for device rows": "D22",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S97",
+   "Title / description": "FDA SSED, P020045/S073 Freezor Xtra Cardiac CryoAblation Catheter (AVNRT indication expansion); device description",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf2/P020045S073B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "D23",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S98",
+   "Title / description": "FDA PMA database, P020045/S073 (08/31/2016): Freezor Xtra indication expanded to AVNRT",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020045S073",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D23",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S99",
+   "Title / description": "FDA PMA database, P020045/S098 (02/18/2022): Freezor and Freezor Xtra indication expanded to pediatric patients",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020045S098",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D23",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S100",
+   "Title / description": "FDA PMA database, P020045/S113 (04/23/2026): Freezor 207F1/F3/F5 and Freezor Xtra 217F1/F3/F5 coaxial connector adhesive change (model numbers)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020045S113",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "D23",
+   "Accessed": "10/26/2026"
   }
  ],
  "notes": [
@@ -1188,7 +1448,7 @@
   },
   {
    "Category": "Gap",
-   "Note": "Not yet added (candidates for v2): ThermoCool SmartTouch (non-SF), ThermoCool SF/NaviStar ThermoCool (P030031 family), IntellaNav MiFi OI / IntellaNav OI (P150005 family), FlexAbility/other Abbott irrigated non-CF catheters, Medtronic Freezor/Freezor Xtra (AVNRT), non-AF ablation catheters (VT/SVT-only 4/8 mm tips), and any other PFA systems from smaller vendors (none others found in FDA product code QZI as of 10/13/2026 besides those listed)."
+   "Note": "Not yet added (candidates): ThermoCool SF/NaviStar ThermoCool (P030031 family), IntellaNav OI / IntellaTip MiFi OI / Blazer OI (P150005 family), other Abbott irrigated non-CF catheters (e.g., Safire BLU, Cool Path), original 7F Freezor 207F (AVNRT), non-AF ablation catheters (VT/SVT-only 4/8 mm tips), and any other PFA systems from smaller vendors (none others found in FDA product code QZI as of 10/13/2026 besides those listed). Added 10/26/2026: ThermoCool SmartTouch non-SF (D20), IntellaNav MiFi OI (D21), FlexAbility SE (D22), Freezor Xtra (D23). Next batches: generators, then mapping systems."
   },
   {
    "Category": "Gap",
@@ -1217,6 +1477,14 @@
   {
    "Category": "Weekly update 10/26/2026",
    "Note": "Checked openFDA PMA data (database last updated 10/12/2026) for product codes QZI, OAD, OAE, LPB, DQX, OCM. No new ablation catheter approvals or indication changes. New since last week: Sphere-9 P240013/S028 (10/06) packaging/labeling change + PCCP extending shelf life 13 to 25 months (noted in D02 row, S80) and S032 (10/09) endotoxin test change; Volt P250022/S009 and S012 (10/08) minor dimensional tolerance and delivery-tool supplier changes; no table spec values changed. Gap check: TactiFlex Duo SSED (P220013S028B) and a Volt SSED (P250022B) are still not posted (404), so D14/D15 gaps remain."
+  },
+  {
+   "Category": "RF batch 10/26/2026",
+   "Note": "Added 4 US PMA-approved focal catheters: D20 THERMOCOOL SMARTTOUCH (non-SF, P030031/S053), D21 INTELLANAV MIFI OI (P150005/S017, S035), D22 FlexAbility SE (P110016/S025, S080), D23 Freezor Xtra (P020045/S073). Sources S81-S100. Recalls not checked for new rows (recall checks paused per Jeff). Remaining gaps: D20 sheath size and S126 expanded indication wording (specs from J&J AU page, no US spec table); D21 sheath size and mini-electrode count; D22 sheath size and ring-electrode count (spacing/length from Abbott international page); D23 length, spacing, sheath and mapping compatibility. Conflict: D21 tip size BSC US page 7.5F/4.5 mm vs. EU page 7 F/4.5 mm."
+  },
+  {
+   "Category": "Data fix 10/26/2026",
+   "Note": "D05 FARAWAVE row had Freezor MAX dimensions (French size, length, electrodes, tip, spec source IDs, note) and D04 Freezor MAX showed gaps. Restored D05 values from the 10/19/2026 published version (S17, S18) and moved the S79 Freezor MAX values to D04."
   }
  ]
 }
