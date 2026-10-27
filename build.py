@@ -19,6 +19,7 @@ ch, comp = rows('Comparison'); nh, nonus = rows('Non-US & pipeline'); sh, srcs =
 gh, gens = rows('Generators') if 'Generators' in wb.sheetnames else ([], [])
 mh, maps = rows('Mapping systems') if 'Mapping systems' in wb.sheetnames else ([], [])
 shh, shs = rows('Sheaths & transseptal') if 'Sheaths & transseptal' in wb.sheetnames else ([], [])
+xh, xs = rows('Diagnostic & ICE') if 'Diagnostic & ICE' in wb.sheetnames else ([], [])
 src = {str(s['Source ID']).strip(): s for s in srcs}
 
 def guides_menu():
@@ -114,6 +115,20 @@ for r in shs:
     tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
     str_.append('<tr>' + ''.join(tds) + '</tr>')
 sth = ''.join(f'<th>{e(c)}</th>' for c in scols) + '<th>Sources</th>'
+xcols = [c for c in xh if c and c not in GSKIP]
+xgap = 0; xtr = []
+for r in xs:
+    tds = []
+    for c in xcols:
+        s_ = '' if r.get(c) is None else str(r.get(c))
+        g = bool(GAP.search(s_)); xgap += g
+        if not s_.strip(): body = '' if c == 'Notes / gaps for this row' else '<mark class="gp">[GAP]</mark>'; xgap += c != 'Notes / gaps for this row'
+        else: body = linkify(s_)
+        if c == 'Product': body = f'<b>{body}</b>'
+        tds.append(f'<td{" class=gap" if g else ""}>{body}</td>')
+    tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
+    xtr.append('<tr>' + ''.join(tds) + '</tr>')
+xth = ''.join(f'<th>{e(c)}</th>' for c in xcols) + '<th>Sources</th>'
 nu = ''.join('<tr>' + ''.join(f'<td>{linkify(x.get(c))}</td>' for c in nh) + '</tr>' for x in nonus)
 nuh = ''.join(f'<th>{e(c)}</th>' for c in nh)
 cats = {}
@@ -128,7 +143,7 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 <title>{TITLE}</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#111827"><meta name="color-scheme" content="light">
 <style>{crm}</style></head><body>
 <header><h1>{TITLE}</h1>{guides_menu()}<span class="pass">{len(comp)} US-approved catheters · updated {updated}</span>
-<nav class="tabs"><button data-t="cmp" class="on">Comparison</button><button data-t="gen">Generators</button><button data-t="map">Mapping systems</button><button data-t="sh">Sheaths &amp; transseptal</button><button data-t="nus">Non-US &amp; pipeline</button><button data-t="nts">Notes &amp; gaps</button><button data-t="src">Sources</button></nav></header>
+<nav class="tabs"><button data-t="cmp" class="on">Comparison</button><button data-t="gen">Generators</button><button data-t="map">Mapping systems</button><button data-t="sh">Sheaths &amp; transseptal</button><button data-t="dx">Diagnostic &amp; ICE</button><button data-t="nus">Non-US &amp; pipeline</button><button data-t="nts">Notes &amp; gaps</button><button data-t="src">Sources</button></nav></header>
 <main>
 <section id="cmp" class="pane on">
 <div class="flt"><input id="q" placeholder="Filter (product, spec, indication…)" aria-label="Filter"><select id="fe"><option value="">All energy types</option>{opt(energies)}</select><select id="fm"><option value="">All manufacturers</option>{opt(mfrs)}</select>
@@ -138,6 +153,7 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 <section id="gen" class="pane"><div class="nc"><p>US FDA-approved ablation generators and consoles. <mark class="gp">[GAP]</mark> = not found in an authoritative source.</p></div><div class="wrap rwrap"><table id="gt"><thead><tr>{gth}</tr></thead><tbody>{"".join(gtr)}</tbody></table></div></section>
 <section id="map" class="pane"><div class="nc"><p>US FDA-cleared 3D electroanatomic mapping / navigation systems. <mark class="gp">[GAP]</mark> = not found in an authoritative source.</p></div><div class="wrap rwrap"><table id="mt"><thead><tr>{mth}</tr></thead><tbody>{"".join(mtr)}</tbody></table></div></section>
 <section id="sh" class="pane"><div class="nc"><p>US FDA-cleared EP access tools: steerable and fixed-curve sheaths, transseptal needles, dilators and RF wires. <mark class="gp">[GAP]</mark> = not found in an authoritative source.</p></div><div class="wrap rwrap"><table id="st"><thead><tr>{sth}</tr></thead><tbody>{"".join(str_)}</tbody></table></div></section>
+<section id="dx" class="pane"><div class="nc"><p>US FDA-cleared EP diagnostic/mapping catheters and intracardiac echo (ICE) catheters. <mark class="gp">[GAP]</mark> = not found in an authoritative source.</p></div><div class="wrap rwrap"><table id="xt"><thead><tr>{xth}</tr></thead><tbody>{"".join(xtr)}</tbody></table></div></section>
 <section id="nus" class="pane"><div class="nc"><p>Not FDA approved as of the data date; listed for awareness only.</p></div><div class="wrap"><table id="nt"><thead><tr>{nuh}</tr></thead><tbody>{nu}</tbody></table></div></section>
 <section id="nts" class="pane">{nt}</section>
 <section id="src" class="pane"><div class="wrap rwrap"><table id="st"><thead><tr><th>ID</th><th>Title</th><th>URL</th><th>Type</th><th>Rows</th><th>Accessed</th></tr></thead><tbody>{sr}</tbody></table></div></section>
@@ -155,5 +171,5 @@ open(os.path.join(OUT, 'index.html'), 'w').write(page)
 open(os.path.join(OUT, 'sw.js'), 'w').write("const P='ep-',C=P+'%s';self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./favicon.svg','./data/ep.json','./manifest.webmanifest'])))});self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith(P)&&x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(caches.open(C).then(c=>fetch(e.request,{cache:'no-cache'}).then(r=>{if(r.ok)c.put(e.request,r.clone());return r}).catch(()=>c.match(e.request,{ignoreSearch:true}))))});" % datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
 json.dump({'name': TITLE, 'short_name': 'EP Guide', 'start_url': './', 'scope': './', 'display': 'standalone', 'background_color': '#111827', 'theme_color': '#111827', 'icons': [{'src': 'favicon.svg', 'sizes': 'any', 'type': 'image/svg+xml'}]}, open(os.path.join(OUT, 'manifest.webmanifest'), 'w'), indent=1)
 os.makedirs(os.path.join(OUT, 'data'), exist_ok=True)
-json.dump({'updated': updated, 'comparison': comp, 'generators': gens, 'mapping_systems': maps, 'sheaths': shs, 'non_us': nonus, 'sources': srcs, 'notes': notes}, open(os.path.join(OUT, 'data/ep.json'), 'w'), default=str, indent=1)
-print(f'built: {len(comp)} catheters, {ngap} gap cells, {nconf} conflict rows, {len(gens)} generators ({ggap} gap cells), {len(maps)} mapping systems ({mgap} gap cells), {len(shs)} sheaths ({sgap} gap cells), {len(nonus)} non-US, {len(srcs)} sources')
+json.dump({'updated': updated, 'comparison': comp, 'generators': gens, 'mapping_systems': maps, 'sheaths': shs, 'diagnostic_ice': xs, 'non_us': nonus, 'sources': srcs, 'notes': notes}, open(os.path.join(OUT, 'data/ep.json'), 'w'), default=str, indent=1)
+print(f'built: {len(comp)} catheters, {ngap} gap cells, {nconf} conflict rows, {len(gens)} generators ({ggap} gap cells), {len(maps)} mapping systems ({mgap} gap cells), {len(shs)} sheaths ({sgap} gap cells), {len(xs)} diagnostic/ICE ({xgap} gap cells), {len(nonus)} non-US, {len(srcs)} sources')
