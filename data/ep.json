@@ -804,6 +804,136 @@
    "Notes / gaps for this row": null
   }
  ],
+ "mapping_systems": [
+  {
+   "ID": "M01",
+   "Manufacturer": "Biosense Webster (J&J MedTech)",
+   "System": "CARTO 3 EP Navigation System (FG-5400-00 / FG-5400-00U)",
+   "Current version": "V9.0 with PIU Plus (K254085, S118). V8.4 was cleared later, on 02/20/2026 (S119)",
+   "Localization technology": "Hybrid: magnetic sensor technology plus Advanced Catheter Location (ACL) technology (S118)",
+   "Compatible ablation catheters (exact models)": "VARIPULSE D141201 (S33, S119); QDOT MICRO (S47); Dual Energy THERMOCOOL SMARTTOUCH SF (S40); THERMOCOOL SMARTTOUCH SF (S42); THERMOCOOL SMARTTOUCH non-SF (S81). [GAP] A full FDA list of compatible catheters is not in the 510(k) summaries",
+   "Compatible mapping / diagnostic catheters": "[GAP] Not named in the 510(k) summaries reviewed (S118, S119)",
+   "Compatible generators / integrations": "TRUPULSE generator (S33); nGEN via TX eco cable, CARTO v6 and later (S47); \"3rd party compatible medical devices\" tested (S118). Hardware: PIU Plus/PIU, Location Pad, Patches Connection Box (S118)",
+   "ICE integration": "Yes: CARTOSOUND REVEAL module (V8.4) with SOUNDSTAR catheter family and NUVISION NAV ultrasound catheter (S119)",
+   "FDA 510(k)/PMA number": "K254085 (V9.0); K252972 (V8.4)",
+   "FDA clearance date": "01/18/2026 (V9.0); 02/20/2026 (V8.4)",
+   "Source IDs": "S118, S119, S33, S47, S40, S42, S81",
+   "Source URLs (all for this row)": "[S118] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254085.pdf\n[S119] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252972.pdf\n[S33] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf\n[S47] https://www.accessdata.fda.gov/cdrh_docs/pdf21/P210027B.pdf\n[S40] https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S141D.pdf\n[S42] https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/\n[S81] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M02",
+   "Manufacturer": "Abbott",
+   "System": "EnSite X EP System",
+   "Current version": "v6.1 with EnSite AI Geo Software Licenses (K261729, S120)",
+   "Localization technology": "Hybrid: magnetic-primary or impedance-based navigation modes (S126); Surface Electrode Kit (S126)",
+   "Compatible ablation catheters (exact models)": "Volt PFA catheter SE A-VOLT-01 (v4.0, S123); TactiFlex Duo SE (v6.0, S122); TactiFlex SE (S135); FlexAbility SE (v1.0+, S93). Visualization of FARAWAVE (v3.1, S125)",
+   "Compatible mapping / diagnostic catheters": "Advisor VL Circular SE, Advisor FL Circular SE, Advisor HD Grid SE (S126); Advisor HD Grid X SE (v3.1, S125)",
+   "Compatible generators / integrations": "Current PFA Generator (v4.0, S123); TactiSys Quartz Equipment for the Contact Force module (S121); PFA Index license (S121); AI Geo license (S120)",
+   "ICE integration": "Yes: ViewFlex X ICE Catheter SE with Mindray ViewMate Multi Ultrasound System V2.0; 2D ICE features (v5.0, S124)",
+   "FDA 510(k)/PMA number": "K261729 (v6.1); K262006; K260212; K252013; K251234; K242016; K223094; K202066 (original)",
+   "FDA clearance date": "09/17/2026 (v6.1); 11/25/2020 (original)",
+   "Source IDs": "S120, S121, S122, S123, S124, S125, S126, S135, S93",
+   "Source URLs (all for this row)": "[S120] https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261729.pdf\n[S121] https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262006.pdf\n[S122] https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260212.pdf\n[S123] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252013.pdf\n[S124] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251234.pdf\n[S125] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242016.pdf\n[S126] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202066.pdf\n[S135] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223094\n[S93] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M03",
+   "Manufacturer": "Abbott",
+   "System": "EnSite Precision Cardiac Mapping System",
+   "Current version": "v2.6 (K201148, S127) [GAP: newer version or current US marketing status not verified]",
+   "Localization technology": "Impedance only, or impedance plus magnetics via the MediGuide Technology System or EnSite Precision Module (S127)",
+   "Compatible ablation catheters (exact models)": "FlexAbility SE (EnSite Precision v2.0+, S93); TactiCath SE (catalog, S61)",
+   "Compatible mapping / diagnostic catheters": "[GAP] Not named in K201148",
+   "Compatible generators / integrations": "MediGuide Technology System; EnSite Precision Module (S127). Affera Impedance Localization Patch Kit, EnSite Precision variant (S131)",
+   "ICE integration": "[GAP] Not found",
+   "FDA 510(k)/PMA number": "K201148",
+   "FDA clearance date": "06/26/2020",
+   "Source IDs": "S127, S93, S61, S131",
+   "Source URLs (all for this row)": "[S127] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201148.pdf\n[S93] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf\n[S61] https://www.cardiovascular.abbott/content/dam/cv/cardiovascular/hcp/products/electrophysiology/tacticath-se/documents/ep-tacticath-se-full-catalog-page.pdf\n[S131] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241828.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M04",
+   "Manufacturer": "Boston Scientific",
+   "System": "RHYTHMIA HDx Mapping System (rebranded OPAL HDx Mapping System, S91)",
+   "Current version": "Software v6.0 (K241227, S128)",
+   "Localization technology": "Hybrid: magnetic and impedance-based localization (S128)",
+   "Compatible ablation catheters (exact models)": "FARAWAVE NAV and FARAPOINT PFA catheters (S128); INTELLANAV STABLEPOINT with Force Computation module (S30); IntellaNav MiFi OI with DirectSense (Rhythmia HDx v4.0, S89)",
+   "Compatible mapping / diagnostic catheters": "INTELLAMAP ORION (S128)",
+   "Compatible generators / integrations": "Maestro 4000 (S110); FARASTAR via FARASTAR Mapping System Module (S21); Signal Station (SiS) for recording systems (S128); CT/MRI import from PACS (S128)",
+   "ICE integration": "[GAP] Not found",
+   "FDA 510(k)/PMA number": "K241227 (v6.0); K192438; K162793",
+   "FDA clearance date": "08/29/2024 (v6.0)",
+   "Source IDs": "S128, S91, S30, S89, S21, S110",
+   "Source URLs (all for this row)": "[S128] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241227.pdf\n[S91] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S088\n[S30] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S074B.pdf\n[S89] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S049\n[S21] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030S012B.pdf\n[S110] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S014B.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M05",
+   "Manufacturer": "Medtronic (Affera)",
+   "System": "Affera Integrated Mapping System (originally Affera Mapping System AFR-00003)",
+   "Current version": "[GAP] Version not stated; latest clearance K262005 (S129)",
+   "Localization technology": "Hybrid: electromagnetic (field generator under the table, passive sensors) plus impedance tracking (S129, S130, S131)",
+   "Compatible ablation catheters (exact models)": "Sphere-9 AFR-00001 (S05); \"additional Affera catheters\" (S129) [GAP: models not named]",
+   "Compatible mapping / diagnostic catheters": "Compatible Medtronic and third-party catheters without EM sensors via the impedance patch kit (S131) [GAP: models not named]",
+   "Compatible generators / integrations": "HexaGen RF AFR-00004 and HexaPulse PF AFR-00008 (S05); Location Reference Patch Kit AFR-00007 (S130); Impedance Localization Patch Kit (S131)",
+   "ICE integration": "[GAP] Not found",
+   "FDA 510(k)/PMA number": "K262005; K243892; K241828; K233943 (original)",
+   "FDA clearance date": "08/21/2026 (latest); 03/08/2024 (original)",
+   "Source IDs": "S129, S130, S131, S05",
+   "Source URLs (all for this row)": "[S129] https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262005.pdf\n[S130] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233943.pdf\n[S131] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241828.pdf\n[S05] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M06",
+   "Manufacturer": "Kardium",
+   "System": "Globe Pulsed Field System, mapping components (Globe Controller 601-00048 + Globe Workstation 601-00064)",
+   "Current version": "[GAP] Software version not stated",
+   "Localization technology": "Impedance-based tracking via Globe Positioning System (GPS) surface electrodes 601-00037 and GPS cable (S132, S67)",
+   "Compatible ablation catheters (exact models)": "Globe catheter 601-01000 (S67)",
+   "Compatible mapping / diagnostic catheters": "Globe catheter 601-01000 (mapping and stimulation) (S132, S67)",
+   "Compatible generators / integrations": "Globe PF Generator 601-00060 (S67)",
+   "ICE integration": "[GAP] Not found",
+   "FDA 510(k)/PMA number": "K250747 (mapping); P240044 (ablation system, S68)",
+   "FDA clearance date": "06/25/2025 (K250747); 08/27/2025 (P240044)",
+   "Source IDs": "S132, S67, S68",
+   "Source URLs (all for this row)": "[S132] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250747.pdf\n[S67] https://kardium.com/wp-content/uploads/2026/04/410-00004-EN-USA-Product-Spec-Sheet-1.pdf\n[S68] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240044",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M07",
+   "Manufacturer": "Medtronic",
+   "System": "CardioInsight Cardiac Mapping System (CIT200)",
+   "Current version": "v3.5 (K181918, S133)",
+   "Localization technology": "Non-invasive: body-surface ECG from a Sensor Array vest combined with CT geometry (no catheter localization) (S133)",
+   "Compatible ablation catheters (exact models)": "Not applicable (non-invasive) (S133)",
+   "Compatible mapping / diagnostic catheters": "Not applicable; Sensor Array vests CITVST0001S-0004XL (S133)",
+   "Compatible generators / integrations": "CT scan required (S133)",
+   "ICE integration": "Not applicable",
+   "FDA 510(k)/PMA number": "K181918; K162440 (original)",
+   "FDA clearance date": "11/08/2018 (v3.5); 11/04/2016 (original)",
+   "Source IDs": "S133",
+   "Source URLs (all for this row)": "[S133] https://www.accessdata.fda.gov/cdrh_docs/pdf18/K181918.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "M08",
+   "Manufacturer": "Philips",
+   "System": "KODEX-EPD System",
+   "Current version": "1.5.0 (K212493, S134) [GAP: current US marketing status not verified]",
+   "Localization technology": "Impedance localization plus dielectric mapping (electrical fields and impedances) (S134)",
+   "Compatible ablation catheters (exact models)": "Off-the-shelf EP ablation catheters (S134) [GAP: no model list]",
+   "Compatible mapping / diagnostic catheters": "Off-the-shelf EP catheters, up to 4 diagnostic catheters (S134)",
+   "Compatible generators / integrations": "Catheter key; 7 body-patch inputs; D700 diagnostic catheter connection (S134)",
+   "ICE integration": "[GAP] Not found",
+   "FDA 510(k)/PMA number": "K212493; K180940 (original)",
+   "FDA clearance date": "10/24/2022 (1.5.0); 10/24/2018 (original)",
+   "Source IDs": "S134",
+   "Source URLs (all for this row)": "[S134] https://www.accessdata.fda.gov/cdrh_docs/pdf21/K212493.pdf",
+   "Notes / gaps for this row": null
+  }
+ ],
  "non_us": [
   {
    "Manufacturer": "Medtronic (Affera)",
@@ -1774,6 +1904,150 @@
    "Source type": "FDA PMA database",
    "Used for device rows": "G14",
    "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S118",
+   "Title / description": "FDA 510(k) summary K254085 (01/18/2026): CARTO 3 EP Navigation System V9.0 with PIU Plus (FG-5400-00); two location technologies, magnetic sensor and Advanced Catheter Location (ACL)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254085.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M01",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S119",
+   "Title / description": "FDA 510(k) summary K252972 (02/20/2026): CARTO 3 EP Navigation System V8.4; CARTOSOUND REVEAL module (SOUNDSTAR family and NUVISION NAV ultrasound catheters); VARIPULSE referenced",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252972.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M01",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S120",
+   "Title / description": "FDA 510(k) summary K261729 (09/17/2026): EnSite X EP System v6.1 with EnSite AI Geo Software Licenses; Contact Force module with compatible catheters",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261729.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S121",
+   "Title / description": "FDA 510(k) summary K262006 (07/15/2026): EnSite X EP System, Pulsed Field Ablation Index Software License; Contact Force module with TactiSys Quartz Equipment",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262006.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S122",
+   "Title / description": "FDA 510(k) summary K260212 (04/20/2026): EnSite X EP System v6.0 with TactiFlex Duo Software Licenses (compatibility with TactiFlex Duo Ablation Catheter, SE)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260212.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S123",
+   "Title / description": "FDA 510(k) summary K252013 (09/25/2025): EnSite X EP System v4.0 with Volt PFA Software Licenses (compatibility with Current PFA Generator and Volt PFA Catheter, SE)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252013.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S124",
+   "Title / description": "FDA 510(k) summary K251234 (07/30/2025): EnSite X EP System v5.0 (ViewFlex X ICE Catheter, SE; Mindray ViewMate Multi Ultrasound System V2.0; 2D ICE features)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251234.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S125",
+   "Title / description": "FDA 510(k) summary K242016 (08/09/2024): EnSite X EP System v3.1 (Advisor HD Grid X, SE compatibility; Farawave catheter visualization)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242016.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S126",
+   "Title / description": "FDA 510(k) summary K202066 (11/25/2020): original EnSite X EP System (magnetic-primary or impedance-based navigation modes) with Advisor VL, Advisor FL and Advisor HD Grid SE mapping catheters; Surface Electrode Kit",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202066.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S127",
+   "Title / description": "FDA 510(k) summary K201148 (06/26/2020): EnSite Precision Cardiac Mapping System v2.6 (impedance only, or impedance plus magnetics via MediGuide Technology System or EnSite Precision Module)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201148.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M03",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S128",
+   "Title / description": "FDA 510(k) summary K241227 (08/29/2024): RHYTHMIA HDx Mapping System, software v6.0; magnetic and impedance localization; FARAWAVE NAV, FARAPOINT and INTELLAMAP ORION compatibility",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241227.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M04",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S129",
+   "Title / description": "FDA 510(k) summary K262005 (08/21/2026): Affera Integrated Mapping System; combined electromagnetic and impedance tracking; compatibility with additional Affera catheters",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262005.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M05",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S130",
+   "Title / description": "FDA 510(k) summary K233943 (03/08/2024): Affera Mapping System AFR-00003, Location Reference Patch Kit AFR-00007 (magnetic field generator under table; passive magnetic sensors)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233943.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M05",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S131",
+   "Title / description": "FDA 510(k) summary K241828 (11/01/2024): Affera Integrated Mapping System and Impedance Localization Patch Kit (incl. EnSite Precision variant); optional hybrid electromagnetic-impedance tracking",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241828.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M05",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S132",
+   "Title / description": "FDA 510(k) summary K250747 (06/25/2025): Globe Pulsed Field System mapping components (Globe Controller, Workstation, GPS electrodes and cable); impedance-based tracking",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250747.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M06",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S133",
+   "Title / description": "FDA 510(k) summary K181918 (11/08/2018): CardioInsight Cardiac Mapping System v3.5 (CIT200), non-invasive Sensor Array vest (CITVST0001S-0004XL) plus CT",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K181918.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M07",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S134",
+   "Title / description": "FDA 510(k) summary K212493 (10/24/2022): KODEX-EPD System 1.5.0; impedance localization and dielectric mapping; off-the-shelf EP catheters (up to 4 diagnostic)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K212493.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "M08",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S135",
+   "Title / description": "FDA 510(k) database K223094 (12/27/2022): EnSite X EP System TactiFlex Ablation Catheter, SE software upgrade",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223094",
+   "Source type": "FDA 510(k) database",
+   "Used for device rows": "M02",
+   "Accessed": "10/26/2026"
   }
  ],
  "notes": [
@@ -1876,6 +2150,42 @@
   {
    "Category": "Generators batch 10/26/2026",
    "Note": "Naming note: D03 cites \"Nitron CryoConsole\" from the product page; FDA SSED names \"CryoConsole (Model 106A2)\"."
+  },
+  {
+   "Category": "Mapping systems batch 10/26/2026",
+   "Note": "Added a Mapping systems sheet with 8 US FDA-cleared 3D mapping/navigation systems (M01-M08), all verified in openFDA 510(k) records and summaries. Sources S118-S135 added."
+  },
+  {
+   "Category": "Mapping systems batch 10/26/2026",
+   "Note": "Left out: Acutus AcQMap (last 510(k) K231091, 07/2023; current status not verified); Volta AF-Xplorer/VX1 and Boston Scientific OptiMap (K251344) (AF-driver/EGM analysis software, not 3D EAM navigation); Imricor NorthStar (MRI-guided, K261119); Stereotaxis, Vektor vMap, Corify ACORYS, Rhythm AI STAR, PhysCade (niche or adjunct systems, not reviewed)."
+  },
+  {
+   "Category": "Mapping systems batch 10/26/2026",
+   "Note": "Mapping gaps: few exact diagnostic-catheter models are named in the 510(k) summaries (only EnSite X Advisor models and RHYTHMIA ORION); ICE integration found only for CARTO (CARTOSOUND REVEAL/SOUNDSTAR/NUVISION NAV) and EnSite X (ViewFlex X); version numbers not stated for Affera and Globe; current US status of EnSite Precision and KODEX-EPD not verified."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Mapping cross-check: D17 TactiCath SE says \"EnSite (catalog lists EnSite Precision)\", but none of the EnSite X 510(k) summaries reviewed (S120-S126, S135) names TactiCath SE. EnSite X compatibility is unconfirmed."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Mapping cross-check: D05 FARAWAVE (non-NAV) says \"no integrated navigation\", but EnSite X v3.1 (K242016, S125) added \"Farawave catheter visualization\". The FDA summary does not say which FARAWAVE version."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Mapping cross-check: D02 / G02 list \"Prism-1\" and \"HexaMap CIU\" for the Affera mapping system; neither name appears in FDA 510(k) summaries K233943/K241828/K262005 (S129-S131), which use \"Affera Mapping System\" / \"Affera Integrated Mapping System\"."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Mapping cross-check, naming: D05/D06/D07/D21 say \"OPAL HDx\" and D09/G10 say \"RHYTHMIA HDx\". It is the same system: the latest 510(k) (K241227, S128) uses RHYTHMIA HDx, and the rebrand to OPAL HDx is in P150005/S088 (S91). Also, D06/D07 say \"FARAVIEW\" module, while G04 says \"FARASTAR Mapping System Module\" (S21)."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Mapping cross-check, version: D11 DE STSF cites CARTO 3 v7.9 (IFU clinical study); the current cleared CARTO 3 is V9.0 (K254085, S118)."
+  },
+  {
+   "Category": "Mapping systems batch 10/26/2026",
+   "Note": "Mapping cross-check, consistent: D10/G06 (CARTO 3 + VARIPULSE/TRUPULSE), D12/D13/D20/G07 (CARTO 3), D14/G05 (EnSite X + Volt/Current, K252013), D15 (EnSite X v6.0 TactiFlex Duo licence, K260212), D16 (EnSite X, K223094), D22 (EnSite X/Precision), D18/G15 (Globe, K250747), D09/D21/G10 (RHYTHMIA HDx), D06/D07/G04 (FARAWAVE NAV/FARAPOINT in RHYTHMIA HDx v6.0, K241227). Catheter and generator rows were not changed."
   }
  ]
 }
