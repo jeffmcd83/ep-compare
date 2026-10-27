@@ -577,6 +577,233 @@
    "Notes / gaps for this row": "Added 10/26/2026 (focal cryo, AVNRT). SSED says marketed in US since 2004 for minimally invasive cardiac surgery. Model numbers from FDA S113 (04/23/2026). Medtronic US product page blocked to scripted fetch; length, spacing and sheath still gaps."
   }
  ],
+ "generators": [
+  {
+   "ID": "G01",
+   "Manufacturer": "Medtronic",
+   "Generator / console": "PulseSelect PFA generator",
+   "Energy type(s)": "Pulsed field (bipolar, biphasic)",
+   "Compatible catheters (exact models)": "PulseSelect PFA loop catheter PSCC100 (S01, S02)",
+   "Compatible mapping systems": "[GAP] No 3D-mapping integration described in FDA SSED; EGM cable PSEGM100 to EP recording/pacing system (S01)",
+   "Pumps / accessories": "Catheter interface cable PSCIC101 (sterile, single use); remote control PSRC100 series; foot switch PSFS100; power cord PWC101; EGM cable PSEGM100 (S01)",
+   "Key output specs": "1500 V displayed = baseline-to-peak amplitude of PFA waveform; test pulse at low voltage to check phrenic response; R-wave-synchronized delivery via external trigger monitor (S01); R-wave gating made optional by P230017/S009, 02/17/2026 (S04). Generator model number [GAP]",
+   "PMA number (supplement)": "P230017 (original); S009",
+   "FDA approval date": "12/13/2023 (original); 02/17/2026 (S009)",
+   "Source IDs": "S01, S02, S03, S04",
+   "Source URLs (all for this row)": "[S01] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230017B.pdf\n[S02] https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-pulseselect-catheter-components-spec-sheet.pdf\n[S03] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230017\n[S04] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230017S009",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G02",
+   "Manufacturer": "Medtronic (Affera)",
+   "Generator / console": "HexaGen RF generator (AFR-00004)",
+   "Energy type(s)": "Radiofrequency (also user interface/control unit of the Affera Ablation System)",
+   "Compatible catheters (exact models)": "Sphere-9 catheter AFR-00001 (S05)",
+   "Compatible mapping systems": "Affera mapping system (HexaMap catheter interface unit; Prism-1 per catheter row) (S05)",
+   "Pumps / accessories": "HexaFlow irrigation pump AFR-00005; tubing set AFR-00002; catheter extension cable AFR-00006; foot pedal, remote control, return electrode adapter, fiber-optic communication cable, generator link cable (S05)",
+   "Key output specs": "[GAP] Power/temperature settings not extracted from SSED",
+   "PMA number (supplement)": "P240013",
+   "FDA approval date": "10/24/2024",
+   "Source IDs": "S05, S07, S80",
+   "Source URLs (all for this row)": "[S05] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf\n[S07] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013\n[S80] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013S028",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G03",
+   "Manufacturer": "Medtronic (Affera)",
+   "Generator / console": "HexaPulse PF generator (AFR-00008)",
+   "Energy type(s)": "Pulsed field (\"low-energy, high-voltage pulses\")",
+   "Compatible catheters (exact models)": "Sphere-9 catheter AFR-00001 (S05)",
+   "Compatible mapping systems": "Affera mapping system (works with HexaGen and HexaMap CIU) (S05)",
+   "Pumps / accessories": "Generator link cable, ablation return link cable, generator communication cables (2), power cord, equipotential cable (S05)",
+   "Key output specs": "[GAP] Voltage/waveform values not stated in SSED",
+   "PMA number (supplement)": "P240013",
+   "FDA approval date": "10/24/2024",
+   "Source IDs": "S05, S07",
+   "Source URLs (all for this row)": "[S05] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240013B.pdf\n[S07] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240013",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G04",
+   "Manufacturer": "Boston Scientific",
+   "Generator / console": "FARASTAR Pulsed Field Ablation Generator (M004PF61M401)",
+   "Energy type(s)": "Pulsed field (PEF; proprietary FARAPULSE biphasic, bipolar waveform)",
+   "Compatible catheters (exact models)": "FARAWAVE PFA catheter (P230030); FARAWAVE NAV (P230030/S003); FARAPOINT (P230030/S012) (S17, S19, S21)",
+   "Compatible mapping systems": "OPAL HDx via FARASTAR Mapping System Module listed in P230030/S012 SSED (S21); [GAP] mapping module not listed in original approval (S26)",
+   "Pumps / accessories": "FARASTAR Recording System Module M004PF61M407; FARASTAR catheter connection cable; stimulation module, EGM and ECG cables (S18, S26)",
+   "Key output specs": "Input 120 V / 60 Hz; output: proprietary biphasic, bipolar waveform; 110 kg; articulating touchscreen (S18). Output voltage value [GAP]",
+   "PMA number (supplement)": "P230030 (original); S003; S012",
+   "FDA approval date": "01/30/2024 (original)",
+   "Source IDs": "S17, S18, S21, S26, S19, S22",
+   "Source URLs (all for this row)": "[S17] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030B.pdf\n[S18] https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf\n[S21] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030S012B.pdf\n[S26] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030\n[S19] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S003\n[S22] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230030S012",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G05",
+   "Manufacturer": "Abbott",
+   "Generator / console": "Current PFA Generator",
+   "Energy type(s)": "Pulsed field",
+   "Compatible catheters (exact models)": "Volt PFA catheter, Sensor Enabled A-VOLT-01 (S50). FDA P250022/S005 trade name also lists \"TactiFlex Duo\" (S101) [GAP: pairing not confirmed in an IFU]",
+   "Compatible mapping systems": "EnSite X EP System (per Volt catheter indication) (S50)",
+   "Pumps / accessories": "Additional accessory cable approved P250022/S003 (S102); Current PFA Unified Cable (TactiFlex Duo approval order, S78)",
+   "Key output specs": "[GAP] No output specs found in FDA records; Volt SSED not retrieved",
+   "PMA number (supplement)": "P250022 (original); S003; S005",
+   "FDA approval date": "12/19/2025 (original); 04/16/2026 (S003); 07/23/2026 (S005)",
+   "Source IDs": "S49, S50, S101, S102, S78",
+   "Source URLs (all for this row)": "[S49] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022\n[S50] https://www.accessdata.fda.gov/cdrh_docs/pdf25/P250022A.pdf\n[S101] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022S005\n[S102] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022S003\n[S78] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220013S028A.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G06",
+   "Manufacturer": "Biosense Webster (J&J MedTech)",
+   "Generator / console": "TRUPULSE Generator",
+   "Energy type(s)": "Pulsed field (biphasic high-voltage, high-frequency short pulses)",
+   "Compatible catheters (exact models)": "VARIPULSE catheter D141201 (S33); Dual Energy THERMOCOOL SMARTTOUCH SF, PF mode (per IFU clinical section, S40)",
+   "Compatible mapping systems": "CARTO 3 System (S33)",
+   "Pumps / accessories": "Console, monitor, optional remote monitor, foot pedal, cables; Sterile Interface Cable (reusable up to 20 reprocessing cycles); nGEN pump (S33)",
+   "Key output specs": "User selects ablation modes (e.g., electrodes) and monitors applications (S33). Voltage values [GAP]",
+   "PMA number (supplement)": "P240006 (original); P030031/S141 (DE STSF)",
+   "FDA approval date": "11/06/2024 (original); 07/01/2026 (DE STSF)",
+   "Source IDs": "S33, S38, S39, S40",
+   "Source URLs (all for this row)": "[S33] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf\n[S38] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240006\n[S39] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S141\n[S40] https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S141D.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G07",
+   "Manufacturer": "Biosense Webster (J&J MedTech)",
+   "Generator / console": "nGEN RF Generator (D-1384-02)",
+   "Energy type(s)": "Radiofrequency",
+   "Compatible catheters (exact models)": "QDOT MICRO catheter (P210027) (S47); THERMOCOOL, NAVISTAR and CELSIUS catheters (P990071/S051; P030031/S122) (S103, S83); THERMOCOOL SMARTTOUCH non-SF (D20) (S83)",
+   "Compatible mapping systems": "CARTO 3 (TX eco cable to CARTO PIU, CARTO v6 and later) (S47)",
+   "Pumps / accessories": "nGEN pump (approved 09/04/2018) (S105); nGEN monitor, console, power supply unit, pedal; optional second monitor (S47)",
+   "Key output specs": "With QDOT MICRO: QMODE 25-50 W, 50 \u00b0C target, up to 60 s (\u226435 W/30 s on LA posterior wall); QMODE+ 90 W, 60 \u00b0C, 4 s; temperature-control mode; generator sets irrigation 4 or 15 mL/min (S47)",
+   "PMA number (supplement)": "P990071/S051; P030031/S122; P210027 (original); P210027/S001",
+   "FDA approval date": "03/08/2022 (S051/S122); 11/23/2022 (P210027); 02/24/2023 (S001)",
+   "Source IDs": "S47, S48, S83, S103, S104, S105",
+   "Source URLs (all for this row)": "[S47] https://www.accessdata.fda.gov/cdrh_docs/pdf21/P210027B.pdf\n[S48] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210027\n[S83] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S122\n[S103] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S051\n[S104] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210027S001\n[S105] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S037",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G08",
+   "Manufacturer": "Biosense Webster (J&J MedTech)",
+   "Generator / console": "SmartAblate RF Generator (formerly Stockert 70)",
+   "Energy type(s)": "Radiofrequency",
+   "Compatible catheters (exact models)": "Biosense Webster diagnostic/ablation deflectable-tip catheters (original indication) (S106). [GAP] Exact current model list not found",
+   "Compatible mapping systems": "[GAP] Not found",
+   "Pumps / accessories": "SmartAblate remote control, SmartAblate Irrigation Pump (manual claims ThermoCool SmartTouch family compatibility, 04/29/2019) (S108, S82)",
+   "Key output specs": "[GAP] Output specs not found in FDA records",
+   "PMA number (supplement)": "P990071 (original); S027; S033",
+   "FDA approval date": "05/31/2000 (Stockert 70); 07/02/2014 (renamed SmartAblate, S027); 08/04/2016 (S033)",
+   "Source IDs": "S106, S107, S108, S82",
+   "Source URLs (all for this row)": "[S106] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071\n[S107] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S027\n[S108] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S033\n[S82] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S095",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G09",
+   "Manufacturer": "Abbott",
+   "Generator / console": "Ampere RF Ablation Generator (H700489)",
+   "Energy type(s)": "Radiofrequency",
+   "Compatible catheters (exact models)": "FlexAbility SE via cable A-FASE-CBL4 (S93); TactiFlex Duo RF mode with Ampere v1.2.0 (S77); TactiFlex SE (catheter row D16, S57). TactiCath SE: catheter row says \"compatible RF generator\" [GAP]",
+   "Compatible mapping systems": "EnSite (Velocity/Precision/X via catheter) (S93); TactiSys Quartz equipment for contact force (S77)",
+   "Pumps / accessories": "Cool Point irrigation pump and tubing set (S93); Ampere remote control and system kit (S109)",
+   "Key output specs": "With FlexAbility per IFU: initial 20 W, maximum 50 W, default temperature-control mode (S93)",
+   "PMA number (supplement)": "P130026/S086; P130026/S102 (also filed under P110016, P040014, P040042, P960016, P060019)",
+   "FDA approval date": "[GAP] original approval date; 11/29/2023 (S086); 08/07/2026 (S102, v1.2.0)",
+   "Source IDs": "S93, S92, S77, S57, S109",
+   "Source URLs (all for this row)": "[S93] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf\n[S92] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080B.pdf\n[S77] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S102\n[S57] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/ablation-technology/tactiflex-se-ablation-catheter/ordering-information.html\n[S109] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S086",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G10",
+   "Manufacturer": "Boston Scientific",
+   "Generator / console": "Maestro 4000 Cardiac Ablation System (controller + pods)",
+   "Energy type(s)": "Radiofrequency",
+   "Compatible catheters (exact models)": "IntellaNav Open-Irrigated and Blazer Open-Irrigated (P150005/S014) (S110, S111); INTELLANAV STABLEPOINT (S30)",
+   "Compatible mapping systems": "RHYTHMIA / RHYTHMIA HDx (S110, S30)",
+   "Pumps / accessories": "MetriQ irrigation pump and tubing set; Maestro 4000 100 W Pod; remote and pods (S110, S112)",
+   "Key output specs": "100 W Pod, limited to 50 W for IntellaNav OI (S110). Temperature/power modes [GAP]",
+   "PMA number (supplement)": "P150005/S014; P150005/S074; P020025/S060",
+   "FDA approval date": "[GAP] original approval date; 12/19/2014 (P020025/S060); 12/21/2017 (P150005/S014)",
+   "Source IDs": "S110, S111, S30, S32, S112",
+   "Source URLs (all for this row)": "[S110] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S014B.pdf\n[S111] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S014\n[S30] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S074B.pdf\n[S32] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S074\n[S112] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020025S060",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G11",
+   "Manufacturer": "Boston Scientific",
+   "Generator / console": "INTELLAGEN Cardiac Ablation System",
+   "Energy type(s)": "Radiofrequency",
+   "Compatible catheters (exact models)": "Catheters under P150005, P920047 and P020025 (S90, S113): IntellaNav MiFi OI (D21); STABLEPOINT (EU spec sheet only, S31) [GAP: US per-model list not obtained]",
+   "Compatible mapping systems": "[GAP] Not stated in FDA record",
+   "Pumps / accessories": "RF generator, remote control, irrigation pump, tubing set and foot pedal (S90)",
+   "Key output specs": "[GAP] Not found",
+   "PMA number (supplement)": "P150005/S079; P920047/S133; P020025/S141",
+   "FDA approval date": "07/17/2024",
+   "Source IDs": "S90, S113, S31",
+   "Source URLs (all for this row)": "[S90] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S079\n[S113] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P920047S133\n[S31] https://www.bostonscientific.com/content/dam/bostonscientific/ep/Electrophysiology%20Portfolio/Rhythmia/intellanav-stablepoint/EP-815001-AB_STABLEPOINT_SPECSHEET.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G12",
+   "Manufacturer": "Medtronic",
+   "Generator / console": "CryoConsole (Model 106A2)",
+   "Energy type(s)": "Cryoablation (N2O refrigerant)",
+   "Compatible catheters (exact models)": "Arctic Front (P100010) (S114); Arctic Front Advance Pro AFAPRO23/AFAPRO28 (S14); Freezor MAX 239F3/239F5 (S79); Freezor Xtra 217F1/217F3/217F5 (S97)",
+   "Compatible mapping systems": "[GAP] No 3D-mapping integration described",
+   "Pumps / accessories": "Manual retraction kit; [GAP] other accessories not extracted (S114)",
+   "Key output specs": "Pressurized liquid N2O injected to balloon/tip; returned as gas under vacuum (S114). Temperature limits [GAP]",
+   "PMA number (supplement)": "P100010 (original)",
+   "FDA approval date": "12/17/2010",
+   "Source IDs": "S114, S16, S14, S79, S97",
+   "Source URLs (all for this row)": "[S114] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010B.pdf\n[S16] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010\n[S14] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100010S070\n[S79] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098C.pdf\n[S97] https://www.accessdata.fda.gov/cdrh_docs/pdf2/P020045S073B.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G13",
+   "Manufacturer": "Boston Scientific",
+   "Generator / console": "SMARTFREEZE Cryo-Console (model 2314)",
+   "Energy type(s)": "Cryoablation (N2O)",
+   "Compatible catheters (exact models)": "POLARx / POLARx FIT cryoablation balloon catheters 2315 (short and long tip); POLARMAP mapping catheter 2317 (S27)",
+   "Compatible mapping systems": "[GAP] No 3D-mapping integration described",
+   "Pumps / accessories": "Diaphragm movement sensor, inter-connection box, esophageal temperature sensor cable, foot switch (all 2314); Cryo-Cable 2318; POLARSHEATH 2316 (S27)",
+   "Key output specs": "N2O from refillable cylinder; console controls injection and recovery (S27). Temperature specs [GAP]",
+   "PMA number (supplement)": "P220032",
+   "FDA approval date": "08/08/2023",
+   "Source IDs": "S27, S28",
+   "Source URLs (all for this row)": "[S27] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220032B.pdf\n[S28] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220032",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G14",
+   "Manufacturer": "CardioFocus",
+   "Generator / console": "HeartLight X3 Console (V2)",
+   "Energy type(s)": "Laser (980 nm, Class 4)",
+   "Compatible catheters (exact models)": "HeartLight X3 catheter with Excalibur balloon; endoscope (S115, S71)",
+   "Compatible mapping systems": "Not applicable (endoscopic visualization) (S69)",
+   "Pumps / accessories": "Endoscope; balloon fill media (D2O/contrast) (S69); illumination lamp CF-A0090 (S71)",
+   "Key output specs": "980 nm therapy laser; Manual mode and RAPID mode (motorized continuous delivery) (S71). Power range [GAP]",
+   "PMA number (supplement)": "P150026 (original); S008 (X3); S014 (Console V2)",
+   "FDA approval date": "04/01/2016 (original); 05/08/2020 (X3, S008); 02/24/2023 (Console V2, S014)",
+   "Source IDs": "S69, S71, S115, S116, S117",
+   "Source URLs (all for this row)": "[S69] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf\n[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf\n[S115] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S008\n[S116] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S014\n[S117] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "G15",
+   "Manufacturer": "Kardium",
+   "Generator / console": "Globe PF Generator (601-00060)",
+   "Energy type(s)": "Pulsed field (high-voltage bipolar pulses via electrode pairs)",
+   "Compatible catheters (exact models)": "Globe catheter 601-01000 (S67, S66)",
+   "Compatible mapping systems": "Globe Controller 601-00048 + Globe Workstation 601-00064 (S67)",
+   "Pumps / accessories": "Globe Introducer 601-01001; Globe Positioning System electrodes 601-00037 (S67)",
+   "Key output specs": "Ablation through 2 to 64 simultaneously selected electrodes; bipolar, biphasic (S67). Voltage [GAP]",
+   "PMA number (supplement)": "P240044",
+   "FDA approval date": "08/27/2025",
+   "Source IDs": "S66, S67, S68",
+   "Source URLs (all for this row)": "[S66] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240044B.pdf\n[S67] https://kardium.com/wp-content/uploads/2026/04/410-00004-EN-USA-Product-Spec-Sheet-1.pdf\n[S68] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240044",
+   "Notes / gaps for this row": null
+  }
+ ],
  "non_us": [
   {
    "Manufacturer": "Medtronic (Affera)",
@@ -1411,6 +1638,142 @@
    "Source type": "FDA PMA database",
    "Used for device rows": "D23",
    "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S101",
+   "Title / description": "FDA PMA database, P250022/S005 (07/23/2026): firmware updates for the Current PFA Generator and compatible accessories; trade name listed as \"Current PFA Generator TactiFlex Duo\"",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022S005",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G05",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S102",
+   "Title / description": "FDA PMA database, P250022/S003 (04/16/2026): Volt PFA System firmware maintenance update for the generator and additional accessory cable",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250022S003",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G05",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S103",
+   "Title / description": "FDA PMA database, P990071/S051 (03/08/2022): nGEN Generator approved (compatible with THERMOCOOL, NAVISTAR and CELSIUS catheters)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S051",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G07",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S104",
+   "Title / description": "FDA PMA database, P210027/S001 (02/24/2023): software and hardware modifications to the nGEN Generator",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P210027S001",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G07",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S105",
+   "Title / description": "FDA PMA database, P990071/S037 (09/04/2018): nGEN Pump approved",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S037",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G07",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S106",
+   "Title / description": "FDA PMA database, P990071 original (05/31/2000): Stockert 70 RF Ablation Generator, indicated for use with a Biosense Webster diagnostic/ablation deflectable tip catheter",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G08",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S107",
+   "Title / description": "FDA PMA database, P990071/S027 (07/02/2014): SmartAblate System (formerly Stockert 70 System), SmartAblate Irrigation Pump hardware v1 to v2",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S027",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G08",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S108",
+   "Title / description": "FDA PMA database, P990071/S033 (08/04/2016): hardware and software updates to SmartAblate RF Generator, Remote Control and Irrigation Pump",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990071S033",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G08",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S109",
+   "Title / description": "FDA PMA database, P130026/S086 (11/29/2023): design and labeling changes to Ampere Generator, Ampere Remote Control, Ampere Generator System Kit",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P130026S086",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G09",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S110",
+   "Title / description": "FDA SSED, P150005/S014 Blazer / IntellaNav Open-Irrigated catheters: Maestro 4000 Controller, 100 W Pod (limited to 50 W for IntellaNav OI), MetriQ pump/tubing, Rhythmia",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150005S014B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "G10",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S111",
+   "Title / description": "FDA PMA database, P150005/S014 (12/21/2017): Blazer and IntellaNav Open-Irrigated Ablation Catheters approved for use with a compatible RF controller and irrigation pump",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150005S014",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G10",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S112",
+   "Title / description": "FDA PMA database, P020025/S060 (12/19/2014): Maestro 4000 Cardiac Ablation System design, labeling and manufacturing-site changes (earliest openFDA record naming Maestro 4000)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020025S060",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G10",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S113",
+   "Title / description": "FDA PMA database, P920047/S133 and P020025/S141 (07/17/2024): INTELLAGEN Cardiac Ablation System (same-day approvals alongside P150005/S079)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P920047S133",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G11",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S114",
+   "Title / description": "FDA SSED, P100010 Arctic Front Cryocatheter System (original, 12/17/2010): CryoConsole Model 106A2, N2O refrigerant",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010B.pdf",
+   "Source type": "FDA SSED",
+   "Used for device rows": "G12",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S115",
+   "Title / description": "FDA PMA database, P150026/S008 (05/08/2020): approval for the HeartLight X3 Endoscopic Ablation System",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S008",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G14",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S116",
+   "Title / description": "FDA PMA database, P150026/S014 (02/24/2023): changes to the Console (HeartLight Catheter, HeartLight X3 Console V2)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S014",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G14",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S117",
+   "Title / description": "FDA PMA database, P150026 original (04/01/2016): HeartLight Endoscopic Ablation System",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026",
+   "Source type": "FDA PMA database",
+   "Used for device rows": "G14",
+   "Accessed": "10/26/2026"
   }
  ],
  "notes": [
@@ -1485,6 +1848,34 @@
   {
    "Category": "Data fix 10/26/2026",
    "Note": "D05 FARAWAVE row had Freezor MAX dimensions (French size, length, electrodes, tip, spec source IDs, note) and D04 Freezor MAX showed gaps. Restored D05 values from the 10/19/2026 published version (S17, S18) and moved the S79 Freezor MAX values to D04."
+  },
+  {
+   "Category": "Generators batch 10/26/2026",
+   "Note": "Added Generators sheet: 15 US FDA-approved generators/consoles (G01-G15). All listed candidates were verified in FDA records; none skipped. HexaGen (RF) and HexaPulse (PF) have separate rows. Sources S101-S117 added."
+  },
+  {
+   "Category": "Generators batch 10/26/2026",
+   "Note": "Generator gaps: output voltage is not public for any PFA generator except PulseSelect (1500 V); no FDA date found for the original Ampere and Maestro 4000 approvals; SmartAblate and INTELLAGEN have FDA PMA database entries only, with no specs."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Generator cross-check: D15 TactiFlex Duo lists the PF generator as [GAP], but FDA P250022/S005 (07/23/2026) has the trade name \"Current PFA Generator TactiFlex Duo\" (S101). Catheter row not changed until an IFU confirms the pairing."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Generator cross-check: D12 THERMOCOOL SMARTTOUCH SF lists \"compatible RF generator [GAP]\", but nGEN is FDA-approved for THERMOCOOL catheters (P990071/S051, S103). STSF is not named explicitly, so the row was not changed."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Generator cross-check: D17 TactiCath SE says \"compatible RF generator\"; Ampere supplements are filed under TactiCath PMA P130026 (S109, S77), but no source found names TactiCath SE with Ampere directly."
+  },
+  {
+   "Category": "Generators batch 10/26/2026",
+   "Note": "Generator cross-check, consistent: D14 \"Current PFA generator\" matches FDA P250022 naming; D09/D21 INTELLAGEN confirmed by FDA P150005/S079 (D09 cited only the EU spec sheet); D19 Console V2 confirmed by P150026/S014; D01, D02, D05-D08, D10, D13, D18, D22 and D23 match the Generators sheet."
+  },
+  {
+   "Category": "Generators batch 10/26/2026",
+   "Note": "Naming note: D03 cites \"Nitron CryoConsole\" from the product page; FDA SSED names \"CryoConsole (Model 106A2)\"."
   }
  ]
 }
