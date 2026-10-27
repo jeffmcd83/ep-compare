@@ -258,7 +258,7 @@
    "US status (as of 10/13/2026)": "FDA PMA approved",
    "Energy type": "Dual: radiofrequency + pulsed field",
    "Catheter design / form factor": "Focal, contact-force, porous-tip (SF) irrigated; uni-/bi-directional",
-   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes",
+   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes; sheath: any sheath < 8.5 F is contraindicated (IFU, S40)",
    "Usable / working length": "[GAP] Not confirmed in IFU excerpt reviewed",
    "Electrode count / configuration": "Multi-electrode (tip + rings); [GAP] ring count not extracted",
    "Tip / electrode / balloon size": "3.5 mm tip dome",
@@ -533,7 +533,7 @@
    "US status (as of 10/13/2026)": "FDA PMA approved",
    "Energy type": "Radiofrequency",
    "Catheter design / form factor": "Focal, flexible open-irrigated tip electrode with magnetic sensor; no contact force; uni- or bi-directional; 8 curve configurations (FDA IFU)",
-   "French size (shaft; sheath)": "7.5 F shaft; 8 F distal section (FDA IFU/SSED) [GAP: sheath size]",
+   "French size (shaft; sheath)": "7.5 F shaft; 8 F distal section (FDA IFU/SSED); an 8.5 F minimum introducer sheath may be used (IFU, S93)",
    "Usable / working length": "115 cm length (Abbott international ordering page)",
    "Electrode count / configuration": "Flexible tip electrode + ring electrodes (FDA SSED); spacing 1-4-1 mm (Abbott international ordering page) [GAP: ring count not stated]",
    "Tip / electrode / balloon size": "4 mm tip electrode (Abbott international ordering page)",
@@ -932,6 +932,297 @@
    "Source IDs": "S134",
    "Source URLs (all for this row)": "[S134] https://www.accessdata.fda.gov/cdrh_docs/pdf21/K212493.pdf",
    "Notes / gaps for this row": null
+  }
+ ],
+ "sheaths": [
+  {
+   "ID": "A01",
+   "Manufacturer": "Abbott (St. Jude Medical)",
+   "Product": "Agilis NxT Steerable Introducer (8.5 F; 11 F models G408322/G408323; large-curl model G408324)",
+   "Type": "Steerable sheath",
+   "Inner / outer French size": "8.5 F (S136, S138); 11 F (S137). Inner vs outer not stated [GAP]",
+   "Usable length": "11 F: 71 cm (S137); 8.5 F: [GAP]",
+   "Curve options": "Small, medium (S136); large curl (S138)",
+   "Deflection (uni/bi)": "Bi-directional (asymmetrical): 180\u00b0 clockwise / 90\u00b0 counterclockwise (S136, S137, S138)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named in the 510(k) summaries",
+   "Mapping visibility": "[GAP] Not stated",
+   "FDA 510(k)/PMA number": "K061363; K081645; K083402; K083083; K110450",
+   "FDA clearance date": "07/12/2006 (original); 05/10/2011 (latest found)",
+   "Source IDs": "S136, S137, S138",
+   "Source URLs (all for this row)": "[S136] https://www.accessdata.fda.gov/cdrh_docs/pdf6/K061363.pdf\n[S137] https://www.accessdata.fda.gov/cdrh_docs/pdf8/K083402.pdf\n[S138] https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081645.pdf",
+   "Notes / gaps for this row": "Also listed as a compatible sheath for the VersaCross Connect dilator (S151)."
+  },
+  {
+   "ID": "A02",
+   "Manufacturer": "Abbott",
+   "Product": "Agilis NxT Steerable Introducer Dual-Reach",
+   "Type": "Steerable sheath (large bore)",
+   "Inner / outer French size": "13 F inner diameter (S139, S140); outer [GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "Medium and large curl added in K243493 (S140); original curl [GAP]",
+   "Deflection (uni/bi)": "Bi-directional: \u2265180\u00b0 clockwise / \u226590\u00b0 counterclockwise (S140); originally \u2265135\u00b0 clockwise (S139)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named in the 510(k) summaries",
+   "Mapping visibility": "Radiopaque tip marker (fluoroscopy) (S139); EAM [GAP]",
+   "FDA 510(k)/PMA number": "K241370; K243493",
+   "FDA clearance date": "06/13/2024; 12/13/2024",
+   "Source IDs": "S139, S140",
+   "Source URLs (all for this row)": "[S139] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241370.pdf\n[S140] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243493.pdf",
+   "Notes / gaps for this row": "The CE study used a 13 F Agilis NxT with Volt (D14, S52), but the FDA summaries do not name Volt."
+  },
+  {
+   "ID": "A03",
+   "Manufacturer": "Medtronic",
+   "Product": "FlexCath Contour Steerable Sheath (10FCC13, 10FCC20, 12FCC13, 12FCC20)",
+   "Type": "Steerable sheath (cryo/PFA balloon access)",
+   "Inner / outer French size": "10 F and 12 F (models in S142); inner vs outer [GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "13 mm or 20 mm tip (S142)",
+   "Deflection (uni/bi)": "[GAP]",
+   "Compatible ablation catheters (exact models per IFU)": "PulseSelect (\u226510 Fr ID, FlexCath Contour 10 Fr; D01, S01, S02); Arctic Front Advance Pro (12 Fr ID FlexCath Contour; D03, S12, S13). Not from a sheath IFU",
+   "Mapping visibility": "[GAP]",
+   "FDA 510(k)/PMA number": "K232321",
+   "FDA clearance date": "10/31/2023",
+   "Source IDs": "S141, S142, S01, S02, S12, S13",
+   "Source URLs (all for this row)": "[S141] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232321\n[S142] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233691.pdf\n[S01] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230017B.pdf\n[S02] https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/surgical-energy/ablation/cas-pulseselect-catheter-components-spec-sheet.pdf\n[S12] https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-energy/ablation/cryoablation/catheters/arctic-front-advance-pro-cardiac-cryoablation-catheter.html\n[S13] https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100010S098B.pdf",
+   "Notes / gaps for this row": "510(k) summary PDF for K232321 not posted; specs from the FlexCath Cross summary (S142)."
+  },
+  {
+   "ID": "A04",
+   "Manufacturer": "Medtronic",
+   "Product": "FlexCath Advance Steerable Sheath 12 F (4FC12)",
+   "Type": "Steerable sheath (cryo balloon access)",
+   "Inner / outer French size": "12 F (S143); outer [GAP]",
+   "Usable length": "65 cm; dilator 87 cm overall (S144)",
+   "Curve options": "[GAP]",
+   "Deflection (uni/bi)": "Unidirectional (S143, S158)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named in the 510(k) summaries",
+   "Mapping visibility": "Radiopaque markers (S144); EAM [GAP]",
+   "FDA 510(k)/PMA number": "K123591; K202620",
+   "FDA clearance date": "12/27/2012; 11/13/2020",
+   "Source IDs": "S143, S144, S158",
+   "Source URLs (all for this row)": "[S143] https://www.accessdata.fda.gov/cdrh_docs/pdf12/K123591.pdf\n[S144] https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223824.pdf\n[S158] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202620.pdf",
+   "Notes / gaps for this row": "Predicate for POLARSHEATH (S144)."
+  },
+  {
+   "ID": "A05",
+   "Manufacturer": "Boston Scientific",
+   "Product": "FARADRIVE Steerable Sheath (M004PF21M402)",
+   "Type": "Steerable sheath (dedicated PFA)",
+   "Inner / outer French size": "13 Fr ID (4.3 mm) / 17.4 Fr OD (5.8 mm) (S145)",
+   "Usable length": "74 cm (91 cm overall); dilator 94 cm (S145)",
+   "Curve options": "[GAP] Single curve; size not stated",
+   "Deflection (uni/bi)": "Unidirectional to 180\u00b0, with active straightening (S145, S146)",
+   "Compatible ablation catheters (exact models per IFU)": "FARAWAVE / FARAWAVE NAV (FARAPULSE system component; S17, S18). The sheath 510(k) does not name catheter models",
+   "Mapping visibility": "[GAP]",
+   "FDA 510(k)/PMA number": "K233248; K262165",
+   "FDA clearance date": "12/11/2023; 07/24/2026",
+   "Source IDs": "S145, S146, S17, S18",
+   "Source URLs (all for this row)": "[S145] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233248.pdf\n[S146] https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262165.pdf\n[S17] https://www.accessdata.fda.gov/cdrh_docs/pdf23/P230030B.pdf\n[S18] https://www.bostonscientific.com/content/dam/bostonscientific/ep/farapulse/farapulse-spec-sheet.pdf",
+   "Notes / gaps for this row": "Guidewire 0.035 in (S145)."
+  },
+  {
+   "ID": "A06",
+   "Manufacturer": "Boston Scientific",
+   "Product": "POLARSHEATH Steerable Sheath 12F (M004CRBS3150)",
+   "Type": "Steerable sheath (cryo balloon access)",
+   "Inner / outer French size": "12.7 Fr ID (4.2 mm) / 15.9 Fr OD (5.3 mm) (S145)",
+   "Usable length": "68 cm (82 cm overall); dilator 85 cm (S145, S144)",
+   "Curve options": "[GAP]",
+   "Deflection (uni/bi)": "Unidirectional to 155\u00b0 (S145)",
+   "Compatible ablation catheters (exact models per IFU)": "POLARx / POLARx FIT (D08, S27); cleared together with POLARMAP (S144)",
+   "Mapping visibility": "Radiopaque markers (S144); EAM [GAP]",
+   "FDA 510(k)/PMA number": "K223824",
+   "FDA clearance date": "03/22/2023",
+   "Source IDs": "S144, S145, S27",
+   "Source URLs (all for this row)": "[S144] https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223824.pdf\n[S145] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233248.pdf\n[S27] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220032B.pdf",
+   "Notes / gaps for this row": "Guidewire 0.032 and 0.035 in (S145). Named \"12F\", but ID is 12.7 Fr."
+  },
+  {
+   "ID": "A07",
+   "Manufacturer": "J&J MedTech (Biosense Webster)",
+   "Product": "CARTO VIZIGO 8.5F Bi-Directional Guiding Sheath (D-1385-01-S, -02-S, -03-S)",
+   "Type": "Steerable sheath (visualized)",
+   "Inner / outer French size": "8.5 F (S148); inner vs outer [GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "Three models (S148); curve sizes [GAP]",
+   "Deflection (uni/bi)": "Bi-directional: 180\u00b0 clockwise / \u2265180\u00b0 counterclockwise (S148)",
+   "Compatible ablation catheters (exact models per IFU)": "VARIPULSE (8.5F ID, CARTO VIZIGO or similar; D10, S33, S34). The sheath 510(k) does not name catheter models",
+   "Mapping visibility": "Four ring electrodes; curve visualized on compatible CARTO 3 systems (S148); radiopaque tip marker (S148)",
+   "FDA 510(k)/PMA number": "K170997; K231412",
+   "FDA clearance date": "07/25/2017; 07/10/2023",
+   "Source IDs": "S147, S148, S33, S34",
+   "Source URLs (all for this row)": "[S147] https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170997.pdf\n[S148] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231412.pdf\n[S33] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf\n[S34] https://www.jnjmedtech.com/en-US/product/VARIPULSE-Pulsed-Field-Ablation-PFA-Platform",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "A08",
+   "Manufacturer": "Boston Scientific (Baylis Medical)",
+   "Product": "VersaCross Steerable Sheath (kit with VersaCross transseptal dilator and J-tip guidewire)",
+   "Type": "Steerable sheath",
+   "Inner / outer French size": "[GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "Small, medium, large (S150)",
+   "Deflection (uni/bi)": "Bi-directional: 180\u00b0 clockwise / 90\u00b0 counterclockwise (S150)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named",
+   "Mapping visibility": "Pt/Ir marker band (fluoroscopy) (S150); EAM [GAP]",
+   "FDA 510(k)/PMA number": "K190688",
+   "FDA clearance date": "04/17/2019",
+   "Source IDs": "S150",
+   "Source URLs (all for this row)": "[S150] https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190688.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "A09",
+   "Manufacturer": "Boston Scientific (Baylis Medical)",
+   "Product": "SureFlex HD and VersaCross HD Steerable Sheaths",
+   "Type": "Steerable sheath (visualized)",
+   "Inner / outer French size": "8.5 Fr (S149); dilator 8.5 F (S149)",
+   "Usable length": "63 or 73 cm; dilator 85 or 95 cm (S149)",
+   "Curve options": "Small, medium, large (S149)",
+   "Deflection (uni/bi)": "Bi-directional: 180\u00b0 clockwise and counterclockwise (S149)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named",
+   "Mapping visibility": "Curve visualized on separately cleared impedance-based EAM systems; radiopaque Pt/Ir tip marker (S149)",
+   "FDA 510(k)/PMA number": "K231227",
+   "FDA clearance date": "12/20/2023",
+   "Source IDs": "S149",
+   "Source URLs (all for this row)": "[S149] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231227.pdf",
+   "Notes / gaps for this row": "Guidewire 0.032 or 0.035 in J-tip, 180 cm (S149)."
+  },
+  {
+   "ID": "A10",
+   "Manufacturer": "Boston Scientific (Baylis Medical)",
+   "Product": "VersaCross Connect Transseptal Dilator (VXA-AG)",
+   "Type": "Transseptal dilator",
+   "Inner / outer French size": "[GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "Reshapeable shaft (S151)",
+   "Deflection (uni/bi)": "Not applicable",
+   "Compatible ablation catheters (exact models per IFU)": "Not applicable; used with sheaths such as Agilis NxT (K061363/K081645) (S151)",
+   "Mapping visibility": "Echogenic shaft and tip; radiopaque tip (S151)",
+   "FDA 510(k)/PMA number": "K251325; K241720; K233647; K220414",
+   "FDA clearance date": "05/29/2025 (latest)",
+   "Source IDs": "S151",
+   "Source URLs (all for this row)": "[S151] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251325.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "A11",
+   "Manufacturer": "Boston Scientific (Baylis Medical)",
+   "Product": "VersaCross RF Wire",
+   "Type": "RF transseptal wire",
+   "Inner / outer French size": "[GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "J and pigtail distal curves (S152)",
+   "Deflection (uni/bi)": "Not applicable",
+   "Compatible ablation catheters (exact models per IFU)": "Not applicable; used with Baylis RF Puncture Generator (K122278) (S152)",
+   "Mapping visibility": "Radiopaque marker coil and band (S152); benchtop-tested with impedance-based EAM (S152)",
+   "FDA 510(k)/PMA number": "K242076",
+   "FDA clearance date": "11/01/2024",
+   "Source IDs": "S152",
+   "Source URLs (all for this row)": "[S152] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242076.pdf",
+   "Notes / gaps for this row": "Rail for advancing ancillary devices into the LA after puncture (S152)."
+  },
+  {
+   "ID": "A12",
+   "Manufacturer": "Boston Scientific (Baylis Medical)",
+   "Product": "NRG Transseptal Needle",
+   "Type": "RF transseptal needle",
+   "Inner / outer French size": "[GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "[GAP]",
+   "Deflection (uni/bi)": "Not applicable",
+   "Compatible ablation catheters (exact models per IFU)": "Not applicable; used with BMC Radiofrequency Perforation Generator (K013904) (S153)",
+   "Mapping visibility": "[GAP]",
+   "FDA 510(k)/PMA number": "K073326",
+   "FDA clearance date": "05/28/2008",
+   "Source IDs": "S153",
+   "Source URLs (all for this row)": "[S153] https://www.accessdata.fda.gov/cdrh_docs/pdf7/K073326.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "A13",
+   "Manufacturer": "Abbott (St. Jude Medical)",
+   "Product": "BRK Transseptal Needle (407200, 407201, 407205, 407206, 407207, G407208)",
+   "Type": "Mechanical transseptal needle",
+   "Inner / outer French size": "[GAP]",
+   "Usable length": "[GAP]",
+   "Curve options": "Curved distal section (S154); curve names [GAP]",
+   "Deflection (uni/bi)": "Not applicable",
+   "Compatible ablation catheters (exact models per IFU)": "Not applicable; mates with the St. Jude Medical transseptal introducer dilator (S154)",
+   "Mapping visibility": "[GAP]",
+   "FDA 510(k)/PMA number": "K122587; K072278",
+   "FDA clearance date": "02/07/2013",
+   "Source IDs": "S154",
+   "Source URLs (all for this row)": "[S154] https://www.accessdata.fda.gov/cdrh_docs/pdf12/K122587.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "A14",
+   "Manufacturer": "Abbott (St. Jude Medical)",
+   "Product": "Swartz Braided Transseptal Guiding Introducer",
+   "Type": "Fixed-curve transseptal sheath",
+   "Inner / outer French size": "8F and 8.5F (S155)",
+   "Usable length": "[GAP]",
+   "Curve options": "Fixed compound curve (S155); SL-0/SL-1 curve names [GAP]",
+   "Deflection (uni/bi)": "Fixed (non-deflectable) (S155)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named",
+   "Mapping visibility": "Radiopaque tip marker (S155)",
+   "FDA 510(k)/PMA number": "K052644",
+   "FDA clearance date": "12/05/2005",
+   "Source IDs": "S155",
+   "Source URLs (all for this row)": "[S155] https://www.accessdata.fda.gov/cdrh_docs/pdf5/K052644.pdf",
+   "Notes / gaps for this row": "SL-series names not in the FDA summary."
+  },
+  {
+   "ID": "A15",
+   "Manufacturer": "Abbott (St. Jude Medical)",
+   "Product": "Fast-Cath Hemostasis and Transseptal Introducers",
+   "Type": "Fixed-curve transseptal introducer",
+   "Inner / outer French size": "10F inner diameter (S156)",
+   "Usable length": "[GAP]",
+   "Curve options": "Variety of curve configurations (S156)",
+   "Deflection (uni/bi)": "Fixed (S156)",
+   "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named",
+   "Mapping visibility": "Radiopaque materials (S156)",
+   "FDA 510(k)/PMA number": "K061015",
+   "FDA clearance date": "08/03/2006",
+   "Source IDs": "S156",
+   "Source URLs (all for this row)": "[S156] https://www.accessdata.fda.gov/cdrh_docs/pdf6/K061015.pdf",
+   "Notes / gaps for this row": null
+  },
+  {
+   "ID": "A16",
+   "Manufacturer": "Medtronic (developed by Acutus Medical)",
+   "Product": "FlexCath Cross Transseptal Solution (900310, 900311)",
+   "Type": "Integrated transseptal dilator/needle",
+   "Inner / outer French size": "For 10F and 12F FlexCath Contour (S142)",
+   "Usable length": "65 cm (model labels) (S142)",
+   "Curve options": "Not applicable",
+   "Deflection (uni/bi)": "Not applicable",
+   "Compatible ablation catheters (exact models per IFU)": "Not applicable; matched to FlexCath Contour 10FCC13/10FCC20 (900310) and 12FCC13/12FCC20 (900311) (S142)",
+   "Mapping visibility": "EGM via adapter cable (S142)",
+   "FDA 510(k)/PMA number": "K233691",
+   "FDA clearance date": "12/17/2023",
+   "Source IDs": "S142",
+   "Source URLs (all for this row)": "[S142] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233691.pdf",
+   "Notes / gaps for this row": "Optional RF from an electrosurgical generator; guidewire up to 0.032 in (S142)."
+  },
+  {
+   "ID": "A17",
+   "Manufacturer": "Kardium",
+   "Product": "Globe Introducer (601-01001)",
+   "Type": "Steerable sheath (dedicated PFA)",
+   "Inner / outer French size": "16F ID (5.3 mm) (S67)",
+   "Usable length": "71 cm (116 cm overall); dilator 102 cm (S67)",
+   "Curve options": "[GAP]",
+   "Deflection (uni/bi)": "Bi-directional (S67)",
+   "Compatible ablation catheters (exact models per IFU)": "Globe catheter 601-01000 (S67, S66)",
+   "Mapping visibility": "[GAP]",
+   "FDA 510(k)/PMA number": "K250529 (sheath); P240044 (system)",
+   "FDA clearance date": "06/03/2025",
+   "Source IDs": "S157, S67, S66",
+   "Source URLs (all for this row)": "[S157] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250529\n[S67] https://kardium.com/wp-content/uploads/2026/04/410-00004-EN-USA-Product-Spec-Sheet-1.pdf\n[S66] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240044B.pdf",
+   "Notes / gaps for this row": "Hydrophilic coating (S67)."
   }
  ],
  "non_us": [
@@ -2048,6 +2339,190 @@
    "Source type": "FDA 510(k) database",
    "Used for device rows": "M02",
    "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S136",
+   "Title / description": "FDA 510(k) summary K061363 (07/12/2006): Agilis NxT Steerable Introducer, 8.5 F, small or medium curl, deflects 90\u00b0 counterclockwise and 180\u00b0 clockwise",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf6/K061363.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A01",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S137",
+   "Title / description": "FDA 510(k) summary K083402 (12/15/2008): Agilis NxT Steerable Introducer models G408322/G408323, 11 F asymmetrical bi-directional, small and medium curl, 71 cm usable length",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K083402.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A01",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S138",
+   "Title / description": "FDA 510(k) summary K081645 (12/09/2008): Agilis NxT Steerable Introducer model G408324, 8.5 F asymmetrical bi-directional, large curl",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081645.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A01",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S139",
+   "Title / description": "FDA 510(k) summary K241370 (06/13/2024): Agilis NxT Steerable Introducer Dual-Reach, 13 F inner diameter, deflects \u2265135\u00b0 clockwise and \u226590\u00b0 counterclockwise, radiopaque tip marker",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241370.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S140",
+   "Title / description": "FDA 510(k) summary K243493 (12/13/2024): Agilis NxT Dual-Reach, adds medium and large curl configurations; \u2265180\u00b0 clockwise / \u226590\u00b0 counterclockwise; indicated for treatment of cardiac arrhythmias",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243493.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A02",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S141",
+   "Title / description": "FDA 510(k) database K232321 (10/31/2023): FlexCath Contour Steerable Sheath, Medtronic, product code DRA (summary PDF not posted)",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232321",
+   "Source type": "FDA 510(k) database",
+   "Used for device rows": "A03",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S142",
+   "Title / description": "FDA 510(k) summary K233691 (12/17/2023): FlexCath Cross Transseptal Solution; models 900310 (10F-65cm) and 900311 (12F-65cm) matched to FlexCath Contour 10FCC13, 10FCC20, 12FCC13, 12FCC20",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233691.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A03, A16",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S143",
+   "Title / description": "FDA 510(k) summary K123591 (12/27/2012): FlexCath Advance Steerable Sheath 12 F (4FC12), unidirectional deflection",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf12/K123591.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A04",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S144",
+   "Title / description": "FDA 510(k) summary K223824 (03/22/2023): POLARSHEATH Steerable Sheath 12F (M004CRBS3150) with POLARMAP; comparison table vs FlexCath Advance 12F (usable length 65 cm vs 68 cm)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223824.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A04, A06",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S145",
+   "Title / description": "FDA 510(k) summary K233248 (12/11/2023): FARADRIVE Steerable Sheath vs predicate POLARSHEATH 12F; ID/OD, usable length, deflection, guidewire comparison table",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233248.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A05, A06",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S146",
+   "Title / description": "FDA 510(k) summary K262165 (07/24/2026): FARADRIVE Steerable Sheath, IFU labeling update only (dilator insertion guidance and a warning)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262165.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A05",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S147",
+   "Title / description": "FDA 510(k) summary K170997 (07/25/2017): CARTO VIZIGO 8.5F Bi-Directional Guiding Sheath (original)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170997.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A07",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S148",
+   "Title / description": "FDA 510(k) summary K231412 (07/10/2023): CARTO VIZIGO 8.5F (D-1385-01-S/-02-S/-03-S); four ring electrodes; curve visualized on compatible CARTO 3; deflection 180\u00b0 clockwise and \u2265180\u00b0 counterclockwise",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231412.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A07",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S149",
+   "Title / description": "FDA 510(k) summary K231227 (12/20/2023): SureFlex HD and VersaCross HD Steerable Sheaths, 8.5 Fr, 63 or 73 cm usable length, small/medium/large curves, 180\u00b0 bi-directional, visualized on impedance-based EAM",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231227.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A09",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S150",
+   "Title / description": "FDA 510(k) summary K190688 (04/17/2019): VersaCross Steerable Sheath kit (sheath, transseptal dilator, J-tip guidewire); small/medium/large curves; 90\u00b0 counterclockwise and 180\u00b0 clockwise",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190688.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A08",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S151",
+   "Title / description": "FDA 510(k) summary K251325 (05/29/2025): VersaCross Connect Transseptal Dilator (VXA-AG); for use with compatible sheaths such as Agilis NxT (K061363/K081645)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251325.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A10",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S152",
+   "Title / description": "FDA 510(k) summary K242076 (11/01/2024): VersaCross RF Wire; monopolar RF with Baylis RF Puncture Generator (K122278); J and pigtail curves; benchtop compatibility with impedance-based EAM",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242076.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A11",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S153",
+   "Title / description": "FDA 510(k) summary K073326 (05/28/2008): NRG Transseptal Needle (Baylis), RF energy with BMC Radiofrequency Perforation Generator (K013904)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf7/K073326.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A12",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S154",
+   "Title / description": "FDA 510(k) summary K122587 (02/07/2013): BRK Transseptal Needle models 407200, 407201, 407205, 407206, 407207, G407208 (St. Jude Medical)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf12/K122587.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A13",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S155",
+   "Title / description": "FDA 510(k) summary K052644 (12/05/2005): Swartz Braided Transseptal Guiding Introducer, 8F and 8.5F, fixed compound curve, radiopaque tip marker",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf5/K052644.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A14",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S156",
+   "Title / description": "FDA 510(k) summary K061015 (08/03/2006): Fast-Cath hemostasis and transseptal introducers, 10F inner diameter, variety of curve configurations",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf6/K061015.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A15",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S157",
+   "Title / description": "FDA 510(k) database K250529 (06/03/2025): Globe Introducer (601-01001), Kardium, product code DRA",
+   "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250529",
+   "Source type": "FDA 510(k) database",
+   "Used for device rows": "A17",
+   "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S158",
+   "Title / description": "FDA 510(k) summary K202620 (11/13/2020): FlexCath Advance Steerable Sheath and Dilator, hemostasis valve change; same unidirectional deflection",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202620.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "A04",
+   "Accessed": "10/26/2026"
   }
  ],
  "notes": [
@@ -2186,6 +2661,38 @@
   {
    "Category": "Mapping systems batch 10/26/2026",
    "Note": "Mapping cross-check, consistent: D10/G06 (CARTO 3 + VARIPULSE/TRUPULSE), D12/D13/D20/G07 (CARTO 3), D14/G05 (EnSite X + Volt/Current, K252013), D15 (EnSite X v6.0 TactiFlex Duo licence, K260212), D16 (EnSite X, K223094), D22 (EnSite X/Precision), D18/G15 (Globe, K250747), D09/D21/G10 (RHYTHMIA HDx), D06/D07/G04 (FARAWAVE NAV/FARAPOINT in RHYTHMIA HDx v6.0, K241227). Catheter and generator rows were not changed."
+  },
+  {
+   "Category": "Sheaths batch 10/26/2026",
+   "Note": "Added a Sheaths & transseptal sheet: 17 US FDA-cleared EP access tools (A01-A17), each checked against an FDA 510(k) record or summary. Sources S136-S158 added."
+  },
+  {
+   "Category": "Sheaths batch 10/26/2026",
+   "Note": "Left out: WATCHMAN TruSteer (K240018) is a LAAO access system, not EP. Heli-FX is an aortic EndoAnchor system. \"Faracross\" was not found in openFDA. No dedicated FDA-cleared sheath was found for Volt/TactiFlex Duo or Sphere-9; Sphere-9 uses a standard 8 Fr introducer or 8.5 Fr steerable sheath (S05). Sphere-360 is not US-approved. Other RF transseptal devices (SafeSept K253799, Circa CrossWise K251007, Protaryx K260839, LightningWire K261745) were not reviewed."
+  },
+  {
+   "Category": "Sheaths batch 10/26/2026",
+   "Note": "Sheath gaps: 510(k) summaries rarely list exact compatible ablation catheter models, so most compatibility comes from the catheter-side source and is labeled that way. Outer diameter is stated only for FARADRIVE and POLARSHEATH. Usable length is missing for several sheaths. SL-0/SL-1 curve names are not in the Swartz summary. The FlexCath Contour K232321 summary PDF is not posted."
+  },
+  {
+   "Category": "Sheaths batch 10/26/2026",
+   "Note": "Catheter sheath fills from IFU text: D11 DE STSF (\"Any sheath < 8.5 F is contraindicated\", S40); D22 FlexAbility (\"An 8.5 F minimum introducer sheath may be used\", S93). No other catheter rows were changed."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Sheath cross-check: D14 Volt says \"13F Agilis NxT per CE feasibility study\". The US 13 F Agilis NxT Dual-Reach (K241370/K243493, S139, S140) exists, but its FDA summaries do not name Volt, so a US pairing is unconfirmed."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Sheath cross-check, naming: D08 POLARx says POLARSHEATH 12.7F ID; the product is named \"12F\" (K223824), but the K233248 table gives 4.2 mm (12.7 Fr) ID / 15.9 Fr OD (S145). The values agree; only the name differs."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Sheath cross-check: D12 STSF still has no sheath size. The locally cached STSF uni-directional IFU says \"Any sheath < 8.5 F is contraindicated\", but that IFU is not in Sources, so D12 was not changed."
+  },
+  {
+   "Category": "Sheaths batch 10/26/2026",
+   "Note": "Sheath cross-check, consistent: D01 PulseSelect and D03 Arctic Front Advance Pro with FlexCath Contour 10F/12F (A03); D05/D06 FARAWAVE with FARADRIVE 13 Fr ID (A05); D10 VARIPULSE with CARTO VIZIGO 8.5F (A07); D13 QDOT \u22658.5F and D07/D09 8.5F sheaths with A01, A07, A09; D18 Globe with Globe Introducer 16F (A17, now 510(k) K250529). Gaps that remain: D15 TactiFlex Duo, D19 HeartLight, D20, D21, D23."
   }
  ]
 }
