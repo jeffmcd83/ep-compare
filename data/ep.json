@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-28",
  "comparison": [
   {
    "ID": "D01",
@@ -812,13 +812,13 @@
    "Current version": "V9.0 with PIU Plus (K254085, S118). V8.4 was cleared later, on 02/20/2026 (S119)",
    "Localization technology": "Hybrid: magnetic sensor technology plus Advanced Catheter Location (ACL) technology (S118)",
    "Compatible ablation catheters (exact models)": "VARIPULSE D141201 (S33, S119); QDOT MICRO (S47); Dual Energy THERMOCOOL SMARTTOUCH SF (S40); THERMOCOOL SMARTTOUCH SF (S42); THERMOCOOL SMARTTOUCH non-SF (S81). [GAP] A full FDA list of compatible catheters is not in the 510(k) summaries",
-   "Compatible mapping / diagnostic catheters": "[GAP] Not named in the 510(k) summaries reviewed (S118, S119)",
+   "Compatible mapping / diagnostic catheters": "PENTARAY NAV eco (CARTO 3 Version 3.x or later, S160, S159); LASSO NAV Duo Loop eco (CARTO 3 Version 3.2 or later, S163); CARTO OCTARAY with TRUEref (\"compatible versions of the CARTO 3\", S161); DECANAV, Webster CS with Auto ID, Webster CS with EZ Steer and Auto ID (S159). Named in the catheter 510(k)s, not the CARTO 3 system summaries",
    "Compatible generators / integrations": "TRUPULSE generator (S33); nGEN via TX eco cable, CARTO v6 and later (S47); \"3rd party compatible medical devices\" tested (S118). Hardware: PIU Plus/PIU, Location Pad, Patches Connection Box (S118)",
    "ICE integration": "Yes: CARTOSOUND REVEAL module (V8.4) with SOUNDSTAR catheter family and NUVISION NAV ultrasound catheter (S119)",
    "FDA 510(k)/PMA number": "K254085 (V9.0); K252972 (V8.4)",
    "FDA clearance date": "01/18/2026 (V9.0); 02/20/2026 (V8.4)",
-   "Source IDs": "S118, S119, S33, S47, S40, S42, S81",
-   "Source URLs (all for this row)": "[S118] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254085.pdf\n[S119] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252972.pdf\n[S33] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf\n[S47] https://www.accessdata.fda.gov/cdrh_docs/pdf21/P210027B.pdf\n[S40] https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S141D.pdf\n[S42] https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/\n[S81] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053",
+   "Source IDs": "S118, S119, S33, S47, S40, S42, S81, S159, S160, S161, S163",
+   "Source URLs (all for this row)": "[S118] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254085.pdf\n[S119] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252972.pdf\n[S33] https://www.accessdata.fda.gov/cdrh_docs/pdf24/P240006B.pdf\n[S47] https://www.accessdata.fda.gov/cdrh_docs/pdf21/P210027B.pdf\n[S40] https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S141D.pdf\n[S42] https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/\n[S81] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053\n[S159] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231312.pdf\n[S160] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201750.pdf\n[S161] https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193237.pdf\n[S163] https://www.accessdata.fda.gov/cdrh_docs/pdf13/K130602.pdf",
    "Notes / gaps for this row": null
   },
   {
@@ -844,13 +844,13 @@
    "Current version": "v2.6 (K201148, S127) [GAP: newer version or current US marketing status not verified]",
    "Localization technology": "Impedance only, or impedance plus magnetics via the MediGuide Technology System or EnSite Precision Module (S127)",
    "Compatible ablation catheters (exact models)": "FlexAbility SE (EnSite Precision v2.0+, S93); TactiCath SE (catalog, S61)",
-   "Compatible mapping / diagnostic catheters": "[GAP] Not named in K201148",
+   "Compatible mapping / diagnostic catheters": "Advisor HD Grid Mapping Catheter SE (EnSite Precision v2.2, S165). Named in the catheter 510(k), not K201148",
    "Compatible generators / integrations": "MediGuide Technology System; EnSite Precision Module (S127). Affera Impedance Localization Patch Kit, EnSite Precision variant (S131)",
    "ICE integration": "[GAP] Not found",
    "FDA 510(k)/PMA number": "K201148",
    "FDA clearance date": "06/26/2020",
-   "Source IDs": "S127, S93, S61, S131",
-   "Source URLs (all for this row)": "[S127] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201148.pdf\n[S93] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf\n[S61] https://www.cardiovascular.abbott/content/dam/cv/cardiovascular/hcp/products/electrophysiology/tacticath-se/documents/ep-tacticath-se-full-catalog-page.pdf\n[S131] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241828.pdf",
+   "Source IDs": "S127, S93, S61, S131, S165",
+   "Source URLs (all for this row)": "[S127] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201148.pdf\n[S93] https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110016S080C.pdf\n[S61] https://www.cardiovascular.abbott/content/dam/cv/cardiovascular/hcp/products/electrophysiology/tacticath-se/documents/ep-tacticath-se-full-catalog-page.pdf\n[S131] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241828.pdf\n[S165] https://www.accessdata.fda.gov/cdrh_docs/pdf17/K172393.pdf",
    "Notes / gaps for this row": null
   },
   {
@@ -2956,7 +2956,7 @@
    "Title / description": "FDA 510(k) summary K231312 (07/10/2023): PENTARAY NAV eco, DECANAV, Webster CS with Auto ID, Webster CS with EZ Steer (\u00b1Auto ID); Webster CS 6 FR 115 cm; EZ Steer 7F, 10 electrodes, 2-8-2 mm, bi-directional, 115 cm",
    "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231312.pdf",
    "Source type": "FDA 510(k) summary",
-   "Used for device rows": "X01, X05, X06, X07",
+   "Used for device rows": "X01, X05, X06, X07, M01",
    "Accessed": "10/26/2026"
   },
   {
@@ -2964,7 +2964,7 @@
    "Title / description": "FDA 510(k) summary K201750 (08/06/2020): PENTARAY NAV eco, 5 spines \u00d7 4 ring electrodes (20), 30 mm flower; not compatible with CARTO 3 before Version 3.x",
    "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201750.pdf",
    "Source type": "FDA 510(k) summary",
-   "Used for device rows": "X01",
+   "Used for device rows": "X01, M01",
    "Accessed": "10/26/2026"
   },
   {
@@ -2972,7 +2972,7 @@
    "Title / description": "FDA 510(k) summary K193237 (07/31/2020): CARTO OCTARAY with TRUEref, 8 spines \u00d7 6 electrodes (48) plus reference electrode, 30 or 40 mm, uni-directional piston deflection",
    "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193237.pdf",
    "Source type": "FDA 510(k) summary",
-   "Used for device rows": "X02",
+   "Used for device rows": "X02, M01",
    "Accessed": "10/26/2026"
   },
   {
@@ -2988,7 +2988,7 @@
    "Title / description": "FDA 510(k) summary K130602 (08/14/2013): LASSO NAV Duo Loop eco, 7 Fr, 20 electrodes on a fixed spiral loop (20 or 25 mm), bi-directional, 8F guiding sheath; CARTO 3 Version 3.2 or later",
    "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K130602.pdf",
    "Source type": "FDA 510(k) summary",
-   "Used for device rows": "X04",
+   "Used for device rows": "X04, M01",
    "Accessed": "10/26/2026"
   },
   {
@@ -3004,7 +3004,7 @@
    "Title / description": "FDA 510(k) summary K172393 (04/23/2018): Advisor HD Grid Mapping Catheter SE, 7.5F/8F, 110 cm, 16 electrodes; compatible with EnSite Velocity v5.2 and EnSite Precision v2.2",
    "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K172393.pdf",
    "Source type": "FDA 510(k) summary",
-   "Used for device rows": "X09",
+   "Used for device rows": "X09, M03",
    "Accessed": "10/26/2026"
   },
   {
@@ -3348,6 +3348,10 @@
   {
    "Category": "Diagnostic & ICE batch 10/26/2026",
    "Note": "Diagnostic & ICE cross-check, consistent: M02 EnSite X with Advisor VL/FL/HD Grid SE (S126) and HD Grid X SE (S125, S164); M04 RHYTHMIA HDx with INTELLAMAP ORION (S128, S167); M01 CARTOSOUND REVEAL with the SOUNDSTAR family and NUVISION NAV (S119, S171-S173). M04 Rhythmia and M05 Affera ICE stay [GAP]: no ICE summary reviewed names them."
+  },
+  {
+   "Category": "IFU gap fill 10/28/2026",
+   "Note": "Filled from catheter-side FDA 510(k) summaries already in Sources (re-read 10/28/2026): M01 CARTO 3 mapping catheters (S159, S160, S161, S163) and M03 EnSite Precision mapping catheter (S165). This resolves the two earlier Discrepancy notes about M01 and M03. K172393 calls EnSite Precision v2.2 \"under review\" at the time; later clearance of v2.2 was not separately checked."
   }
  ]
 }
