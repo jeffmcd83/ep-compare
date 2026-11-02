@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-02",
  "comparison": [
   {
    "ID": "D01",
@@ -283,23 +283,23 @@
    "US status (as of 10/13/2026)": "FDA PMA approved",
    "Energy type": "Radiofrequency",
    "Catheter design / form factor": "Focal, contact-force, porous-tip (Surround Flow) irrigated",
-   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes",
+   "French size (shaft; sheath)": "7.5 F shaft with 8 F ring electrodes; sheath/introducer \u22658.5 F (IFU: \"Any sheath < 8.5 F is contraindicated\", S183)",
    "Usable / working length": "[GAP] Not confirmed in sources fetched",
    "Electrode count / configuration": "Tip electrode + 4 ring electrodes (IFU: \"tip electrode and all four ring electrodes\"); contact force sensor between 1st and 2nd ring; [GAP] electrode spacing not stated in IFU text (S40)",
    "Tip / electrode / balloon size": "3.5 mm tip electrode",
    "Irrigation": "Yes - porous tip, ~half flow of earlier irrigated catheters (J&J)",
    "Contact force sensing": "Yes",
    "Mapping system compatibility": "CARTO 3",
-   "Required generator / console": "Compatible RF generator [GAP: generator list not extracted]",
+   "Required generator / console": "SMARTABLATE Generator or Stockert 70 Generator (uni-directional IFU, S183); nGEN not named in this IFU",
    "FDA-approved indications (catheter)": "Typical AFL (\u226518 y); drug-refractory recurrent symptomatic PAF; drug-refractory recurrent symptomatic persistent AF (>7 d, <1 yr) refractory/intolerant to \u22651 Class I/III AAD, with 3D EAM",
    "FDA approval date (device/indication)": "08/11/2016 (S072, STSF PAF); 09/30/2020 persistent AF (S100)",
    "PMA number (supplement)": "P030031 (S072, S100)",
    "Notable recalls / safety notices": "Class 2 Z-0169-2023 (initiated 09/07/2022): possible cellulose-fiber contamination of irrigation path (Bi-Dir). Class 2 Z-0055-2018 (2017, terminated 2019): CARTO 'Alert 402' magnetic distortion",
-   "Source IDs - specs": "S42",
+   "Source IDs - specs": "S42, S183",
    "Source IDs - regulatory": "S43, S44",
    "Source IDs - recalls/safety": "S45, S46",
-   "Source URLs (all for this row)": "[S42] https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/\n[S43] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S072\n[S44] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S100\n[S45] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=196121\n[S46] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=158827",
-   "Notes / gaps for this row": null
+   "Source URLs (all for this row)": "[S42] https://www.jnjmedtech.com/en-US/products/cardiovascular/thermocool-smarttouch-sf-catheter/\n[S43] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S072\n[S44] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S100\n[S45] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=196121\n[S46] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=158827\n[S183] https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S100C.pdf",
+   "Notes / gaps for this row": "11/02/2026: sheath and generator filled from the FDA-posted uni-directional IFU (S183); the bi-directional (D-1348) IFU was not reviewed. Usable length still [GAP] (not stated in S183)."
   },
   {
    "ID": "D13",
@@ -3142,6 +3142,14 @@
    "Source type": "FDA 510(k) summary",
    "Used for device rows": "X25",
    "Accessed": "10/26/2026"
+  },
+  {
+   "Source ID": "S183",
+   "Title / description": "FDA-posted IFU, THERMOCOOL SMARTTOUCH SF Uni-Directional Navigation Catheter (P030031/S100 labeling): device description, compatible devices, contraindications",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030031S100C.pdf",
+   "Source type": "IFU (FDA-posted)",
+   "Used for device rows": "D12",
+   "Accessed": "11/02/2026"
   }
  ],
  "notes": [
@@ -3352,6 +3360,10 @@
   {
    "Category": "IFU gap fill 10/28/2026",
    "Note": "Filled from catheter-side FDA 510(k) summaries already in Sources (re-read 10/28/2026): M01 CARTO 3 mapping catheters (S159, S160, S161, S163) and M03 EnSite Precision mapping catheter (S165). This resolves the two earlier Discrepancy notes about M01 and M03. K172393 calls EnSite Precision v2.2 \"under review\" at the time; later clearance of v2.2 was not separately checked."
+  },
+  {
+   "Category": "Weekly update 11/02/2026",
+   "Note": "Checked openFDA PMA data (database last updated 10/19/2026) for product codes QZI, OAD, OAE, LPB, DQX, OCM and the guide's PMA numbers. No new ablation catheter approvals or indication changes. Only new decision: Volt P250022/S002 (10/15) post-approval study protocol, no table change. TactiFlex Duo (P220013S028B) and Volt (P250022B) SSEDs still not posted (404). Gap fill: D12 STSF sheath (\u22658.5 F) and generators (SMARTABLATE, Stockert 70) from FDA-posted IFU S183; this resolves the earlier D12 sheath discrepancy note. nGEN is still not named for STSF in any reviewed source."
   }
  ]
 }
