@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-04",
  "comparison": [
   {
    "ID": "D01",
@@ -941,15 +941,15 @@
    "Product": "Agilis NxT Steerable Introducer (8.5 F; 11 F models G408322/G408323; large-curl model G408324)",
    "Type": "Steerable sheath",
    "Inner / outer French size": "8.5 F (S136, S138); 11 F (S137). Inner vs outer not stated [GAP]",
-   "Usable length": "11 F: 71 cm (S137); 8.5 F: [GAP]",
+   "Usable length": "11 F: 71 cm (S137); 8.5 F: 61 cm (G408318, G408319), 71 cm (408309, G408320, 408310, G408321, G408324) or 82 cm (G408332) (S184)",
    "Curve options": "Small, medium (S136); large curl (S138)",
    "Deflection (uni/bi)": "Bi-directional (asymmetrical): 180\u00b0 clockwise / 90\u00b0 counterclockwise (S136, S137, S138)",
    "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named in the 510(k) summaries",
    "Mapping visibility": "[GAP] Not stated",
    "FDA 510(k)/PMA number": "K061363; K081645; K083402; K083083; K110450",
    "FDA clearance date": "07/12/2006 (original); 05/10/2011 (latest found)",
-   "Source IDs": "S136, S137, S138",
-   "Source URLs (all for this row)": "[S136] https://www.accessdata.fda.gov/cdrh_docs/pdf6/K061363.pdf\n[S137] https://www.accessdata.fda.gov/cdrh_docs/pdf8/K083402.pdf\n[S138] https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081645.pdf",
+   "Source IDs": "S136, S137, S138, S184",
+   "Source URLs (all for this row)": "[S136] https://www.accessdata.fda.gov/cdrh_docs/pdf6/K061363.pdf\n[S137] https://www.accessdata.fda.gov/cdrh_docs/pdf8/K083402.pdf\n[S138] https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081645.pdf\n[S184] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/access-introducers/agilis-nxt/ordering-information.html",
    "Notes / gaps for this row": "Also listed as a compatible sheath for the VersaCross Connect dilator (S151)."
   },
   {
@@ -958,15 +958,15 @@
    "Product": "Agilis NxT Steerable Introducer Dual-Reach",
    "Type": "Steerable sheath (large bore)",
    "Inner / outer French size": "13 F inner diameter (S139, S140); outer [GAP]",
-   "Usable length": "[GAP]",
+   "Usable length": "71 cm usable; 91 cm lumen length (SI-1371-S, -M, -L) (S184)",
    "Curve options": "Medium and large curl added in K243493 (S140); original curl [GAP]",
    "Deflection (uni/bi)": "Bi-directional: \u2265180\u00b0 clockwise / \u226590\u00b0 counterclockwise (S140); originally \u2265135\u00b0 clockwise (S139)",
    "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named in the 510(k) summaries",
    "Mapping visibility": "Radiopaque tip marker (fluoroscopy) (S139); EAM [GAP]",
    "FDA 510(k)/PMA number": "K241370; K243493",
    "FDA clearance date": "06/13/2024; 12/13/2024",
-   "Source IDs": "S139, S140",
-   "Source URLs (all for this row)": "[S139] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241370.pdf\n[S140] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243493.pdf",
+   "Source IDs": "S139, S140, S184",
+   "Source URLs (all for this row)": "[S139] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241370.pdf\n[S140] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243493.pdf\n[S184] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/access-introducers/agilis-nxt/ordering-information.html",
    "Notes / gaps for this row": "The CE study used a 13 F Agilis NxT with Volt (D14, S52), but the FDA summaries do not name Volt."
   },
   {
@@ -1059,16 +1059,16 @@
    "Manufacturer": "Boston Scientific (Baylis Medical)",
    "Product": "VersaCross Steerable Sheath (kit with VersaCross transseptal dilator and J-tip guidewire)",
    "Type": "Steerable sheath",
-   "Inner / outer French size": "[GAP]",
-   "Usable length": "[GAP]",
+   "Inner / outer French size": "8.5F (2.8 mm) (S185); inner vs outer not stated",
+   "Usable length": "72 cm; dilator 95 cm (S185)",
    "Curve options": "Small, medium, large (S150)",
    "Deflection (uni/bi)": "Bi-directional: 180\u00b0 clockwise / 90\u00b0 counterclockwise (S150)",
    "Compatible ablation catheters (exact models per IFU)": "[GAP] Not named",
    "Mapping visibility": "Pt/Ir marker band (fluoroscopy) (S150); EAM [GAP]",
    "FDA 510(k)/PMA number": "K190688",
    "FDA clearance date": "04/17/2019",
-   "Source IDs": "S150",
-   "Source URLs (all for this row)": "[S150] https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190688.pdf",
+   "Source IDs": "S150, S185",
+   "Source URLs (all for this row)": "[S150] https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190688.pdf\n[S185] https://www.bostonscientific.com/us/en/healthcare-professionals/products/transseptal-access-devices/versacross-steerable-access-solution/fp00000302.html",
    "Notes / gaps for this row": null
   },
   {
@@ -1110,16 +1110,16 @@
    "Manufacturer": "Boston Scientific (Baylis Medical)",
    "Product": "VersaCross RF Wire",
    "Type": "RF transseptal wire",
-   "Inner / outer French size": "[GAP]",
-   "Usable length": "[GAP]",
+   "Inner / outer French size": "0.035 in (0.89 mm) wire diameter (S185)",
+   "Usable length": "180 cm or 230 cm overall (230 cm pigtail) (S185)",
    "Curve options": "J and pigtail distal curves (S152)",
    "Deflection (uni/bi)": "Not applicable",
    "Compatible ablation catheters (exact models per IFU)": "Not applicable; used with Baylis RF Puncture Generator (K122278) (S152)",
    "Mapping visibility": "Radiopaque marker coil and band (S152); benchtop-tested with impedance-based EAM (S152)",
    "FDA 510(k)/PMA number": "K242076",
    "FDA clearance date": "11/01/2024",
-   "Source IDs": "S152",
-   "Source URLs (all for this row)": "[S152] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242076.pdf",
+   "Source IDs": "S152, S185",
+   "Source URLs (all for this row)": "[S152] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242076.pdf\n[S185] https://www.bostonscientific.com/us/en/healthcare-professionals/products/transseptal-access-devices/versacross-steerable-access-solution/fp00000302.html",
    "Notes / gaps for this row": "Rail for advancing ancillary devices into the LA after puncture (S152)."
   },
   {
@@ -3150,6 +3150,22 @@
    "Source type": "IFU (FDA-posted)",
    "Used for device rows": "D12",
    "Accessed": "11/02/2026"
+  },
+  {
+   "Source ID": "S184",
+   "Title / description": "Abbott OEM ordering information page, Agilis NxT Steerable Introducer (8.5 F 61/71/82 cm models; 13 F Dual-Reach SI-1371-S/M/L): reorder numbers, French size, usable length",
+   "URL": "https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/access-introducers/agilis-nxt/ordering-information.html",
+   "Source type": "OEM spec page",
+   "Used for device rows": "A01, A02",
+   "Accessed": "11/04/2026"
+  },
+  {
+   "Source ID": "S185",
+   "Title / description": "Boston Scientific OEM US product page, VersaCross Steerable Access Solution: VersaCross Steerable Sheath and VersaCross RF Wire specification tables",
+   "URL": "https://www.bostonscientific.com/us/en/healthcare-professionals/products/transseptal-access-devices/versacross-steerable-access-solution/fp00000302.html",
+   "Source type": "OEM spec page",
+   "Used for device rows": "A08, A11",
+   "Accessed": "11/04/2026"
   }
  ],
  "notes": [
@@ -3364,6 +3380,10 @@
   {
    "Category": "Weekly update 11/02/2026",
    "Note": "Checked openFDA PMA data (database last updated 10/19/2026) for product codes QZI, OAD, OAE, LPB, DQX, OCM and the guide's PMA numbers. No new ablation catheter approvals or indication changes. Only new decision: Volt P250022/S002 (10/15) post-approval study protocol, no table change. TactiFlex Duo (P220013S028B) and Volt (P250022B) SSEDs still not posted (404). Gap fill: D12 STSF sheath (\u22658.5 F) and generators (SMARTABLATE, Stockert 70) from FDA-posted IFU S183; this resolves the earlier D12 sheath discrepancy note. nGEN is still not named for STSF in any reviewed source."
+  },
+  {
+   "Category": "IFU gap fill 11/04/2026",
+   "Note": "Filled from OEM spec pages: A01 Agilis NxT 8.5 F usable length (61, 71 or 82 cm by model) and A02 Agilis NxT Dual-Reach 13 F usable length 71 cm (S184); A08 VersaCross Steerable Sheath 8.5F and 72 cm usable length, A11 VersaCross RF Wire 0.035 in and 180/230 cm (S185). Note: the US Abbott page lists 13 F SI-1371 models but no 11 F models, so the 11 F 71 cm value still rests on K083402 (S137). PENTARAY NAV eco 7F / 115 cm appears only in distributor-hosted catalogs, not an OEM page or IFU, so X01 stays [GAP]."
   }
  ]
 }
