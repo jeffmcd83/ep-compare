@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-11",
  "comparison": [
   {
    "ID": "D01",
@@ -1384,16 +1384,16 @@
    "Manufacturer": "Abbott",
    "Product": "Advisor FL Circular Mapping Catheter, Sensor Enabled",
    "Category": "Diagnostic: circular mapping",
-   "French size": "[GAP]",
-   "Usable length": "[GAP]",
-   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "[GAP]",
-   "Deflection": "[GAP]",
+   "French size": "4 F loop on 7.5 F shaft; compatible with 8 F introducer (S186)",
+   "Usable length": "107 cm (all four models) (S186)",
+   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "10 loop electrodes; 3 mm spacing (D-AVSE-D10-F15, D-AVSE-DF10-F15) or 5 mm spacing (D-AVSE-D10-F20, D-AVSE-DF10-F20) (S186)",
+   "Deflection": "Uni-directional D curve (D-AVSE-D10-F15/-F20) or bi-directional DF curve (D-AVSE-DF10-F15/-F20) (S186)",
    "Compatible mapping systems (exact versions where stated)": "EnSite X EP System (S126) [GAP: version]",
    "Compatible ultrasound consoles (ICE)": "Not applicable (diagnostic catheter)",
    "FDA 510(k)/PMA number": "K202066",
    "FDA clearance date": "11/25/2020",
-   "Source IDs": "S126",
-   "Source URLs (all for this row)": "[S126] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202066.pdf",
+   "Source IDs": "S126, S186",
+   "Source URLs (all for this row)": "[S126] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202066.pdf\n[S186] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/diagnostic-catheters/advisor-vl-fl/ordering-information.html",
    "Notes / gaps for this row": "K202066 does not give catheter specs. FDA added FL to the letter by administrative correction (S126)."
   },
   {
@@ -1401,16 +1401,16 @@
    "Manufacturer": "Abbott",
    "Product": "Advisor VL Circular Mapping Catheter, Sensor Enabled",
    "Category": "Diagnostic: circular mapping",
-   "French size": "[GAP]",
-   "Usable length": "[GAP]",
-   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "[GAP]",
-   "Deflection": "[GAP]",
+   "French size": "4 F loop on 7.5 F shaft; compatible with 8 F introducer (S186)",
+   "Usable length": "117 cm (all four models) (S186)",
+   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "10 loop electrodes, 6.5 mm spacing (D-AVSE-D10-V1525, D-AVSE-DF10-V1525) or 20 loop electrodes, 1-4-1 mm spacing (D-AVSE-D20-V1525, D-AVSE-DF20-V1525) (S186)",
+   "Deflection": "Uni-directional D curve (D-AVSE-D10/D20-V1525) or bi-directional DF curve (D-AVSE-DF10/DF20-V1525) (S186)",
    "Compatible mapping systems (exact versions where stated)": "EnSite X EP System (S126) [GAP: version]",
    "Compatible ultrasound consoles (ICE)": "Not applicable (diagnostic catheter)",
    "FDA 510(k)/PMA number": "K202066",
    "FDA clearance date": "11/25/2020",
-   "Source IDs": "S126",
-   "Source URLs (all for this row)": "[S126] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202066.pdf",
+   "Source IDs": "S126, S186",
+   "Source URLs (all for this row)": "[S126] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202066.pdf\n[S186] https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/diagnostic-catheters/advisor-vl-fl/ordering-information.html",
    "Notes / gaps for this row": "K202066 does not give catheter specs."
   },
   {
@@ -3166,6 +3166,14 @@
    "Source type": "OEM spec page",
    "Used for device rows": "A08, A11",
    "Accessed": "11/04/2026"
+  },
+  {
+   "Source ID": "S186",
+   "Title / description": "Abbott OEM US ordering information page, Advisor VL and FL Mapping Catheters, Sensor Enabled: model numbers, loop electrode count and spacing, handle (Uni-D/Bi-D), curve, usable length, shaft size, required cables",
+   "URL": "https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/diagnostic-catheters/advisor-vl-fl/ordering-information.html",
+   "Source type": "OEM spec page",
+   "Used for device rows": "X10, X11",
+   "Accessed": "11/11/2026"
   }
  ],
  "notes": [
@@ -3388,6 +3396,14 @@
   {
    "Category": "Weekly update 11/09/2026",
    "Note": "Checked openFDA PMA data (database last updated 10/26/2026) for QZI, OAD, OAE, LPB, DQX, OCM. No new ablation catheter approvals or indication changes. New since last check: Volt P250022/S002 (10/15) postapproval study protocol and Globe P240044/S008 (10/23) manufacturing process change; no table spec values changed. Open gaps unchanged (TactiFlex Duo and Volt SSEDs not re-checked this week)."
+  },
+  {
+   "Category": "IFU gap fill 11/11/2026",
+   "Note": "Filled from the Abbott US OEM ordering page (S186): X10 Advisor FL and X11 Advisor VL French size, usable length, electrode count/spacing and deflection by model. Loop diameters are not stated on that page, so they were not added. Mapping system versions for X10/X11 stay [GAP]."
+  },
+  {
+   "Category": "Discrepancy",
+   "Note": "Advisor FL usable length: the US OEM page (S186) says 107 cm; older St. Jude international-only brochures (not in Sources) say 105 cm. The US OEM value is used."
   }
  ]
 }
