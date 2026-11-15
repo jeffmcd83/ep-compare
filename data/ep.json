@@ -2044,7 +2044,7 @@
    "OEM device it reprocesses": "DECANAV Mapping Catheter",
    "OEM manufacturer": "J&J MedTech (Biosense Webster)",
    "Family": "Diagnostic catheters",
-   "Category": "Multipolar or decapolar; Reprocessing",
+   "Category": "Coronary sinus; Multipolar or decapolar; Reprocessing",
    "Reprocessed": "Yes",
    "Device type": "Diagnostic catheters > Multipolar or decapolar",
    "Reprocessor catalog number(s)": "R7D282CT, R7F282CT",
@@ -2065,7 +2065,7 @@
    "OEM device it reprocesses": "DECANAV Mapping Catheter (Electrophysiology Catheter)",
    "OEM manufacturer": "J&J MedTech (Biosense Webster)",
    "Family": "Diagnostic catheters",
-   "Category": "Multipolar or decapolar; Reprocessing",
+   "Category": "Coronary sinus; Multipolar or decapolar; Reprocessing",
    "Reprocessed": "Yes",
    "Device type": "Diagnostic catheters > Multipolar or decapolar",
    "Reprocessor catalog number(s)": "RR7D282CT, RR7F282CT",
@@ -2264,9 +2264,9 @@
    "Product code": "NLH",
    "Decision date": "2024-09-14",
    "Linked guide device ID": null,
-   "Source IDs": "S205",
-   "Source URLs (all for this row)": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241156.pdf",
-   "Notes / gaps for this row": "One clearance covers both fixed-curve Response and Supreme families; the summary does not split the proposed list by brand. Livewire numbers in the same table are the K221067 reference device, not this clearance, and are not included here."
+   "Source IDs": "S205, S275",
+   "Source URLs (all for this row)": "[S205] https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241156.pdf | [S275] https://www.accessdata.fda.gov/cdrh_docs/pdf16/K161272.pdf",
+   "Notes / gaps for this row": "One clearance covers both fixed-curve Response and Supreme families; the summary does not split the proposed list by brand. Livewire numbers in the same table are the K221067 reference device, not this clearance, and are not included here. Earlier Medline clearance K161272 (re-read 11/14/2026, S275) is the same Medline ReNewal Supreme + Response pairing (not Surgical Instrument Service, which was a leftover-list mis-ID). Catalogs in K161272 are a subset of this later K241156 list; no additional models were added from K161272."
   },
   {
    "ID": "R21",
@@ -2306,9 +2306,9 @@
    "Product code": "NLH",
    "Decision date": "2023-05-31",
    "Linked guide device ID": null,
-   "Source IDs": "S207",
-   "Source URLs (all for this row)": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221067.pdf",
-   "Notes / gaps for this row": "Earlier Medline Livewire clearance K151617 was not re-read in this pass."
+   "Source IDs": "S207, S276",
+   "Source URLs (all for this row)": "[S207] https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221067.pdf | [S276] https://www.accessdata.fda.gov/cdrh_docs/pdf15/K151617.pdf",
+   "Notes / gaps for this row": "Earlier Medline Livewire clearance K151617 was re-read 11/14/2026 (S276). The posted FDA file is the 2016-01-22 clearance letter (NLH, Livewire) without an extractable model table, so catalogs remain those listed in the later K221067 summary on this row."
   },
   {
    "ID": "R23",
@@ -2317,7 +2317,7 @@
    "OEM device it reprocesses": "EP-XT, Dynamic Tip and Dynamic XT Unidirectional Steerable Diagnostic Catheters",
    "OEM manufacturer": "Boston Scientific",
    "Family": "Diagnostic catheters",
-   "Category": "Steerable, standard; Reprocessing",
+   "Category": "Steerable, standard; Multipolar or decapolar; Reprocessing",
    "Reprocessed": "Yes",
    "Device type": "Diagnostic catheters > Steerable, standard",
    "Reprocessor catalog number(s)": "Dynamic Tip: 6DYNTP001, 6DYNTP002, 6DYNTP006, 201101, 201102, 201103, 201104, 201105, 201106, 201107, 201108, 201109, 201110, 201112, 201113, 201114, 201115. Dynamic XT: 6DYNXT002, 6DYNXT004, 6DYNXT009, 6DYNXT011",
@@ -2338,7 +2338,7 @@
    "OEM device it reprocesses": "Dynamic Tip Unidirectional Steerable Diagnostic Catheter",
    "OEM manufacturer": "Boston Scientific",
    "Family": "Diagnostic catheters",
-   "Category": "Steerable, standard; Reprocessing",
+   "Category": "Steerable, standard; Multipolar or decapolar; Reprocessing",
    "Reprocessed": "Yes",
    "Device type": "Diagnostic catheters > Steerable, standard",
    "Reprocessor catalog number(s)": "6DYNTP001, 6DYNTP002, 6DYNTP006",
@@ -2359,7 +2359,7 @@
    "OEM device it reprocesses": "Dynamic XT Unidirectional Steerable Diagnostic Catheter",
    "OEM manufacturer": "Boston Scientific",
    "Family": "Diagnostic catheters",
-   "Category": "Steerable, standard; Reprocessing",
+   "Category": "Steerable, standard; Multipolar or decapolar; Reprocessing",
    "Reprocessed": "Yes",
    "Device type": "Diagnostic catheters > Steerable, standard",
    "Reprocessor catalog number(s)": "201101, 201102, 201103, 201104, 201105, 201106, 201107, 201108, 201109, 201110, 201112, 201113, 201115, 6DYNXT002, 6DYNXT004, 6DYNXT009, 6DYNXT011",
@@ -2663,9 +2663,9 @@
    "Product code": "OWQ",
    "Decision date": "2023-07-25",
    "Linked guide device ID": "X20",
-   "Source IDs": "S223",
-   "Source URLs (all for this row)": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231621.pdf",
-   "Notes / gaps for this row": "Earlier Stryker clearance K182238 (2019-05-08) was not re-read in this pass."
+   "Source IDs": "S223, S277",
+   "Source URLs (all for this row)": "[S223] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231621.pdf | [S277] https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182238.pdf",
+   "Notes / gaps for this row": "Earlier Stryker clearance K182238 (2019-05-08) was re-read 11/14/2026 (S277): same OEM/reprocessed model D087031, 9F, 90 cm, compatible with ViewMate II / ViewMate Z / ViewMate and Philips CX50; reprocessed no more than one time. Catalogs unchanged from the later K231621 summary on this row."
   },
   {
    "ID": "R40",
@@ -2705,9 +2705,9 @@
    "Product code": "OWQ",
    "Decision date": "2023-06-30",
    "Linked guide device ID": "X20",
-   "Source IDs": "S225",
-   "Source URLs (all for this row)": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231588.pdf",
-   "Notes / gaps for this row": "OEM-sponsored reprocessed version of ViewFlex Xtra (D087031), 90 cm, 9F, named for ViewMate Z in the table. Earlier related Abbott clearances K230934 and K222217, and the mixed K251211 device list, were not separately parsed for additional catalog numbers in this pass."
+   "Source IDs": "S225, S278, S279, S280",
+   "Source URLs (all for this row)": "[S225] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231588.pdf | [S278] https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222217.pdf | [S279] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230934.pdf | [S280] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251211.pdf",
+   "Notes / gaps for this row": "OEM-sponsored reprocessed version of ViewFlex Xtra (D087031), 90 cm, 9F; reprocessed catalog D087031-R. Earlier K222217 (S278) cleared the same D087031-R device under the trade name ViewFlex Xtra Reprocessed ICE Catheter; K230934 (S279) renamed it ViewFlex Eco (predicate K222217). K251211 (S280) is a later mixed Abbott filing (ViewFlex Xtra, ViewFlex Eco Reprocessed with predicate K231588, Advisor HD Grid / HD Grid X, Agilis NxT and Dual-Reach) that does not add a new Eco catalog number. Linked to X20 as the OEM device this reprocessed catheter is made from."
   },
   {
    "ID": "R42",
@@ -3527,6 +3527,27 @@
    "Source IDs": "S269",
    "Source URLs (all for this row)": "[S269] https://www.accessdata.fda.gov/cdrh_docs/pdf3/K030005.pdf",
    "Notes / gaps for this row": "Product code DSA (electrode/patient cable). Predicates: Biosense Webster EP catheter accessory cables (510(k) not named), Daig K910645, Medtronic K894981 and K882174. Description: ~4 to 7 ft polymer shaft with connectors at each end. No model table in the summary."
+  },
+  {
+   "ID": "R81",
+   "Reprocessor": "Vanguard Medical Concepts",
+   "Reprocessed device name (as cleared)": "Vanguard Reprocessed Diagnostic Electrophysiology Catheters (Halo XP)",
+   "OEM device it reprocesses": "Halo XP Diagnostic Electrophysiology Catheter (Cordis Webster / Biosense Webster T20 family)",
+   "OEM manufacturer": "J&J MedTech (Biosense Webster)",
+   "Family": "Diagnostic catheters",
+   "Category": "Circular mapping; Reprocessing",
+   "Reprocessed": "Yes",
+   "Device type": "Diagnostic catheters > Circular mapping",
+   "Reprocessor catalog number(s)": "D7-T20-P15-FS, D7-T20-P15-RT, D7-T20-282-FS, D7-T20-282-RT",
+   "OEM catalog number(s)": "D7-T20-P15-FS, D7-T20-P15-RT, D7-T20-282-FS, D7-T20-282-RT",
+   "Catalog number convention": "510(k) lists OEM catalog numbers only. A distinct Vanguard-modified catalog number is not stated in the summary.",
+   "510(k) number": "K040751",
+   "Product code": "NLH",
+   "Decision date": "2005-03-10",
+   "Linked guide device ID": null,
+   "Source IDs": "S274",
+   "Source URLs (all for this row)": "[S274] https://www.accessdata.fda.gov/cdrh_docs/pdf4/K040751.pdf",
+   "Notes / gaps for this row": "Clearance letter and enclosed model list: Halo XP, 7F, 110 cm, 20 electrodes, preformed tip for the tricuspid annulus; four catalogs (P15 and 282 spacing, FS 15-pin molded or RT 10-pin Redel connectors). OCR of one catalog appears as 'D7-T2!0-282-RT' and is recorded as D7-T20-282-RT to match the other 282 / T20 entries in the same list. Same OEM Halo XP family as Innovative Health R52 (catalog punctuation there is D7T20P15RT / D7T20282RT). No Diagnostic & ICE OEM row; left unlinked under the existing near/absent-match convention."
   }
  ],
  "procedure_stacks": [
@@ -11215,6 +11236,62 @@
    "Source type": "IFU (FDA-posted)",
    "Used for device rows": "D16; PS22; Y36, Y37, Y38, Y39, Y40",
    "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S274",
+   "Title / description": "FDA 510(k) summary / clearance K040751 (2005-03-10): Vanguard Reprocessed Diagnostic Electrophysiology Catheters \u2014 Halo XP models D7-T20-P15-FS / -RT and D7-T20-282-FS / -RT",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf4/K040751.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "R81",
+   "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S275",
+   "Title / description": "FDA 510(k) summary K161272 (2017-05-18): Medline ReNewal Reprocessed Supreme and Response Electrophysiology Catheters (earlier than R20 K241156)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf16/K161272.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "R20",
+   "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S276",
+   "Title / description": "FDA 510(k) clearance letter K151617 (2016-01-22): Medline ReNewal Reprocessed St. Jude Medical Livewire Electrophysiology Catheter (posted file is the letter; no model table extracted)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K151617.pdf",
+   "Source type": "FDA 510(k) clearance letter",
+   "Used for device rows": "R22",
+   "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S277",
+   "Title / description": "FDA 510(k) summary K182238 (2019-05-08): Stryker Sustainability Solutions Reprocessed ViewFlex Xtra ICE Catheter, model D087031 (earlier than R39 K231621)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182238.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "R39",
+   "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S278",
+   "Title / description": "FDA 510(k) summary K222217 (2022-12-19): Abbott ViewFlex Xtra Reprocessed ICE Catheter, reprocessed model D087031-R (predecessor of the Eco trade name)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222217.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "R41",
+   "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S279",
+   "Title / description": "FDA 510(k) summary K230934 (2023-05-03): Abbott ViewFlex Eco Reprocessed ICE Catheter (rename of the K222217 Xtra Reprocessed device; predicate K222217)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230934.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "R41",
+   "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S280",
+   "Title / description": "FDA 510(k) summary K251211 (2025-05-23): mixed Abbott filing covering ViewFlex Xtra, ViewFlex Eco Reprocessed (predicate K231588), Advisor HD Grid / HD Grid X, and Agilis NxT / Dual-Reach (labeling / compatibility; Eco catalog remains D087031-R)",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251211.pdf",
+   "Source type": "FDA 510(k) summary",
+   "Used for device rows": "R41",
+   "Accessed": "2026-11-14"
   }
  ],
  "notes": [
@@ -11537,6 +11614,22 @@
   {
    "Category": "Procedure stacks \u2014 notable gaps (pass 5)",
    "Note": "Still blank (no model named in the sources reviewed): Volt and TactiFlex Duo US SSEDs; Dual Energy STSF RF generator ('compatible generator' only) on PS06/PS14/PS15; TactiCath SE RF generator (compatible RF generator only) on PS23/PS24; TactiFlex Duo PF generator on PS31 (Current PFA Unified Cable is named; the generator is not confirmed in an IFU); sheath models for STSF, QDOT, DE STSF, TactiFlex SE, FlexAbility, STABLEPOINT, MIFI OI, Freezor, and HeartLight (size or 'appropriate 12F ID deflectable sheath' only; the HeartLight X3 IFU\u2019s EU sheath catalog 18-3356 was not entered as a US model); ICE and transseptal tools remain Typical, not labeled on these stacks. Sphere-9 sheath is still size-only. INTELLAGEN was not entered for STABLEPOINT (EU spec only)."
+  },
+  {
+   "Category": "Accuracy pass 6, 11/14/2026 \u2014 spot-check",
+   "Note": "Spot-checked 25 values added tonight against their cited sources, sampling Reprocessed catalogs (R51 Torqr, R58 LASSO NAV eco, R59 Inquiry 80001=1010-6-25-J, R62 Webster CS BD710\u2026, R64 Agilis G408324, R68 D135303/D135304, R70 Inquiry/AFocus 81587=1120-7-1\u2026 and 80001, R74 and R78 Livewire 401xxx complete lists), Procedure stacks labeled pairings and indications (PS01/PS09 Merit inqWire and FARAPULSE cable catalogs from S18; PS14/PS15 Dual Energy STSF RF-only persistent AF and typical AFL from S40; PS17\u2013PS19 STSF indications and SmartAblate/Stockert 70 / nGEN pump from S183; PS20 QDOT indications, nGEN pump D-1397-02, and TX eco cables from S47; PS22 TactiFlex SE Ampere, TSQ-RF-TFSE-CBL, TactiSys Quartz PN-004 400, Cool Point 85785, and PAF + concomitant AFL from S273; PS25\u2013PS26 FlexAbility Ampere, A-FASE-CBL4, typical AFL and non-ischemic VT from S93; PS27 STABLEPOINT Maestro, MetriQ, RC03/RC04, and indications from S30; PS31\u2013PS32 TactiFlex Duo indication and 'PF energy should not be applied to the cavotricuspid isthmus' from S78/S55; PS33 Freezor MAX CTI adjunct from S79; PS34 Freezor Xtra AVNRT from S97; PS35 Globe components and PAF from S66/S67; PS36 HeartLight US PAF indication from S69; PS37 FARAPOINT CTI adjunct from S21), Accessories Y16/Y17/Y18/Y26/Y30 catalogs, and stack Family > Category vs the linked device rows. No factual errors were found in these sampled values; the 510(k) catalog lists for R51, R58, R62, R74, and R78 matched the sheet exactly."
+  },
+  {
+   "Category": "Accuracy pass 6 \u2014 consistency sweep",
+   "Note": "Swept all stacks, device sheets, Sources, and reprocessed links. No duplicate IDs. Every Source ID referenced on device or stack rows exists in Sources. Every stack labeled-pairing or modeled component that cites a guide device ID (D/G/M/A/X/Y/R) points to an existing row; apparent misses for D141201 and H700489 were catalog numbers inside the model text, not missing guide IDs. Stack Family > Category matches the linked device row in every case (0 mismatches). Reprocessed links point to the correct OEM family; R41 ViewFlex Eco \u2192 X20 is correct because the 510(k) is an OEM-sponsored reprocessed ViewFlex Xtra (D087031 / D087031-R). Five category consistency fixes were made on older linked reprocessed rows (see the next note)."
+  },
+  {
+   "Category": "Fix \u2014 reprocessed category (R10, R11, R23, R24, R25)",
+   "Note": "R10 and R11 (reprocessed DECANAV, linked to X05) were missing the OEM category Coronary sinus; set to 'Coronary sinus; Multipolar or decapolar; Reprocessing'. R23, R24, and R25 (reprocessed Dynamic Tip / XT, linked to X15) were missing the OEM category Multipolar or decapolar; set to 'Steerable, standard; Multipolar or decapolar; Reprocessing'."
+  },
+  {
+   "Category": "Reprocessed devices, remaining 510(k)s, 11/14/2026",
+   "Note": "Read the remaining logged filings that could be retrieved: Abbott ViewFlex K222217 / K230934 / K251211 (notes and sources added on R41; no new Eco catalog), Stryker ViewFlex K182238 (confirmed D087031 on R39), Medline Livewire K151617 (letter only, no model table; noted on R22), and Medline Supreme + Response K161272 (earlier than R20; leftover text had mis-identified this as Surgical Instrument Service). Added R81 Vanguard Halo XP (K040751) with four D7-T20 catalogs. Also read earlier Alliance / Vanguard / SterilMed NLH and SterilMed AcuNav K043453: Alliance K043392 is an earlier Livewire 401xxx list (noted as earlier than R74, not a new row); the other older letters are generic or poorly cataloged in the posted scans and were not added as separate family rows. Still not usable: K012537 (404 at the usual and pdf/ URL patterns) and K012523 (file posted, text not extractable)."
   }
  ],
  "categories": [
@@ -11603,8 +11696,8 @@
   {
    "Family": "Diagnostic catheters",
    "Category": "Circular mapping",
-   "Rows assigned (this build)": 18,
-   "Device IDs / products": "X03, X04, X10, X11, R05, R06, R07, R08, R52, R55, R58, R59, R60, R61, R63, R70, R71, R75"
+   "Rows assigned (this build)": 19,
+   "Device IDs / products": "X03, X04, X10, X11, R05, R06, R07, R08, R52, R55, R58, R59, R60, R61, R63, R70, R71, R75, R81"
   },
   {
    "Family": "Diagnostic catheters",
@@ -11615,14 +11708,14 @@
   {
    "Family": "Diagnostic catheters",
    "Category": "Coronary sinus",
-   "Rows assigned (this build)": 10,
-   "Device IDs / products": "X05, X06, X07, R12, R13, R50, R51, R62, R68, R69"
+   "Rows assigned (this build)": 12,
+   "Device IDs / products": "X05, X06, X07, R10, R11, R12, R13, R50, R51, R62, R68, R69"
   },
   {
    "Family": "Diagnostic catheters",
    "Category": "Multipolar or decapolar",
-   "Rows assigned (this build)": 8,
-   "Device IDs / products": "X05, X15, R10, R11, R14, R15, R53, R56"
+   "Rows assigned (this build)": 11,
+   "Device IDs / products": "X05, X15, R10, R11, R14, R15, R23, R24, R25, R53, R56"
   },
   {
    "Family": "Diagnostic catheters",
@@ -11639,8 +11732,8 @@
   {
    "Family": "Diagnostic catheters",
    "Category": "Reprocessing",
-   "Rows assigned (this build)": 49,
-   "Device IDs / products": "R01, R02, R03, R04, R05, R06, R07, R08, R09, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R68, R69, R70, R71, R73, R74, R75, R76, R78, R79"
+   "Rows assigned (this build)": 50,
+   "Device IDs / products": "R01, R02, R03, R04, R05, R06, R07, R08, R09, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R68, R69, R70, R71, R73, R74, R75, R76, R78, R79, R81"
   },
   {
    "Family": "ICE catheters",
