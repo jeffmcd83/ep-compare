@@ -16,6 +16,7 @@ def rows(name):
     it = wb[name].iter_rows(values_only=True); hdr = [str(h).strip() if h else '' for h in next(it)]
     return hdr, [dict(zip(hdr, r)) for r in it if any(v not in (None, '') for v in r)]
 ch, comp = rows('Comparison'); nh, nonus = rows('Non-US & pipeline'); sh, srcs = rows('Sources'); _, notes = rows('Notes & gaps')
+cath, catrows = rows('Categories') if 'Categories' in wb.sheetnames else ([], [])
 gh, gens = rows('Generators') if 'Generators' in wb.sheetnames else ([], [])
 mh, maps = rows('Mapping systems') if 'Mapping systems' in wb.sheetnames else ([], [])
 shh, shs = rows('Sheaths & transseptal') if 'Sheaths & transseptal' in wb.sheetnames else ([], [])
@@ -49,6 +50,27 @@ def srclinks(ids):
         out.append(f'<a class="sid" href="{e(s["URL"])}" target="_blank" rel="noopener" title="{e(s["Title / description"])}">{i}</a>' if s else i)
     return ' '.join(out)
 
+def fam_attrs(r):
+    fam = str(r.get('Family') or '').strip()
+    cats = [x.strip() for x in str(r.get('Category') or '').split(';') if x.strip()]
+    return f' data-fam="{e(fam)}" data-cat="{e("|".join(cats))}"'
+# Category tree (sheet order if present, else a stable fallback)
+if catrows:
+    cat_tree = []
+    seen=set()
+    for r in catrows:
+        fam, cat = str(r.get('Family') or '').strip(), str(r.get('Category') or '').strip()
+        if fam and cat and (fam, cat) not in seen:
+            cat_tree.append((fam, cat)); seen.add((fam, cat))
+    families = []
+    [families.append(f) for f,_ in cat_tree if f not in families]
+else:
+    families, cat_tree = [], []
+cat_tree_js = {}
+for fam, cat in cat_tree:
+    cat_tree_js.setdefault(fam, []).append(cat)
+CATREE = json.dumps(cat_tree_js)
+
 SKIP = {'ID', 'Source URLs (all for this row)', 'Source IDs - specs', 'Source IDs - regulatory', 'Source IDs - recalls/safety'}
 cols = [c for c in ch if c and c not in SKIP]
 energies = sorted({re.split(r'[ (:;,]', str(r.get('Energy type') or ''))[0] for r in comp} - {''})
@@ -71,7 +93,7 @@ for r in comp:
     sl = ''.join(f'<div><small>{k.split(" - ")[1]}:</small> {srclinks(r.get(k))}</div>' for k in ('Source IDs - specs', 'Source IDs - regulatory', 'Source IDs - recalls/safety') if r.get(k))
     tds.append(f'<td class="sl">{sl}</td>')
     en = re.split(r'[ (:;,]', str(r.get('Energy type') or ''))[0]; mf = re.sub(r'\s*\(.*', '', str(r.get('Manufacturer') or ''))
-    trs.append(f'<tr data-e="{e(en)}" data-m="{e(mf)}" data-g="{int(any(GAP.search(str(r.get(c) or "")) or not str(r.get(c) or "").strip() for c in cols))}" data-cf="{int(conf)}">' + ''.join(tds) + '</tr>')
+    trs.append(f'<tr data-e="{e(en)}" data-m="{e(mf)}" data-g="{int(any(GAP.search(str(r.get(c) or "")) or not str(r.get(c) or "").strip() for c in cols))}" data-cf="{int(conf)}"{fam_attrs(r)}>' + ''.join(tds) + '</tr>')
 
 GSKIP = {'Source URLs (all for this row)', 'Source IDs'}
 gcols = [c for c in gh if c and c not in GSKIP]
@@ -86,7 +108,7 @@ for r in gens:
         if c == 'Generator / console': body = f'<b>{body}</b>'
         tds.append(f'<td{" class=gap" if g else ""}>{body}</td>')
     tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
-    gtr.append('<tr>' + ''.join(tds) + '</tr>')
+    gtr.append(f'<tr{fam_attrs(r)}>' + ''.join(tds) + '</tr>')
 gth = ''.join(f'<th>{e(c)}</th>' for c in gcols) + '<th>Sources</th>'
 mcols = [c for c in mh if c and c not in GSKIP]
 mgap = 0; mtr = []
@@ -100,7 +122,7 @@ for r in maps:
         if c == 'System': body = f'<b>{body}</b>'
         tds.append(f'<td{" class=gap" if g else ""}>{body}</td>')
     tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
-    mtr.append('<tr>' + ''.join(tds) + '</tr>')
+    mtr.append(f'<tr{fam_attrs(r)}>' + ''.join(tds) + '</tr>')
 mth = ''.join(f'<th>{e(c)}</th>' for c in mcols) + '<th>Sources</th>'
 scols = [c for c in shh if c and c not in GSKIP]
 sgap = 0; str_ = []
@@ -114,7 +136,7 @@ for r in shs:
         if c == 'Product': body = f'<b>{body}</b>'
         tds.append(f'<td{" class=gap" if g else ""}>{body}</td>')
     tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
-    str_.append('<tr>' + ''.join(tds) + '</tr>')
+    str_.append(f'<tr{fam_attrs(r)}>' + ''.join(tds) + '</tr>')
 sth = ''.join(f'<th>{e(c)}</th>' for c in scols) + '<th>Sources</th>'
 xcols = [c for c in xh if c and c not in GSKIP]
 xgap = 0; xtr = []
@@ -128,7 +150,7 @@ for r in xs:
         if c == 'Product': body = f'<b>{body}</b>'
         tds.append(f'<td{" class=gap" if g else ""}>{body}</td>')
     tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
-    xtr.append('<tr>' + ''.join(tds) + '</tr>')
+    xtr.append(f'<tr{fam_attrs(r)}>' + ''.join(tds) + '</tr>')
 xth = ''.join(f'<th>{e(c)}</th>' for c in xcols) + '<th>Sources</th>'
 RSKIP = {'Source URLs (all for this row)', 'Source IDs'}
 rcols = [c for c in rh if c and c not in RSKIP]
@@ -149,9 +171,9 @@ for r in reps:
         tds.append(f'<td{" class=gap" if g else ""}>{body}</td>')
     tds.append(f'<td class="sl">{srclinks(r.get("Source IDs"))}</td>')
     rp = e(str(r.get('Reprocessor') or '').strip()); dt = e(str(r.get('Device type') or '').strip())
-    rtr.append(f'<tr data-rp="{rp}" data-dt="{dt}">' + ''.join(tds) + '</tr>')
+    rtr.append(f'<tr data-rp="{rp}" data-dt="{dt}"{fam_attrs(r)}>' + ''.join(tds) + '</tr>')
 rth = ''.join(f'<th>{e(c)}</th>' for c in rcols) + '<th>Sources</th>'
-nu = ''.join('<tr>' + ''.join(f'<td>{linkify(x.get(c))}</td>' for c in nh) + '</tr>' for x in nonus)
+nu = ''.join(f'<tr{fam_attrs(x)}>' + ''.join(f'<td>{linkify(x.get(c))}</td>' for c in nh) + '</tr>' for x in nonus)
 nuh = ''.join(f'<th>{e(c)}</th>' for c in nh)
 cats = {}
 for n in notes: cats.setdefault(n['Category'], []).append(n['Note'])
@@ -165,7 +187,8 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 <title>{TITLE}</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#111827"><meta name="color-scheme" content="light">
 <style>{crm}</style></head><body>
 <header><h1>{TITLE}</h1>{guides_menu()}<span class="pass">{len(comp)} US-approved catheters · updated {updated}</span>
-<nav class="tabs"><button data-t="cmp" class="on">Comparison</button><button data-t="gen">Generators</button><button data-t="map">Mapping systems</button><button data-t="sh">Sheaths &amp; transseptal</button><button data-t="dx">Diagnostic &amp; ICE</button><button data-t="rep">Reprocessed</button><button data-t="nus">Non-US &amp; pipeline</button><button data-t="nts">Notes &amp; gaps</button><button data-t="src">Sources</button></nav></header>
+<nav class="tabs"><button data-t="cmp" class="on">Comparison</button><button data-t="gen">Generators</button><button data-t="map">Mapping systems</button><button data-t="sh">Sheaths &amp; transseptal</button><button data-t="dx">Diagnostic &amp; ICE</button><button data-t="rep">Reprocessed</button><button data-t="nus">Non-US &amp; pipeline</button><button data-t="nts">Notes &amp; gaps</button><button data-t="src">Sources</button></nav>
+<div class="flt catf" id="catflt"><select id="ffam" aria-label="Family"><option value="">All families</option>{opt(families)}</select><select id="fcat" aria-label="Category"><option value="">All categories</option></select><span class="cnt" id="fcn"></span></div></header>
 <main>
 <section id="cmp" class="pane on">
 <div class="flt"><input id="q" placeholder="Filter (product, spec, indication…)" aria-label="Filter"><select id="fe"><option value="">All energy types</option>{opt(energies)}</select><select id="fm"><option value="">All manufacturers</option>{opt(mfrs)}</select>
@@ -186,12 +209,40 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 </main><footer>Public sources only (FDA SSED/PMA/recall databases, manufacturer spec sheets). Not medical advice; verify against current IFU. Updated {updated}.</footer>
 <script>
 const $=s=>document.querySelector(s),rs=[...document.querySelectorAll('#rt tbody tr')];
-document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('nav.tabs button,.pane').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('#'+b.dataset.t).classList.add('on')}});
-function f(){{const q=$('#q').value.toLowerCase(),en=$('#fe').value,m=$('#fm').value,g=$('#fg').checked,c=$('#fc').checked;let n=0;rs.forEach(r=>{{const v=(!q||r.textContent.toLowerCase().includes(q))&&(!en||r.dataset.e==en)&&(!m||r.dataset.m==m)&&(!g||r.dataset.g=='1')&&(!c||r.dataset.cf=='1');r.hidden=!v;n+=v}});$('#n').textContent=n+' of '+rs.length+' shown'}}
-['#q','#fe','#fm','#fg','#fc'].forEach(s=>$(s).addEventListener('input',f));f();
+const CATREE={CATREE};
 const rrs=[...document.querySelectorAll('#rpt tbody tr')];
-function rf(){{const q=($('#rq')&&$('#rq').value||'').toLowerCase(),rp=$('#fr')?$('#fr').value:'',dt=$('#fd')?$('#fd').value:'',g=$('#rfg')&&$('#rfg').checked;let n=0;rrs.forEach(r=>{{const hasGap=!!r.querySelector('.gap,.gp');const v=(!q||r.textContent.toLowerCase().includes(q))&&(!rp||r.dataset.rp==rp)&&(!dt||r.dataset.dt==dt)&&(!g||hasGap);r.hidden=!v;n+=v}});if($('#rn'))$('#rn').textContent=n+' of '+rrs.length+' shown'}}
-['#rq','#fr','#fd','#rfg'].forEach(s=>{{const el=$(s);if(el)el.addEventListener('input',rf)}});rf();
+function catMatch(tr){{
+  const fam=$('#ffam')?$('#ffam').value:'', cat=$('#fcat')?$('#fcat').value:'';
+  if(fam && (tr.dataset.fam||'')!==fam) return false;
+  if(cat){{const cs=(tr.dataset.cat||'').split('|').filter(Boolean); if(!cs.includes(cat)) return false;}}
+  return true;
+}}
+function fillCats(){{
+  const fam=$('#ffam').value, sel=$('#fcat'), cur=sel.value;
+  const cats=fam?(CATREE[fam]||[]):Object.keys(CATREE).reduce((a,k)=>a.concat(CATREE[k]||[]),[]);
+  sel.innerHTML='<option value="">All categories</option>'+cats.map(c=>'<option>'+c+'</option>').join('');
+  if(cats.includes(cur)) sel.value=cur;
+}}
+function f(){{const q=$('#q').value.toLowerCase(),en=$('#fe').value,m=$('#fm').value,g=$('#fg').checked,c=$('#fc').checked;let n=0;rs.forEach(r=>{{const v=(!q||r.textContent.toLowerCase().includes(q))&&(!en||r.dataset.e==en)&&(!m||r.dataset.m==m)&&(!g||r.dataset.g=='1')&&(!c||r.dataset.cf=='1')&&catMatch(r);r.hidden=!v;n+=v}});$('#n').textContent=n+' of '+rs.length+' shown'}}
+function rf(){{const q=($('#rq')&&$('#rq').value||'').toLowerCase(),rp=$('#fr')?$('#fr').value:'',dt=$('#fd')?$('#fd').value:'',g=$('#rfg')&&$('#rfg').checked;let n=0;rrs.forEach(r=>{{const hasGap=!!r.querySelector('.gap,.gp');const v=(!q||r.textContent.toLowerCase().includes(q))&&(!rp||r.dataset.rp==rp)&&(!dt||r.dataset.dt==dt)&&(!g||hasGap)&&catMatch(r);r.hidden=!v;n+=v}});if($('#rn'))$('#rn').textContent=n+' of '+rrs.length+' shown'}}
+function filterOther(){{
+  document.querySelectorAll('#gen tbody tr, #map tbody tr, #sh tbody tr, #dx tbody tr, #nus tbody tr').forEach(r=>{{r.hidden=!catMatch(r)}});
+}}
+function recount(){{
+  const pane=document.querySelector('.pane.on'); if(!pane||!$('#fcn')) return;
+  if(pane.id==='nts'||pane.id==='src'){{$('#fcn').textContent=''; $('#catflt').hidden=true; return;}}
+  $('#catflt').hidden=false;
+  const rows=[...pane.querySelectorAll('tbody tr')];
+  const vis=rows.filter(r=>!r.hidden).length;
+  $('#fcn').textContent=vis+' of '+rows.length+' shown';
+}}
+function applyAll(){{f();rf();filterOther();recount();}}
+document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('nav.tabs button,.pane').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('#'+b.dataset.t).classList.add('on');applyAll()}});
+['#q','#fe','#fm','#fg','#fc'].forEach(s=>$(s).addEventListener('input',applyAll));
+['#rq','#fr','#fd','#rfg'].forEach(s=>{{const el=$(s);if(el)el.addEventListener('input',applyAll)}});
+$('#ffam').addEventListener('input',()=>{{fillCats();applyAll()}});
+$('#fcat').addEventListener('input',applyAll);
+fillCats();applyAll();
 let sc=-1,sd=1;document.querySelectorAll('#rt th[data-c]').forEach(h=>h.onclick=()=>{{const i=+h.dataset.c;sd=sc==i?-sd:1;sc=i;document.querySelectorAll('#rt .ar').forEach(a=>a.textContent='');h.querySelector('.ar').textContent=sd>0?' ▲':' ▼';const tb=$('#rt tbody');rs.sort((a,b)=>sd*a.cells[i].textContent.localeCompare(b.cells[i].textContent,undefined,{{numeric:true}})).forEach(r=>tb.appendChild(r))}});
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
 </script></body></html>'''
@@ -200,5 +251,5 @@ open(os.path.join(OUT, 'index.html'), 'w').write(page)
 open(os.path.join(OUT, 'sw.js'), 'w').write("const P='ep-',C=P+'%s';self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./favicon.svg','./data/ep.json','./manifest.webmanifest'])))});self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith(P)&&x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(caches.open(C).then(c=>fetch(e.request,{cache:'no-cache'}).then(r=>{if(r.ok)c.put(e.request,r.clone());return r}).catch(()=>c.match(e.request,{ignoreSearch:true}))))});" % datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
 json.dump({'name': TITLE, 'short_name': 'EP Guide', 'start_url': './', 'scope': './', 'display': 'standalone', 'background_color': '#111827', 'theme_color': '#111827', 'icons': [{'src': 'favicon.svg', 'sizes': 'any', 'type': 'image/svg+xml'}]}, open(os.path.join(OUT, 'manifest.webmanifest'), 'w'), indent=1)
 os.makedirs(os.path.join(OUT, 'data'), exist_ok=True)
-json.dump({'updated': updated, 'comparison': comp, 'generators': gens, 'mapping_systems': maps, 'sheaths': shs, 'diagnostic_ice': xs, 'reprocessed': reps, 'non_us': nonus, 'sources': srcs, 'notes': notes}, open(os.path.join(OUT, 'data/ep.json'), 'w'), default=str, indent=1)
+json.dump({'updated': updated, 'comparison': comp, 'generators': gens, 'mapping_systems': maps, 'sheaths': shs, 'diagnostic_ice': xs, 'reprocessed': reps, 'non_us': nonus, 'sources': srcs, 'notes': notes, 'categories': catrows}, open(os.path.join(OUT, 'data/ep.json'), 'w'), default=str, indent=1)
 print(f'built: {len(comp)} catheters, {ngap} gap cells, {nconf} conflict rows, {len(gens)} generators ({ggap} gap cells), {len(maps)} mapping systems ({mgap} gap cells), {len(shs)} sheaths ({sgap} gap cells), {len(xs)} diagnostic/ICE ({xgap} gap cells), {len(reps)} reprocessed ({rgap} gap cells), {len(nonus)} non-US, {len(srcs)} sources')
