@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "comparison": [
   {
    "ID": "D01",
@@ -505,13 +505,13 @@
    "Mapping system compatibility": "Not applicable (endoscopic visualization)",
    "Required generator / console": "HeartLight X3 Console (V2)",
    "FDA-approved indications (catheter)": "Drug-refractory recurrent symptomatic paroxysmal AF",
-   "FDA approval date (device/indication)": "HeartLight original 04/01/2016; X3 announced FDA-approved 05/12/2020",
-   "PMA number (supplement)": "P150026 (X3 supplement no. not verified)",
+   "FDA approval date (device/indication)": "HeartLight original 04/01/2016; Excalibur balloon 05/02/2018 (S002); X3 system 05/08/2020 (S008, S115)",
+   "PMA number (supplement)": "P150026 (S002 Excalibur balloon; S008 X3; S014 X3 Console V2)",
    "Notable recalls / safety notices": "Class 2 Z-1307-2025 (initiated 02/07/2025): sterile barrier pouch damage potentially compromising sterility; 833 units",
    "Source IDs - specs": "S71, S69",
-   "Source IDs - regulatory": "S69, S70",
+   "Source IDs - regulatory": "S69, S70, S115, S116",
    "Source IDs - recalls/safety": "S72",
-   "Source URLs (all for this row)": "[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf\n[S69] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf\n[S70] https://www.prnewswire.com/news-releases/cardiofocus-announces-us-fda-approval-of-heartlight-x3-system-for-the-treatment-of-atrial-fibrillation-301057007.html\n[S72] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212400",
+   "Source URLs (all for this row)": "[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf\n[S69] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf\n[S70] https://www.prnewswire.com/news-releases/cardiofocus-announces-us-fda-approval-of-heartlight-x3-system-for-the-treatment-of-atrial-fibrillation-301057007.html\n[S72] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212400\n[S115] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S008\n[S116] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S014",
    "Notes / gaps for this row": "Manual reviewed lists EU model numbers. Current US commercial availability not verified."
   },
   {
@@ -9970,7 +9970,7 @@
    "Title / description": "FDA PMA database, P150026/S008 (05/08/2020): approval for the HeartLight X3 Endoscopic Ablation System",
    "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S008",
    "Source type": "FDA PMA database",
-   "Used for device rows": "G14",
+   "Used for device rows": "G14, D19",
    "Accessed": "10/26/2026"
   },
   {
@@ -9978,7 +9978,7 @@
    "Title / description": "FDA PMA database, P150026/S014 (02/24/2023): changes to the Console (HeartLight Catheter, HeartLight X3 Console V2)",
    "URL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S014",
    "Source type": "FDA PMA database",
-   "Used for device rows": "G14",
+   "Used for device rows": "G14, D19",
    "Accessed": "10/26/2026"
   },
   {
@@ -11630,6 +11630,14 @@
   {
    "Category": "Reprocessed devices, remaining 510(k)s, 11/14/2026",
    "Note": "Read the remaining logged filings that could be retrieved: Abbott ViewFlex K222217 / K230934 / K251211 (notes and sources added on R41; no new Eco catalog), Stryker ViewFlex K182238 (confirmed D087031 on R39), Medline Livewire K151617 (letter only, no model table; noted on R22), and Medline Supreme + Response K161272 (earlier than R20; leftover text had mis-identified this as Surgical Instrument Service). Added R81 Vanguard Halo XP (K040751) with four D7-T20 catalogs. Also read earlier Alliance / Vanguard / SterilMed NLH and SterilMed AcuNav K043453: Alliance K043392 is an earlier Livewire 401xxx list (noted as earlier than R74, not a new row); the other older letters are generic or poorly cataloged in the posted scans and were not added as separate family rows. Still not usable: K012537 (404 at the usual and pdf/ URL patterns) and K012523 (file posted, text not extractable)."
+  },
+  {
+   "Category": "Spot-check / fix 11/17/2026",
+   "Note": "Spot-checked D01 PulseSelect (10 Fr min ID sheath, 0.032 in J-tip guidewire, FDA SSED P230017 (S01)), D08 POLARx (11.8F shaft, 99 cm working length, 28/31 mm balloon) and A06 POLARSHEATH (12.7F ID, 15.9F OD, 68 cm working / 82 cm total, dilator 85 cm) against the FDA SSED P220032 (S27): all match. Fixed a cross-sheet inconsistency: D19 HeartLight X3 said the X3 supplement was not verified, while G14 already cited it. FDA PMA database (S115) confirms P150026/S008, decision 05/08/2020, \"Approval for the HeartLight X3 Endoscopic Ablation System\"; openFDA also lists S002 (Excalibur balloon, 05/02/2018). D19 date and PMA columns updated. Volt (P250022B) and TactiFlex Duo (P220013S028B) SSEDs re-checked: still 404."
+  },
+  {
+   "Category": "Next (11/17/2026)",
+   "Note": "Next small steps: (1) fill D19 balloon size / sheath from the X3 IFU (S71) if stated for US models; (2) fill D11 DE STSF usable length (not in the FDA-posted IFU text reviewed); (3) keep adding indications to Procedure stacks (VT / SVT stacks for RF catheters) and keep re-checking Volt / TactiFlex Duo SSEDs."
   }
  ],
  "categories": [
