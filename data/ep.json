@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "comparison": [
   {
    "ID": "D01",
@@ -1590,13 +1590,13 @@
    "French size": "3.3F (S168)",
    "Usable length": "146 cm effective length (S168)",
    "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "8 electrodes (15 and 20 mm loops), 10 (25 mm loop); spacing 4.1 mm (15 mm), 5.8 mm (20 and 25 mm) (S168)",
-   "Deflection": "[GAP] Not stated; nitinol pre-shaped loop (S168)",
+   "Deflection": "Non-steerable; circular loop (S144 comparison table, Achieve Advance K162892 as predicate)",
    "Compatible mapping systems (exact versions where stated)": "[GAP] Not stated",
    "Compatible ultrasound consoles (ICE)": "Not applicable (diagnostic catheter)",
    "FDA 510(k)/PMA number": "K162892",
    "FDA clearance date": "11/15/2016",
-   "Source IDs": "S168",
-   "Source URLs (all for this row)": "[S168] https://www.accessdata.fda.gov/cdrh_docs/pdf16/K162892.pdf",
+   "Source IDs": "S168, S144",
+   "Source URLs (all for this row)": "[S168] https://www.accessdata.fda.gov/cdrh_docs/pdf16/K162892.pdf\n[S144] https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223824.pdf",
    "Notes / gaps for this row": "Delivered through a delivery catheter (S168). Achieve ST (K153139) was not reviewed."
   },
   {
@@ -1834,8 +1834,8 @@
    "Family": "Diagnostic catheters",
    "Category": "Circular mapping, cryoballoon",
    "Listed category": "Diagnostic: circular mapping (cryoballoon)",
-   "French size": "[GAP] Shaft French size not stated in SSED Table 3",
-   "Usable length": "[GAP] Not stated in SSED",
+   "French size": "3.3F (1.10 mm) shaft (S144)",
+   "Usable length": "149 cm effective length (S144)",
    "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "20 mm loop, 8 evenly spaced radiopaque electrodes (S27)",
    "Deflection": "Circular shape established once deployed through the POLARx central guidewire lumen into the PV (S27)",
    "Compatible mapping systems (exact versions where stated)": "No 3D-mapping integration described; proximal handle integrates with standard EP lab recording systems via the EP Electrical Cable 2320 (S27)",
@@ -1844,7 +1844,7 @@
    "FDA clearance date": "03/22/2023 (K223824); system PMA 08/08/2023",
    "Source IDs": "S27, S144",
    "Source URLs (all for this row)": "[S27] https://www.accessdata.fda.gov/cdrh_docs/pdf22/P220032B.pdf | [S144] https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223824.pdf",
-   "Notes / gaps for this row": "Named in the P220032 SSED (S27) as a Boston Scientific Cardiac Cryoablation System component (model 2317, 20 mm). Deployed through the POLARx / POLARx FIT guidewire lumen. French size and usable length not in the SSED tables reviewed."
+   "Notes / gaps for this row": "Named in the P220032 SSED (S27) as a Boston Scientific Cardiac Cryoablation System component (model 2317, 20 mm). Deployed through the POLARx / POLARx FIT guidewire lumen. French size and effective length from the K223824 510(k) comparison table (S144), which lists the catheter as UPN M004CRBS7210; the SSED (S27) uses model 2317."
   }
  ],
  "reprocessed": [
@@ -10199,10 +10199,10 @@
   },
   {
    "Source ID": "S144",
-   "Title / description": "FDA 510(k) summary K223824 (03/22/2023): POLARSHEATH Steerable Sheath 12F (M004CRBS3150) with POLARMAP; comparison table vs FlexCath Advance 12F (usable length 65 cm vs 68 cm)",
+   "Title / description": "FDA 510(k) summary K223824 (03/22/2023): POLARSHEATH Steerable Sheath 12F (M004CRBS3150) with POLARMAP; comparison table vs FlexCath Advance 12F (usable length 65 cm vs 68 cm); POLARMAP UPN M004CRBS7210 3.3F, 149 cm vs Achieve Advance 3.3F, 146 cm, non-steerable",
    "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223824.pdf",
    "Source type": "FDA 510(k) summary",
-   "Used for device rows": "A04, A06",
+   "Used for device rows": "A04, A06, X13, X26",
    "Accessed": "10/26/2026"
   },
   {
@@ -11638,6 +11638,10 @@
   {
    "Category": "Next (11/17/2026)",
    "Note": "Next small steps: (1) fill D19 balloon size / sheath from the X3 IFU (S71) if stated for US models; (2) fill D11 DE STSF usable length (not in the FDA-posted IFU text reviewed); (3) keep adding indications to Procedure stacks (VT / SVT stacks for RF catheters) and keep re-checking Volt / TactiFlex Duo SSEDs."
+  },
+  {
+   "Category": "IFU gap fill 11/18/2026",
+   "Note": "Filled from FDA 510(k) summary K223824 (S144, already in Sources): X26 POLARMAP French size (3.3F, 1.10 mm) and usable length (149 cm effective); X13 Achieve Advance deflection (non-steerable, per the predicate column). Minor ID note: K223824 lists POLARMAP as UPN M004CRBS7210 while the P220032 SSED uses model 2317; both kept. Volt SSED (P250022B) still not posted by FDA (URL returns an HTML page), so D14 and G05 gaps remain."
   }
  ],
  "categories": [
