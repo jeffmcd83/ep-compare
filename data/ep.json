@@ -496,10 +496,10 @@
    "US status (as of 10/13/2026)": "FDA PMA approved",
    "Energy type": "Laser (980 nm diode; thermal)",
    "Catheter design / form factor": "Compliant balloon with endoscope (direct visualization); motor-driven RAPID circumferential lesion mode",
-   "French size (shaft; sheath)": "[GAP] Not confirmed (uses dedicated deflectable sheath)",
+   "French size (shaft; sheath)": "Distal tip 7.5 Fr (X3 IFU Fig. 8-3, S71); sheath: appropriate 12F ID deflectable sheath (US SSED, S69). X3 IFU (S71) adds: ID \u226512 F, usable length 75 cm, overall \u226494 cm, 180\u00b0 deflection",
    "Usable / working length": "[GAP] Not found (endoscope 2F, 145 cm per original SSED)",
    "Electrode count / configuration": "Not applicable (light-based lesion generator)",
-   "Tip / electrode / balloon size": "[GAP] Balloon diameter not found",
+   "Tip / electrode / balloon size": "Compliant balloon; size adjusted during the case with the Balloon Remote. No fixed balloon diameter is stated in the X3 IFU (S71)",
    "Irrigation": "Not applicable (balloon filled with D2O admixture fill media)",
    "Contact force sensing": "No",
    "Mapping system compatibility": "Not applicable (endoscopic visualization)",
@@ -512,7 +512,7 @@
    "Source IDs - regulatory": "S69, S70, S115, S116",
    "Source IDs - recalls/safety": "S72",
    "Source URLs (all for this row)": "[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf\n[S69] https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150026B.pdf\n[S70] https://www.prnewswire.com/news-releases/cardiofocus-announces-us-fda-approval-of-heartlight-x3-system-for-the-treatment-of-atrial-fibrillation-301057007.html\n[S72] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=212400\n[S115] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S008\n[S116] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150026S014",
-   "Notes / gaps for this row": "Manual reviewed lists EU model numbers. Current US commercial availability not verified."
+   "Notes / gaps for this row": "Manual reviewed lists EU model numbers. Current US commercial availability not verified. S71 manufacturer URL returned 404 on 11/19/2026; values were read from the copy saved 10/13/2026 (06-5355 Rev D, 09/21/2023)."
   },
   {
    "ID": "D20",
@@ -8074,6 +8074,20 @@
    "Notes": "Console spare / replacement lamp named in the X3 IFU (S71). Not a required per-case disposable."
   },
   {
+   "Stack ID": "PS36",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "paroxysmal AF",
+   "Supplier": "CardioFocus",
+   "Energy approach": "Laser",
+   "Component slot": "Guidewire",
+   "Family > Category": null,
+   "Exact model (with guide device ID link, e.g. D05)": null,
+   "Labeled status": "None",
+   "Source IDs": "S71",
+   "Source URLs": "[S71] https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf",
+   "Notes": "Blank for the US. The X3 IFU (S71, EU-labeled) lists a required 260 cm, 0.035 in Amplatz Ultra Stiff or Super Stiff guidewire for deflectable-sheath introduction and suggests Cook THSCF-35-260-3-AUS2 or Boston Scientific 46-502. The US SSED (S69) names no guidewire, so these are not entered as a US labeled pairing."
+  },
+  {
    "Stack ID": "PS37",
    "Procedure": "CTI",
    "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "CTI line as adjunct when FARAWAVE is used for persistent AF (episode \u226412 months)",
@@ -9615,7 +9629,7 @@
   },
   {
    "Source ID": "S71",
-   "Title / description": "HeartLight X3 Console (V2) Operation & Maintenance Manual (EU model numbers, Rev D 2023)",
+   "Title / description": "HeartLight X3 Console (V2) Operation & Maintenance Manual (EU model numbers, 06-5355 Rev D, 09/21/2023). Manufacturer URL returned 404 on 11/19/2026; saved copy from 10/13/2026 retained",
    "URL": "https://files.cardiofocus.com/product-ifus-and-resources/HeartLight%20X3%20Endoscopic%20Ablation%20System%20IFU_English.pdf",
    "Source type": "IFU/manual",
    "Used for device rows": "D19",
@@ -11642,6 +11656,14 @@
   {
    "Category": "IFU gap fill 11/18/2026",
    "Note": "Filled from FDA 510(k) summary K223824 (S144, already in Sources): X26 POLARMAP French size (3.3F, 1.10 mm) and usable length (149 cm effective); X13 Achieve Advance deflection (non-steerable, per the predicate column). Minor ID note: K223824 lists POLARMAP as UPN M004CRBS7210 while the P220032 SSED uses model 2317; both kept. Volt SSED (P250022B) still not posted by FDA (URL returns an HTML page), so D14 and G05 gaps remain."
+  },
+  {
+   "Category": "Spot-check / fill 11/19/2026",
+   "Note": "Filled D19 HeartLight X3 gaps from the X3 IFU (S71): distal tip 7.5 Fr; sheath ID \u226512 F, 75 cm usable, \u226494 cm overall, 180\u00b0 deflection (US SSED S69 says only \"appropriate 12F ID deflectable sheath\"); balloon is compliant and sized with the Balloon Remote, with no fixed diameter stated. Added a PS36 Guidewire slot, left blank for the US: S71 (EU-labeled) suggests Cook THSCF-35-260-3-AUS2 or Boston Scientific 46-502 (260 cm, 0.035 in Amplatz stiff), but the US SSED names none. Spot-checked the PS36 sheath note and the S69 \"12F ID deflectable sheath\" requirement: match. Source issue: the S71 CardioFocus URL now returns 404; the saved 10/13/2026 copy was used and the Sources row notes this. Volt (P250022B) and TactiFlex Duo (P220013S028B) SSEDs re-checked: still 404."
+  },
+  {
+   "Category": "Next (11/19/2026)",
+   "Note": "Next small steps: (1) find a current CardioFocus URL for the X3 IFU (S71) or a US-labeled X3 IFU; (2) fill D11 DE STSF usable length; (3) add VT / SVT stacks for RF catheters; (4) keep re-checking the Volt and TactiFlex Duo SSEDs."
   }
  ],
  "categories": [
