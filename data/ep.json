@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-24",
  "comparison": [
   {
    "ID": "D01",
@@ -8785,6 +8785,111 @@
    "Source URLs": "[S82] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S095",
    "Notes": "P030031/S095 (S82): SmartAblate Irrigation Pump and nGEN Pump manuals changed to claim compatibility with the ThermoCool SmartTouch catheter family. Choose one pump; they are alternatives. Tubing model not named in the sources reviewed.",
    "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "Ablation catheter",
+   "Family > Category": "Ablation catheters > Radiofrequency",
+   "Exact model (with guide device ID link, e.g. D05)": "THERMOCOOL SMARTTOUCH catheter, non-SF (D1336xx uni / D1327xx bi) (D20)",
+   "Labeled status": "Labeled pairing",
+   "Source IDs": "S81",
+   "Source URLs": "[S81] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053",
+   "Notes": "Drug refractory recurrent symptomatic paroxysmal AF, when used with a compatible RF generator and compatible three-dimensional electroanatomic mapping systems (S053 approval order, S81; wording confirmed in openFDA 11/24/2026).",
+   "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "Generator/console",
+   "Family > Category": "Generators and consoles > Radiofrequency",
+   "Exact model (with guide device ID link, e.g. D05)": "nGEN RF Generator (D-1384-02) (G07)",
+   "Labeled status": "Labeled pairing",
+   "Source IDs": "S83",
+   "Source URLs": "[S83] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S122",
+   "Notes": "P030031/S122 (S83) approves nGEN as compatible with THERMOCOOL catheters and lists THERMOCOOL SMARTTOUCH among the devices. SmartAblate (G08) is not entered: its FDA records (S106) name only generic Biosense Webster deflectable-tip catheters, not this model.",
+   "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "Mapping system",
+   "Family > Category": "Mapping systems > Electroanatomic",
+   "Exact model (with guide device ID link, e.g. D05)": "CARTO 3 EP Navigation System (M01)",
+   "Labeled status": "Labeled pairing",
+   "Source IDs": "S81, S118",
+   "Source URLs": "[S81] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S053 | [S118] https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254085.pdf",
+   "Notes": "S053 approval order (S81): PAF indication requires a compatible 3D electroanatomic mapping system; the catheter provides contact-force and location information when used with the CARTO 3 Navigation System.",
+   "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "Sheath",
+   "Family > Category": null,
+   "Exact model (with guide device ID link, e.g. D05)": null,
+   "Labeled status": "None",
+   "Source IDs": null,
+   "Source URLs": null,
+   "Notes": "No sheath size or model is stated in the US sources reviewed for D20 (FDA SSED/IFU for S053 not posted).",
+   "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "Transseptal tool",
+   "Family > Category": null,
+   "Exact model (with guide device ID link, e.g. D05)": null,
+   "Labeled status": "Typical, not labeled",
+   "Source IDs": null,
+   "Source URLs": null,
+   "Notes": "Typical, not labeled; no transseptal tool is named in the sources reviewed for this stack.",
+   "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "ICE",
+   "Family > Category": null,
+   "Exact model (with guide device ID link, e.g. D05)": null,
+   "Labeled status": "Typical, not labeled",
+   "Source IDs": null,
+   "Source URLs": null,
+   "Notes": "Typical, not labeled; no ICE model is named in the sources reviewed for this stack.",
+   "": null
+  },
+  {
+   "Stack ID": "PS40",
+   "Procedure": "PVI",
+   "Indication (as labeled, e.g. paroxysmal AF, persistent AF, CTI-dependent flutter)": "drug refractory recurrent symptomatic paroxysmal AF (with a compatible 3D electroanatomic mapping system)",
+   "Supplier": "J&J MedTech (Biosense Webster)",
+   "Energy approach": "Radiofrequency",
+   "Component slot": "Irrigation pump",
+   "Family > Category": "Irrigation and tubing > Irrigation pumps",
+   "Exact model (with guide device ID link, e.g. D05)": "SMARTABLATE Pump (Y33) or nGEN pump (D-1397-02) (Y26)",
+   "Labeled status": "Labeled pairing",
+   "Source IDs": "S82",
+   "Source URLs": "[S82] https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P030031S095",
+   "Notes": "P030031/S095 (S82): SmartAblate Irrigation Pump and nGEN Pump manuals changed to claim compatibility with the ThermoCool SmartTouch catheter family. Choose one pump; they are alternatives. Tubing model not named in the sources reviewed.",
+   "": null
   }
  ],
  "accessories": [
@@ -12217,6 +12322,14 @@
   {
    "Category": "Next (11/20/2026)",
    "Note": "Next small steps: (1) D20 PAF stack (S053 labels PAF with 3D EAM) and confirm the P030031/S126 indication wording; (2) fill D11 DE STSF usable length from a J&J US spec page or catalog naming the exact model; (3) look for a US-labeled HeartLight X3 IFU (S71 replacement); (4) keep re-checking the Volt and TactiFlex Duo SSEDs."
+  },
+  {
+   "Category": "Stacks / spot-check 11/24/2026",
+   "Note": "New labeled stack PS40: THERMOCOOL SMARTTOUCH non-SF (D20) PVI for drug refractory recurrent symptomatic PAF with a compatible 3D EAM system, with nGEN RF Generator (S83), CARTO 3 (S81, S118) and SMARTABLATE or nGEN pump (S82); sheath blank (no US source), ICE / transseptal typical, not labeled. Spot-checks against openFDA PMA records, all match: D20 S053 indication text (Type I AFL \u226518 y, post-MI VT, PAF with 3D EAM) and CARTO 3 contact-force/location wording; S122 nGEN compatibility with THERMOCOOL catheters, with THERMOCOOL SMARTTOUCH in the trade-name list; S095 SmartAblate / nGEN pump compatibility with the SmartTouch family. P030031/S126 (07/18/2023): openFDA says only \"indication expansion for the THERMOCOOL SMARTTOUCH Catheter\" with no indication wording, and the FDA PMA page still returns a wait/400 page, so the D20 gap stays. Volt (P250022B) and TactiFlex Duo (P220013S028B) SSEDs re-checked: still 404."
+  },
+  {
+   "Category": "Next (11/24/2026)",
+   "Note": "Next small steps: (1) find the P030031/S126 indication wording (approval order letter or a US IFU) and add a stack if it is a new indication; (2) fill D11 DE STSF usable length from a J&J US spec page naming the exact model; (3) look for a US-labeled HeartLight X3 IFU (S71 replacement); (4) start SVT / AVNRT stacks for other RF catheters where labeled; (5) keep re-checking the Volt and TactiFlex Duo SSEDs."
   }
  ],
  "categories": [
