@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "comparison": [
   {
    "ID": "D01",
@@ -1359,17 +1359,17 @@
    "Family": "Diagnostic catheters",
    "Category": "High-density mapping, multispline",
    "Listed category": "Diagnostic: high-density mapping",
-   "French size": "[GAP]",
-   "Usable length": "[GAP]",
-   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "20 electrodes: 5 spines \u00d7 4 ring electrodes; 30 mm flower; several ring spacing configurations (S160, S159) [GAP: spacing values]",
+   "French size": "7 Fr (models D128207, D128208, D128210, D128211) (S281)",
+   "Usable length": "115 cm (models D128207, D128208, D128210, D128211) (S281)",
+   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "20 electrodes: 5 spines \u00d7 4 ring electrodes; 30 mm flower (S160, S159); spacing 4-4-4 mm (D128207 F-curve, D128210 D-curve) or 2-6-2 mm (D128208 F-curve, D128211 D-curve) (S281)",
    "Deflection": "[GAP]",
    "Compatible mapping systems (exact versions where stated)": "CARTO 3, Version 3.x or later (not compatible before 3.x) (S160)",
    "Compatible ultrasound consoles (ICE)": "Not applicable (diagnostic catheter)",
    "FDA 510(k)/PMA number": "K201750; K231312",
    "FDA clearance date": "08/06/2020; 07/10/2023 (latest)",
-   "Source IDs": "S160, S159",
-   "Source URLs (all for this row)": "[S160] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201750.pdf\n[S159] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231312.pdf",
-   "Notes / gaps for this row": "Earlier PENTARAY NAV 510(k)s (K120425, K123837) were not reviewed."
+   "Source IDs": "S160, S159, S281",
+   "Source URLs (all for this row)": "[S160] https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201750.pdf\n[S159] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231312.pdf\n[S281] https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190785.pdf",
+   "Notes / gaps for this row": "Earlier PENTARAY NAV 510(k)s (K120425, K123837) were not reviewed. French size/length/spacing from FDA K190785 (S281) cover D128207/08/10/11 only; D-1282-09-S and -12-S not confirmed."
   },
   {
    "ID": "X02",
@@ -1435,17 +1435,17 @@
    "Family": "Diagnostic catheters",
    "Category": "Coronary sinus; Multipolar or decapolar",
    "Listed category": "Diagnostic: CS / multipolar",
-   "French size": "[GAP]",
-   "Usable length": "[GAP]",
-   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "Array of Pt/Ir electrodes plus one proximal unipolar electrode (S159) [GAP: count and spacing]",
+   "French size": "7 F (S282)",
+   "Usable length": "115 cm (S282)",
+   "Electrode count / spacing (diagnostic) or imaging specs (ICE: 2D/3D/4D, frequency)": "Array of Pt/Ir electrodes plus one proximal unipolar electrode (S159); 10 poles, 2-8-2 mm spacing, 2.4 mm tip (S282)",
    "Deflection": "Deflectable; thumb piston; various curves; rotatable plane (S159) [GAP: uni/bi]",
    "Compatible mapping systems (exact versions where stated)": "CARTO 3 (S159) [GAP: version]",
    "Compatible ultrasound consoles (ICE)": "Not applicable (diagnostic catheter)",
    "FDA 510(k)/PMA number": "K231312 (original K080425)",
    "FDA clearance date": "07/10/2023 (latest); 04/23/2008 (original)",
-   "Source IDs": "S159",
-   "Source URLs (all for this row)": "[S159] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231312.pdf",
-   "Notes / gaps for this row": null
+   "Source IDs": "S159, S282",
+   "Source URLs (all for this row)": "[S159] https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231312.pdf\n[S282] https://www.jnjmedtech.com/en-US/products/cardiovascular/ep-diagnostic-catheters/decanav-mapping-catheter/",
+   "Notes / gaps for this row": "Size/spacing/length/poles from the J&J US product page (S282), which does not split values by D-1285-01-S vs -02-S curve."
   },
   {
    "ID": "X06",
@@ -11956,6 +11956,22 @@
    "Source type": "FDA 510(k) summary",
    "Used for device rows": "R41",
    "Accessed": "2026-11-14"
+  },
+  {
+   "Source ID": "S281",
+   "Title / description": "FDA 510(k) K190785 (2019-06-25): Reprocessed PentaRay Nav eco High-Density Mapping Catheter (predicate K123837, Biosense Webster); model table lists OEM item numbers D128207/D128208/D128210/D128211 with usable length, French size, curve, spacing",
+   "URL": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190785.pdf",
+   "Source type": "FDA 510(k) letter/summary",
+   "Used for device rows": "X01",
+   "Accessed": "2026-11-25"
+  },
+  {
+   "Source ID": "S282",
+   "Title / description": "J&J MedTech US product page: DECANAV Mapping Catheter, ordering information (size, spacing, length, tip size, poles)",
+   "URL": "https://www.jnjmedtech.com/en-US/products/cardiovascular/ep-diagnostic-catheters/decanav-mapping-catheter/",
+   "Source type": "OEM spec page",
+   "Used for device rows": "X05",
+   "Accessed": "2026-11-25"
   }
  ],
  "notes": [
@@ -12330,6 +12346,10 @@
   {
    "Category": "Next (11/24/2026)",
    "Note": "Next small steps: (1) find the P030031/S126 indication wording (approval order letter or a US IFU) and add a stack if it is a new indication; (2) fill D11 DE STSF usable length from a J&J US spec page naming the exact model; (3) look for a US-labeled HeartLight X3 IFU (S71 replacement); (4) start SVT / AVNRT stacks for other RF catheters where labeled; (5) keep re-checking the Volt and TactiFlex Duo SSEDs."
+  },
+  {
+   "Category": "IFU gap fill 11/25/2026",
+   "Note": "Filled Diagnostic & ICE: X01 PENTARAY NAV eco French size (7 Fr), usable length (115 cm) and spacing (4-4-4 / 2-6-2 mm) for D128207/08/10/11 from FDA K190785 (S281); X05 DECANAV French size (7 F), usable length (115 cm), 10 poles, 2-8-2 mm spacing, 2.4 mm tip from the J&J US product page (S282). No conflicts with existing values."
   }
  ],
  "categories": [
